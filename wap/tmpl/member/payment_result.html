@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-type" content="text/html;charset=utf-8" />
+<title>支付结果</title>
+</head>
+<body>
+正在加载…
+<script type="text/javascript">
+function getQueryString(e) {
+	var t = new RegExp('(^|&)' + e + '=([^&]*)(&|$)');
+	var a = window.location.search.substr(1).match(t);
+	if (a != null) return a[2];
+	return ''
+}
+window.onload = function() {
+	alert('支付操作完成！如果您的订单状态没有改变，请耐心等待支付网关的返回结果。');
+	var order_type = getQueryString('attach');
+	if (order_type == 'p') {
+		location.href = 'pdrecharge_list.html';
+	} else if(order_type == 'r'){
+		location.href = 'order_list.html';
+	}else{
+	    location.href = 'vr_order_list.html';
+	}
+}
+</script>
+</body>
+</html>

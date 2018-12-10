@@ -1,0 +1,2617 @@
+2018-09-27 22:10:01 start
+2018-09-27 22:10:52 start
+2018-09-27 22:11:00 start
+2018-09-27 22:11:03 start
+2018-09-27 22:11:25 start
+2018-09-27 22:11:34 start
+2018-09-27 22:11:51 start
+2018-09-27 22:12:06 start
+2018-09-27 22:12:28 start
+2018-09-27 22:12:44 start
+2018-09-27 22:13:43 start
+2018-09-27 22:14:43 start
+2018-09-27 22:14:43 list:Array
+(
+    [0] => Array
+        (
+            [rec_id] => 1
+            [order_id] => 1
+            [goods_id] => 1
+            [goods_name] => 100元理财
+            [goods_price] => 100.00
+            [goods_num] => 1
+            [goods_image] => 1_05913874048906448.png
+            [goods_pay_price] => 100.00
+            [store_id] => 1
+            [buyer_id] => 1
+            [goods_type] => 1
+            [promotions_id] => 0
+            [commis_rate] => 0
+            [gc_id] => 1
+            [points] => 10
+            [pointsdays] => 15
+        )
+
+)
+
+2018-09-27 22:14:43 end
+2018-09-27 22:18:25 start
+2018-09-27 22:18:25 list:Array
+(
+    [0] => Array
+        (
+            [rec_id] => 1
+            [order_id] => 1
+            [goods_id] => 1
+            [goods_name] => 100元理财
+            [goods_price] => 100.00
+            [goods_num] => 1
+            [goods_image] => 1_05913874048906448.png
+            [goods_pay_price] => 100.00
+            [store_id] => 1
+            [buyer_id] => 1
+            [goods_type] => 1
+            [promotions_id] => 0
+            [commis_rate] => 0
+            [gc_id] => 1
+            [points] => 10
+            [pointsdays] => 15
+        )
+
+)
+
+2018-09-27 22:18:25 end
+2018-09-27 22:25:01 start
+2018-09-27 22:25:46 start
+2018-09-27 22:25:50 start
+2018-09-27 22:25:51 start
+2018-09-27 22:25:56 start
+2018-09-27 22:26:19 start
+2018-09-27 23:28:12 start
+2018-09-27 23:28:12 list:Array
+(
+    [0] => Array
+        (
+            [rec_id] => 1
+            [order_id] => 1
+            [goods_id] => 1
+            [goods_name] => 100元理财
+            [goods_price] => 100.00
+            [goods_num] => 1
+            [goods_image] => 1_05913874048906448.png
+            [goods_pay_price] => 100.00
+            [store_id] => 1
+            [buyer_id] => 1
+            [goods_type] => 1
+            [promotions_id] => 0
+            [commis_rate] => 0
+            [gc_id] => 1
+            [points] => 10
+            [pointsdays] => 15
+        )
+
+)
+
+2018-09-27 23:28:12 end
+2018-09-27 23:28:49 start
+2018-09-27 23:28:49 list:Array
+(
+    [0] => Array
+        (
+            [rec_id] => 1
+            [order_id] => 1
+            [goods_id] => 1
+            [goods_name] => 100元理财
+            [goods_price] => 100.00
+            [goods_num] => 1
+            [goods_image] => 1_05913874048906448.png
+            [goods_pay_price] => 100.00
+            [store_id] => 1
+            [buyer_id] => 1
+            [goods_type] => 1
+            [promotions_id] => 0
+            [commis_rate] => 0
+            [gc_id] => 1
+            [points] => 10
+            [pointsdays] => 15
+        )
+
+)
+
+2018-09-27 23:28:49 end
+2018-09-27 23:29:06 start
+2018-09-27 23:29:06 list:Array
+(
+    [0] => Array
+        (
+            [rec_id] => 1
+            [order_id] => 1
+            [goods_id] => 1
+            [goods_name] => 100元理财
+            [goods_price] => 100.00
+            [goods_num] => 1
+            [goods_image] => 1_05913874048906448.png
+            [goods_pay_price] => 100.00
+            [store_id] => 1
+            [buyer_id] => 1
+            [goods_type] => 1
+            [promotions_id] => 0
+            [commis_rate] => 0
+            [gc_id] => 1
+            [points] => 10
+            [pointsdays] => 15
+        )
+
+)
+
+2018-09-27 23:29:06 end
+2018-09-28 23:30:04 start
+2018-09-28 23:30:04 list:Array
+(
+    [0] => Array
+        (
+            [rec_id] => 1
+            [order_id] => 1
+            [goods_id] => 1
+            [goods_name] => 100元理财
+            [goods_price] => 100.00
+            [goods_num] => 1
+            [goods_image] => 1_05913874048906448.png
+            [goods_pay_price] => 100.00
+            [store_id] => 1
+            [buyer_id] => 1
+            [goods_type] => 1
+            [promotions_id] => 0
+            [commis_rate] => 0
+            [gc_id] => 1
+            [points] => 10
+            [pointsdays] => 15
+        )
+
+)
+
+2018-09-28 23:30:04 count:0
+2018-09-28 23:30:04 cuns:0
+2018-09-28 23:30:04 Array
+(
+    [order_id] => 1
+    [goods_id] => 1
+    [buyer_id] => 1
+    [points] => 10
+    [pointsdays] => 15
+    [points_price] => 10
+    [points_time] => 1538148604
+)
+
+2018-09-28 23:30:04 distributor_goodsrecord_detail:Array
+(
+    [good_id] => 1
+    [order_id] => 1
+    [member_id] => 1
+    [detail_bonus] => 10
+    [detail_desc] => 本次获得全返金额10元
+    [detail_status] => 20
+    [points_status] => 1
+    [detail_addtime] => 1538148604
+)
+
+2018-09-28 23:30:04 end
+2018-09-28 00:30:38 start
+2018-09-28 00:30:38 list:Array
+(
+    [0] => Array
+        (
+            [rec_id] => 1
+            [order_id] => 1
+            [goods_id] => 1
+            [goods_name] => 100元理财
+            [goods_price] => 100.00
+            [goods_num] => 1
+            [goods_image] => 1_05913874048906448.png
+            [goods_pay_price] => 100.00
+            [store_id] => 1
+            [buyer_id] => 1
+            [goods_type] => 1
+            [promotions_id] => 0
+            [commis_rate] => 0
+            [gc_id] => 1
+            [points] => 10
+            [pointsdays] => 15
+        )
+
+)
+
+2018-09-28 00:30:38 count:1
+2018-09-28 00:30:38 cuns:0
+2018-09-28 00:30:38 Array
+(
+    [order_id] => 1
+    [goods_id] => 1
+    [buyer_id] => 1
+    [points] => 10
+    [pointsdays] => 15
+    [points_price] => 10
+    [points_time] => 1538065838
+)
+
+2018-09-28 00:30:38 distributor_goodsrecord_detail:Array
+(
+    [good_id] => 1
+    [order_id] => 1
+    [member_id] => 1
+    [detail_bonus] => 10
+    [detail_desc] => 本次获得全返金额10元
+    [detail_status] => 20
+    [points_status] => 1
+    [detail_addtime] => 1538065838
+)
+
+2018-09-28 00:30:38 end
+2018-09-28 00:31:42 start
+2018-09-28 00:31:42 list:Array
+(
+    [0] => Array
+        (
+            [rec_id] => 1
+            [order_id] => 1
+            [goods_id] => 1
+            [goods_name] => 100元理财
+            [goods_price] => 100.00
+            [goods_num] => 1
+            [goods_image] => 1_05913874048906448.png
+            [goods_pay_price] => 100.00
+            [store_id] => 1
+            [buyer_id] => 1
+            [goods_type] => 1
+            [promotions_id] => 0
+            [commis_rate] => 0
+            [gc_id] => 1
+            [points] => 10
+            [pointsdays] => 15
+        )
+
+)
+
+2018-09-28 00:31:42 count:2
+2018-09-28 00:31:42 cuns:0
+2018-09-28 00:31:42 Array
+(
+    [order_id] => 1
+    [goods_id] => 1
+    [buyer_id] => 1
+    [points] => 10
+    [pointsdays] => 15
+    [points_price] => 10
+    [points_time] => 1538065902
+)
+
+2018-09-28 00:31:42 distributor_goodsrecord_detail:Array
+(
+    [good_id] => 1
+    [order_id] => 1
+    [member_id] => 1
+    [detail_bonus] => 10
+    [detail_desc] => 本次获得全返金额10元
+    [detail_status] => 20
+    [points_status] => 1
+    [detail_addtime] => 1538065902
+)
+
+2018-09-28 00:31:42 end
+2018-09-28 00:32:50 start
+2018-09-28 00:32:50 list:Array
+(
+    [0] => Array
+        (
+            [rec_id] => 1
+            [order_id] => 1
+            [goods_id] => 1
+            [goods_name] => 100元理财
+            [goods_price] => 100.00
+            [goods_num] => 1
+            [goods_image] => 1_05913874048906448.png
+            [goods_pay_price] => 100.00
+            [store_id] => 1
+            [buyer_id] => 1
+            [goods_type] => 1
+            [promotions_id] => 0
+            [commis_rate] => 0
+            [gc_id] => 1
+            [points] => 10
+            [pointsdays] => 15
+        )
+
+)
+
+2018-09-28 00:32:50 count:3
+2018-09-28 00:32:50 cuns:0
+2018-09-28 00:32:50 Array
+(
+    [order_id] => 1
+    [goods_id] => 1
+    [buyer_id] => 1
+    [points] => 10
+    [pointsdays] => 15
+    [points_price] => 10
+    [points_time] => 1538065970
+)
+
+2018-09-28 00:32:50 distributor_goodsrecord_detail:Array
+(
+    [good_id] => 1
+    [order_id] => 1
+    [member_id] => 1
+    [detail_bonus] => 10
+    [detail_desc] => 本次获得全返金额10元
+    [detail_status] => 20
+    [points_status] => 1
+    [detail_addtime] => 1538065970
+)
+
+2018-09-28 00:32:50 end
+2018-09-27 23:38:48 start
+2018-09-27 23:38:48 list:Array
+(
+    [0] => Array
+        (
+            [rec_id] => 1
+            [order_id] => 1
+            [goods_id] => 1
+            [goods_name] => 100元理财
+            [goods_price] => 100.00
+            [goods_num] => 1
+            [goods_image] => 1_05913874048906448.png
+            [goods_pay_price] => 100.00
+            [store_id] => 1
+            [buyer_id] => 1
+            [goods_type] => 1
+            [promotions_id] => 0
+            [commis_rate] => 0
+            [gc_id] => 1
+            [points] => 10
+            [pointsdays] => 15
+        )
+
+)
+
+2018-09-27 23:38:48 end
+2018-09-27 23:41:21 start
+2018-09-27 23:41:21 list:Array
+(
+    [0] => Array
+        (
+            [rec_id] => 1
+            [order_id] => 1
+            [goods_id] => 1
+            [goods_name] => 100元理财
+            [goods_price] => 100.00
+            [goods_num] => 1
+            [goods_image] => 1_05913874048906448.png
+            [goods_pay_price] => 100.00
+            [store_id] => 1
+            [buyer_id] => 1
+            [goods_type] => 1
+            [promotions_id] => 0
+            [commis_rate] => 0
+            [gc_id] => 1
+            [points] => 10
+            [pointsdays] => 15
+        )
+
+)
+
+2018-09-27 23:41:21 end
+2018-09-28 23:44:05 start
+2018-09-28 23:44:05 list:Array
+(
+    [0] => Array
+        (
+            [rec_id] => 1
+            [order_id] => 1
+            [goods_id] => 1
+            [goods_name] => 100元理财
+            [goods_price] => 100.00
+            [goods_num] => 1
+            [goods_image] => 1_05913874048906448.png
+            [goods_pay_price] => 100.00
+            [store_id] => 1
+            [buyer_id] => 1
+            [goods_type] => 1
+            [promotions_id] => 0
+            [commis_rate] => 0
+            [gc_id] => 1
+            [points] => 10
+            [pointsdays] => 15
+        )
+
+)
+
+2018-09-28 23:44:05 count:0
+2018-09-28 23:44:05 cuns:0
+2018-09-28 23:44:05 Array
+(
+    [order_id] => 1
+    [goods_id] => 1
+    [buyer_id] => 1
+    [points] => 10
+    [pointsdays] => 15
+    [points_price] => 10
+    [points_time] => 1538149445
+)
+
+2018-09-28 23:44:05 distributor_goodsrecord_detail:Array
+(
+    [good_id] => 1
+    [order_id] => 1
+    [member_id] => 1
+    [detail_bonus] => 10
+    [detail_desc] => 本次获得全返金额10元
+    [detail_status] => 20
+    [points_status] => 1
+    [detail_addtime] => 1538149445
+)
+
+2018-09-28 23:44:05 end
+2018-09-28 23:50:15 start
+2018-09-28 23:50:15 list:Array
+(
+    [0] => Array
+        (
+            [rec_id] => 1
+            [order_id] => 1
+            [goods_id] => 1
+            [goods_name] => 100元理财
+            [goods_price] => 100.00
+            [goods_num] => 1
+            [goods_image] => 1_05913874048906448.png
+            [goods_pay_price] => 100.00
+            [store_id] => 1
+            [buyer_id] => 1
+            [goods_type] => 1
+            [promotions_id] => 0
+            [commis_rate] => 0
+            [gc_id] => 1
+            [points] => 10
+            [pointsdays] => 15
+        )
+
+)
+
+2018-09-28 23:50:15 count:1
+2018-09-28 23:50:15 cuns:0
+2018-09-28 23:50:15 Array
+(
+    [order_id] => 1
+    [goods_id] => 1
+    [buyer_id] => 1
+    [points] => 10
+    [pointsdays] => 15
+    [points_price] => 10
+    [points_time] => 1538149815
+)
+
+2018-09-28 23:50:15 distributor_goodsrecord_detail:Array
+(
+    [good_id] => 1
+    [order_id] => 1
+    [member_id] => 1
+    [detail_bonus] => 10
+    [detail_desc] => 本次获得全返金额10元
+    [detail_status] => 20
+    [points_status] => 1
+    [detail_addtime] => 1538149815
+)
+
+2018-09-28 23:50:15 end
+2018-09-29 00:00:00 start
+2018-09-29 00:00:00 list:Array
+(
+    [0] => Array
+        (
+            [rec_id] => 1
+            [order_id] => 1
+            [goods_id] => 1
+            [goods_name] => 100元理财
+            [goods_price] => 100.00
+            [goods_num] => 1
+            [goods_image] => 1_05913874048906448.png
+            [goods_pay_price] => 100.00
+            [store_id] => 1
+            [buyer_id] => 1
+            [goods_type] => 1
+            [promotions_id] => 0
+            [commis_rate] => 0
+            [gc_id] => 1
+            [points] => 10
+            [pointsdays] => 15
+        )
+
+)
+
+2018-09-29 00:00:00 count:0
+2018-09-29 00:00:00 cuns:0
+2018-09-29 00:00:00 Array
+(
+    [order_id] => 1
+    [goods_id] => 1
+    [buyer_id] => 1
+    [points] => 10
+    [pointsdays] => 15
+    [points_price] => 10
+    [points_time] => 1538150400
+)
+
+2018-09-29 00:00:00 distributor_goodsrecord_detail:Array
+(
+    [good_id] => 1
+    [order_id] => 1
+    [member_id] => 1
+    [detail_bonus] => 10
+    [detail_desc] => 本次获得全返金额10元
+    [detail_status] => 20
+    [points_status] => 1
+    [detail_addtime] => 1538150400
+)
+
+2018-09-29 00:00:00 end
+2018-09-29 00:09:07 start
+2018-09-29 00:09:07 list:Array
+(
+    [0] => Array
+        (
+            [rec_id] => 1
+            [order_id] => 1
+            [goods_id] => 1
+            [goods_name] => 100元理财
+            [goods_price] => 100.00
+            [goods_num] => 1
+            [goods_image] => 1_05913874048906448.png
+            [goods_pay_price] => 100.00
+            [store_id] => 1
+            [buyer_id] => 1
+            [goods_type] => 1
+            [promotions_id] => 0
+            [commis_rate] => 0
+            [gc_id] => 1
+            [points] => 10
+            [pointsdays] => 15
+        )
+
+)
+
+2018-09-29 00:09:07 count:1
+2018-09-29 00:09:07 cuns:0
+2018-09-29 00:09:07 Array
+(
+    [order_id] => 1
+    [goods_id] => 1
+    [buyer_id] => 1
+    [points] => 10
+    [pointsdays] => 15
+    [points_price] => 10
+    [points_time] => 1538150947
+)
+
+2018-09-29 00:09:07 distributor_goodsrecord_detail:Array
+(
+    [good_id] => 1
+    [order_id] => 1
+    [member_id] => 1
+    [detail_bonus] => 10
+    [detail_desc] => 本次获得全返金额10元
+    [detail_status] => 20
+    [points_status] => 1
+    [detail_addtime] => 1538150947
+)
+
+2018-09-29 00:09:07 end
+2018-09-29 00:45:02 start
+2018-09-29 00:45:02 list:Array
+(
+    [0] => Array
+        (
+            [rec_id] => 7
+            [order_id] => 7
+            [goods_id] => 1
+            [goods_name] => 100元理财
+            [goods_price] => 100.00
+            [goods_num] => 1
+            [goods_image] => 1_05913874048906448.png
+            [goods_pay_price] => 100.00
+            [store_id] => 1
+            [buyer_id] => 2
+            [goods_type] => 1
+            [promotions_id] => 0
+            [commis_rate] => 0
+            [gc_id] => 1
+            [points] => 10
+            [pointsdays] => 15
+        )
+
+    [1] => Array
+        (
+            [rec_id] => 6
+            [order_id] => 6
+            [goods_id] => 1
+            [goods_name] => 100元理财
+            [goods_price] => 100.00
+            [goods_num] => 1
+            [goods_image] => 1_05913874048906448.png
+            [goods_pay_price] => 100.00
+            [store_id] => 1
+            [buyer_id] => 2
+            [goods_type] => 1
+            [promotions_id] => 0
+            [commis_rate] => 0
+            [gc_id] => 1
+            [points] => 10
+            [pointsdays] => 15
+        )
+
+    [2] => Array
+        (
+            [rec_id] => 1
+            [order_id] => 1
+            [goods_id] => 1
+            [goods_name] => 100元理财
+            [goods_price] => 100.00
+            [goods_num] => 1
+            [goods_image] => 1_05913874048906448.png
+            [goods_pay_price] => 100.00
+            [store_id] => 1
+            [buyer_id] => 1
+            [goods_type] => 1
+            [promotions_id] => 0
+            [commis_rate] => 0
+            [gc_id] => 1
+            [points] => 10
+            [pointsdays] => 15
+        )
+
+)
+
+2018-09-29 00:45:02 count:2
+2018-09-29 00:45:02 cuns:0
+2018-09-29 00:45:02 Array
+(
+    [order_id] => 1
+    [goods_id] => 1
+    [buyer_id] => 1
+    [points] => 10
+    [pointsdays] => 15
+    [points_price] => 10
+    [points_time] => 1538153102
+)
+
+2018-09-29 00:45:02 distributor_goodsrecord_detail:Array
+(
+    [good_id] => 1
+    [order_id] => 1
+    [member_id] => 1
+    [detail_bonus] => 10
+    [detail_desc] => 本次获得全返金额10元
+    [detail_status] => 20
+    [points_status] => 1
+    [detail_addtime] => 1538153102
+)
+
+2018-09-29 00:45:02 end
+2018-09-29 01:18:13 start
+2018-09-29 01:18:13 list:Array
+(
+    [0] => Array
+        (
+            [rec_id] => 7
+            [order_id] => 7
+            [goods_id] => 1
+            [goods_name] => 100元理财
+            [goods_price] => 100.00
+            [goods_num] => 1
+            [goods_image] => 1_05913874048906448.png
+            [goods_pay_price] => 100.00
+            [store_id] => 1
+            [buyer_id] => 2
+            [goods_type] => 1
+            [promotions_id] => 0
+            [commis_rate] => 0
+            [gc_id] => 1
+            [points] => 10
+            [pointsdays] => 15
+        )
+
+    [1] => Array
+        (
+            [rec_id] => 6
+            [order_id] => 6
+            [goods_id] => 1
+            [goods_name] => 100元理财
+            [goods_price] => 100.00
+            [goods_num] => 1
+            [goods_image] => 1_05913874048906448.png
+            [goods_pay_price] => 100.00
+            [store_id] => 1
+            [buyer_id] => 2
+            [goods_type] => 1
+            [promotions_id] => 0
+            [commis_rate] => 0
+            [gc_id] => 1
+            [points] => 10
+            [pointsdays] => 15
+        )
+
+    [2] => Array
+        (
+            [rec_id] => 1
+            [order_id] => 1
+            [goods_id] => 1
+            [goods_name] => 100元理财
+            [goods_price] => 100.00
+            [goods_num] => 1
+            [goods_image] => 1_05913874048906448.png
+            [goods_pay_price] => 100.00
+            [store_id] => 1
+            [buyer_id] => 1
+            [goods_type] => 1
+            [promotions_id] => 0
+            [commis_rate] => 0
+            [gc_id] => 1
+            [points] => 10
+            [pointsdays] => 15
+        )
+
+)
+
+2018-09-29 01:18:13 count:3
+2018-09-29 01:18:13 cuns:0
+2018-09-29 01:18:13 Array
+(
+    [order_id] => 1
+    [goods_id] => 1
+    [buyer_id] => 1
+    [points] => 10
+    [pointsdays] => 15
+    [points_price] => 10
+    [points_time] => 1538155093
+)
+
+2018-09-29 01:18:13 distributor_goodsrecord_detail:Array
+(
+    [good_id] => 1
+    [order_id] => 1
+    [member_id] => 1
+    [detail_bonus] => 10
+    [detail_desc] => 本次获得全返金额10元
+    [detail_status] => 20
+    [points_status] => 1
+    [detail_addtime] => 1538155093
+)
+
+2018-09-29 01:18:13 end
+2018-09-29 01:35:07 start
+2018-09-29 01:35:07 list:Array
+(
+    [0] => Array
+        (
+            [rec_id] => 7
+            [order_id] => 7
+            [goods_id] => 1
+            [goods_name] => 100元理财
+            [goods_price] => 100.00
+            [goods_num] => 1
+            [goods_image] => 1_05913874048906448.png
+            [goods_pay_price] => 100.00
+            [store_id] => 1
+            [buyer_id] => 2
+            [goods_type] => 1
+            [promotions_id] => 0
+            [commis_rate] => 0
+            [gc_id] => 1
+            [points] => 10
+            [pointsdays] => 15
+        )
+
+    [1] => Array
+        (
+            [rec_id] => 6
+            [order_id] => 6
+            [goods_id] => 1
+            [goods_name] => 100元理财
+            [goods_price] => 100.00
+            [goods_num] => 1
+            [goods_image] => 1_05913874048906448.png
+            [goods_pay_price] => 100.00
+            [store_id] => 1
+            [buyer_id] => 2
+            [goods_type] => 1
+            [promotions_id] => 0
+            [commis_rate] => 0
+            [gc_id] => 1
+            [points] => 10
+            [pointsdays] => 15
+        )
+
+    [2] => Array
+        (
+            [rec_id] => 1
+            [order_id] => 1
+            [goods_id] => 1
+            [goods_name] => 100元理财
+            [goods_price] => 100.00
+            [goods_num] => 1
+            [goods_image] => 1_05913874048906448.png
+            [goods_pay_price] => 100.00
+            [store_id] => 1
+            [buyer_id] => 1
+            [goods_type] => 1
+            [promotions_id] => 0
+            [commis_rate] => 0
+            [gc_id] => 1
+            [points] => 10
+            [pointsdays] => 15
+        )
+
+)
+
+2018-09-29 01:35:07 count:4
+2018-09-29 01:35:07 cuns:4
+2018-09-29 01:35:07 end
+2018-09-29 01:35:29 start
+2018-09-29 01:35:29 list:Array
+(
+    [0] => Array
+        (
+            [rec_id] => 7
+            [order_id] => 7
+            [goods_id] => 1
+            [goods_name] => 100元理财
+            [goods_price] => 100.00
+            [goods_num] => 1
+            [goods_image] => 1_05913874048906448.png
+            [goods_pay_price] => 100.00
+            [store_id] => 1
+            [buyer_id] => 2
+            [goods_type] => 1
+            [promotions_id] => 0
+            [commis_rate] => 0
+            [gc_id] => 1
+            [points] => 10
+            [pointsdays] => 15
+        )
+
+    [1] => Array
+        (
+            [rec_id] => 6
+            [order_id] => 6
+            [goods_id] => 1
+            [goods_name] => 100元理财
+            [goods_price] => 100.00
+            [goods_num] => 1
+            [goods_image] => 1_05913874048906448.png
+            [goods_pay_price] => 100.00
+            [store_id] => 1
+            [buyer_id] => 2
+            [goods_type] => 1
+            [promotions_id] => 0
+            [commis_rate] => 0
+            [gc_id] => 1
+            [points] => 10
+            [pointsdays] => 15
+        )
+
+    [2] => Array
+        (
+            [rec_id] => 1
+            [order_id] => 1
+            [goods_id] => 1
+            [goods_name] => 100元理财
+            [goods_price] => 100.00
+            [goods_num] => 1
+            [goods_image] => 1_05913874048906448.png
+            [goods_pay_price] => 100.00
+            [store_id] => 1
+            [buyer_id] => 1
+            [goods_type] => 1
+            [promotions_id] => 0
+            [commis_rate] => 0
+            [gc_id] => 1
+            [points] => 10
+            [pointsdays] => 15
+        )
+
+)
+
+2018-09-29 01:35:29 count:4
+2018-09-29 01:35:29 cuns:4
+2018-09-29 01:35:29 end
+2018-09-30 00:00:02 start
+2018-09-30 00:00:02 list:Array
+(
+    [0] => Array
+        (
+            [rec_id] => 7
+            [order_id] => 7
+            [goods_id] => 1
+            [goods_name] => 100元理财
+            [goods_price] => 100.00
+            [goods_num] => 1
+            [goods_image] => 1_05913874048906448.png
+            [goods_pay_price] => 100.00
+            [store_id] => 1
+            [buyer_id] => 2
+            [goods_type] => 1
+            [promotions_id] => 0
+            [commis_rate] => 0
+            [gc_id] => 1
+            [points] => 10
+            [pointsdays] => 15
+        )
+
+    [1] => Array
+        (
+            [rec_id] => 6
+            [order_id] => 6
+            [goods_id] => 1
+            [goods_name] => 100元理财
+            [goods_price] => 100.00
+            [goods_num] => 1
+            [goods_image] => 1_05913874048906448.png
+            [goods_pay_price] => 100.00
+            [store_id] => 1
+            [buyer_id] => 2
+            [goods_type] => 1
+            [promotions_id] => 0
+            [commis_rate] => 0
+            [gc_id] => 1
+            [points] => 10
+            [pointsdays] => 15
+        )
+
+    [2] => Array
+        (
+            [rec_id] => 1
+            [order_id] => 1
+            [goods_id] => 1
+            [goods_name] => 100元理财
+            [goods_price] => 100.00
+            [goods_num] => 1
+            [goods_image] => 1_05913874048906448.png
+            [goods_pay_price] => 100.00
+            [store_id] => 1
+            [buyer_id] => 1
+            [goods_type] => 1
+            [promotions_id] => 0
+            [commis_rate] => 0
+            [gc_id] => 1
+            [points] => 10
+            [pointsdays] => 15
+        )
+
+)
+
+2018-09-30 00:00:02 count:0
+2018-09-30 00:00:02 cuns:0
+2018-09-30 00:00:02 Array
+(
+    [order_id] => 7
+    [goods_id] => 1
+    [buyer_id] => 2
+    [points] => 10
+    [pointsdays] => 15
+    [points_price] => 10
+    [points_time] => 1538236802
+)
+
+2018-09-30 00:00:02 distributor_goodsrecord_detail:Array
+(
+    [good_id] => 1
+    [order_id] => 7
+    [member_id] => 2
+    [detail_bonus] => 10
+    [detail_desc] => 本次获得全返金额10元
+    [detail_status] => 20
+    [points_status] => 1
+    [detail_addtime] => 1538236802
+)
+
+2018-09-30 00:00:02 count:0
+2018-09-30 00:00:02 cuns:0
+2018-09-30 00:00:02 Array
+(
+    [order_id] => 6
+    [goods_id] => 1
+    [buyer_id] => 2
+    [points] => 10
+    [pointsdays] => 15
+    [points_price] => 10
+    [points_time] => 1538236802
+)
+
+2018-09-30 00:00:02 distributor_goodsrecord_detail:Array
+(
+    [good_id] => 1
+    [order_id] => 6
+    [member_id] => 2
+    [detail_bonus] => 10
+    [detail_desc] => 本次获得全返金额10元
+    [detail_status] => 20
+    [points_status] => 1
+    [detail_addtime] => 1538236802
+)
+
+2018-09-30 00:00:02 count:4
+2018-09-30 00:00:02 cuns:0
+2018-09-30 00:00:02 Array
+(
+    [order_id] => 1
+    [goods_id] => 1
+    [buyer_id] => 1
+    [points] => 10
+    [pointsdays] => 15
+    [points_price] => 10
+    [points_time] => 1538236802
+)
+
+2018-09-30 00:00:02 distributor_goodsrecord_detail:Array
+(
+    [good_id] => 1
+    [order_id] => 1
+    [member_id] => 1
+    [detail_bonus] => 10
+    [detail_desc] => 本次获得全返金额10元
+    [detail_status] => 20
+    [points_status] => 1
+    [detail_addtime] => 1538236802
+)
+
+2018-09-30 00:00:02 end
+2018-09-30 00:00:01 start
+2018-09-30 00:00:01 list:Array
+(
+    [0] => Array
+        (
+            [rec_id] => 7
+            [order_id] => 7
+            [goods_id] => 1
+            [goods_name] => 100元理财
+            [goods_price] => 100.00
+            [goods_num] => 1
+            [goods_image] => 1_05913874048906448.png
+            [goods_pay_price] => 100.00
+            [store_id] => 1
+            [buyer_id] => 2
+            [goods_type] => 1
+            [promotions_id] => 0
+            [commis_rate] => 0
+            [gc_id] => 1
+            [points] => 10
+            [pointsdays] => 15
+        )
+
+    [1] => Array
+        (
+            [rec_id] => 6
+            [order_id] => 6
+            [goods_id] => 1
+            [goods_name] => 100元理财
+            [goods_price] => 100.00
+            [goods_num] => 1
+            [goods_image] => 1_05913874048906448.png
+            [goods_pay_price] => 100.00
+            [store_id] => 1
+            [buyer_id] => 2
+            [goods_type] => 1
+            [promotions_id] => 0
+            [commis_rate] => 0
+            [gc_id] => 1
+            [points] => 10
+            [pointsdays] => 15
+        )
+
+    [2] => Array
+        (
+            [rec_id] => 1
+            [order_id] => 1
+            [goods_id] => 1
+            [goods_name] => 100元理财
+            [goods_price] => 100.00
+            [goods_num] => 1
+            [goods_image] => 1_05913874048906448.png
+            [goods_pay_price] => 100.00
+            [store_id] => 1
+            [buyer_id] => 1
+            [goods_type] => 1
+            [promotions_id] => 0
+            [commis_rate] => 0
+            [gc_id] => 1
+            [points] => 10
+            [pointsdays] => 15
+        )
+
+)
+
+2018-09-30 00:00:01 count:1
+2018-09-30 00:00:01 cuns:1
+2018-09-30 00:00:01 count:1
+2018-09-30 00:00:01 cuns:1
+2018-09-30 00:00:01 count:5
+2018-09-30 00:00:01 cuns:1
+2018-09-30 00:00:01 end
+2018-10-01 00:00:01 start
+2018-10-01 00:00:01 list:Array
+(
+    [0] => Array
+        (
+            [rec_id] => 7
+            [order_id] => 7
+            [goods_id] => 1
+            [goods_name] => 100元理财
+            [goods_price] => 100.00
+            [goods_num] => 1
+            [goods_image] => 1_05913874048906448.png
+            [goods_pay_price] => 100.00
+            [store_id] => 1
+            [buyer_id] => 2
+            [goods_type] => 1
+            [promotions_id] => 0
+            [commis_rate] => 0
+            [gc_id] => 1
+            [points] => 10
+            [pointsdays] => 15
+        )
+
+    [1] => Array
+        (
+            [rec_id] => 6
+            [order_id] => 6
+            [goods_id] => 1
+            [goods_name] => 100元理财
+            [goods_price] => 100.00
+            [goods_num] => 1
+            [goods_image] => 1_05913874048906448.png
+            [goods_pay_price] => 100.00
+            [store_id] => 1
+            [buyer_id] => 2
+            [goods_type] => 1
+            [promotions_id] => 0
+            [commis_rate] => 0
+            [gc_id] => 1
+            [points] => 10
+            [pointsdays] => 15
+        )
+
+    [2] => Array
+        (
+            [rec_id] => 1
+            [order_id] => 1
+            [goods_id] => 1
+            [goods_name] => 100元理财
+            [goods_price] => 100.00
+            [goods_num] => 1
+            [goods_image] => 1_05913874048906448.png
+            [goods_pay_price] => 100.00
+            [store_id] => 1
+            [buyer_id] => 1
+            [goods_type] => 1
+            [promotions_id] => 0
+            [commis_rate] => 0
+            [gc_id] => 1
+            [points] => 10
+            [pointsdays] => 15
+        )
+
+)
+
+2018-10-01 00:00:01 count:1
+2018-10-01 00:00:01 cuns:0
+2018-10-01 00:00:01 Array
+(
+    [order_id] => 7
+    [goods_id] => 1
+    [buyer_id] => 2
+    [points] => 10
+    [pointsdays] => 15
+    [points_price] => 10
+    [points_time] => 1538323201
+)
+
+2018-10-01 00:00:01 distributor_goodsrecord_detail:Array
+(
+    [good_id] => 1
+    [order_id] => 7
+    [member_id] => 2
+    [detail_bonus] => 10
+    [detail_desc] => 本次获得全返金额10元
+    [detail_status] => 20
+    [points_status] => 1
+    [detail_addtime] => 1538323201
+)
+
+2018-10-01 00:00:01 count:1
+2018-10-01 00:00:01 cuns:0
+2018-10-01 00:00:01 Array
+(
+    [order_id] => 6
+    [goods_id] => 1
+    [buyer_id] => 2
+    [points] => 10
+    [pointsdays] => 15
+    [points_price] => 10
+    [points_time] => 1538323201
+)
+
+2018-10-01 00:00:01 distributor_goodsrecord_detail:Array
+(
+    [good_id] => 1
+    [order_id] => 6
+    [member_id] => 2
+    [detail_bonus] => 10
+    [detail_desc] => 本次获得全返金额10元
+    [detail_status] => 20
+    [points_status] => 1
+    [detail_addtime] => 1538323201
+)
+
+2018-10-01 00:00:01 count:5
+2018-10-01 00:00:01 cuns:0
+2018-10-01 00:00:01 Array
+(
+    [order_id] => 1
+    [goods_id] => 1
+    [buyer_id] => 1
+    [points] => 10
+    [pointsdays] => 15
+    [points_price] => 10
+    [points_time] => 1538323201
+)
+
+2018-10-01 00:00:01 distributor_goodsrecord_detail:Array
+(
+    [good_id] => 1
+    [order_id] => 1
+    [member_id] => 1
+    [detail_bonus] => 10
+    [detail_desc] => 本次获得全返金额10元
+    [detail_status] => 20
+    [points_status] => 1
+    [detail_addtime] => 1538323201
+)
+
+2018-10-01 00:00:01 end
+2018-10-01 20:34:17 start
+2018-10-01 20:34:17 list:Array
+(
+    [0] => Array
+        (
+            [rec_id] => 7
+            [order_id] => 7
+            [goods_id] => 1
+            [goods_name] => 100元理财
+            [goods_price] => 100.00
+            [goods_num] => 1
+            [goods_image] => 1_05913874048906448.png
+            [goods_pay_price] => 100.00
+            [store_id] => 1
+            [buyer_id] => 2
+            [goods_type] => 1
+            [promotions_id] => 0
+            [commis_rate] => 0
+            [gc_id] => 1
+            [points] => 10
+            [pointsdays] => 15
+        )
+
+    [1] => Array
+        (
+            [rec_id] => 6
+            [order_id] => 6
+            [goods_id] => 1
+            [goods_name] => 100元理财
+            [goods_price] => 100.00
+            [goods_num] => 1
+            [goods_image] => 1_05913874048906448.png
+            [goods_pay_price] => 100.00
+            [store_id] => 1
+            [buyer_id] => 2
+            [goods_type] => 1
+            [promotions_id] => 0
+            [commis_rate] => 0
+            [gc_id] => 1
+            [points] => 10
+            [pointsdays] => 15
+        )
+
+    [2] => Array
+        (
+            [rec_id] => 1
+            [order_id] => 1
+            [goods_id] => 1
+            [goods_name] => 100元理财
+            [goods_price] => 100.00
+            [goods_num] => 1
+            [goods_image] => 1_05913874048906448.png
+            [goods_pay_price] => 100.00
+            [store_id] => 1
+            [buyer_id] => 1
+            [goods_type] => 1
+            [promotions_id] => 0
+            [commis_rate] => 0
+            [gc_id] => 1
+            [points] => 10
+            [pointsdays] => 15
+        )
+
+)
+
+2018-10-01 20:34:17 cuns:2
+2018-10-01 20:34:17 cuns:2
+2018-10-01 20:34:17 cuns:6
+2018-10-01 20:34:17 end
+2018-10-02 00:00:01 start
+2018-10-02 00:00:01 list:Array
+(
+    [0] => Array
+        (
+            [rec_id] => 7
+            [order_id] => 7
+            [goods_id] => 1
+            [goods_name] => 100元理财
+            [goods_price] => 100.00
+            [goods_num] => 1
+            [goods_image] => 1_05913874048906448.png
+            [goods_pay_price] => 100.00
+            [store_id] => 1
+            [buyer_id] => 2
+            [goods_type] => 1
+            [promotions_id] => 0
+            [commis_rate] => 0
+            [gc_id] => 1
+            [points] => 10
+            [pointsdays] => 15
+        )
+
+    [1] => Array
+        (
+            [rec_id] => 6
+            [order_id] => 6
+            [goods_id] => 1
+            [goods_name] => 100元理财
+            [goods_price] => 100.00
+            [goods_num] => 1
+            [goods_image] => 1_05913874048906448.png
+            [goods_pay_price] => 100.00
+            [store_id] => 1
+            [buyer_id] => 2
+            [goods_type] => 1
+            [promotions_id] => 0
+            [commis_rate] => 0
+            [gc_id] => 1
+            [points] => 10
+            [pointsdays] => 15
+        )
+
+    [2] => Array
+        (
+            [rec_id] => 1
+            [order_id] => 1
+            [goods_id] => 1
+            [goods_name] => 100元理财
+            [goods_price] => 100.00
+            [goods_num] => 1
+            [goods_image] => 1_05913874048906448.png
+            [goods_pay_price] => 100.00
+            [store_id] => 1
+            [buyer_id] => 1
+            [goods_type] => 1
+            [promotions_id] => 0
+            [commis_rate] => 0
+            [gc_id] => 1
+            [points] => 10
+            [pointsdays] => 15
+        )
+
+)
+
+2018-10-02 00:00:01 count:2
+2018-10-02 00:00:01 cuns:0
+2018-10-02 00:00:01 Array
+(
+    [order_id] => 7
+    [goods_id] => 1
+    [buyer_id] => 2
+    [points] => 10
+    [pointsdays] => 15
+    [points_price] => 10
+    [points_time] => 1538409601
+)
+
+2018-10-02 00:00:01 distributor_goodsrecord_detail:Array
+(
+    [good_id] => 1
+    [order_id] => 7
+    [member_id] => 2
+    [detail_bonus] => 10
+    [detail_desc] => 本次获得全返金额10元
+    [detail_status] => 20
+    [points_status] => 1
+    [detail_addtime] => 1538409601
+)
+
+2018-10-02 00:00:01 count:2
+2018-10-02 00:00:01 cuns:0
+2018-10-02 00:00:01 Array
+(
+    [order_id] => 6
+    [goods_id] => 1
+    [buyer_id] => 2
+    [points] => 10
+    [pointsdays] => 15
+    [points_price] => 10
+    [points_time] => 1538409601
+)
+
+2018-10-02 00:00:01 distributor_goodsrecord_detail:Array
+(
+    [good_id] => 1
+    [order_id] => 6
+    [member_id] => 2
+    [detail_bonus] => 10
+    [detail_desc] => 本次获得全返金额10元
+    [detail_status] => 20
+    [points_status] => 1
+    [detail_addtime] => 1538409601
+)
+
+2018-10-02 00:00:01 count:6
+2018-10-02 00:00:01 cuns:0
+2018-10-02 00:00:01 Array
+(
+    [order_id] => 1
+    [goods_id] => 1
+    [buyer_id] => 1
+    [points] => 10
+    [pointsdays] => 15
+    [points_price] => 10
+    [points_time] => 1538409601
+)
+
+2018-10-02 00:00:01 distributor_goodsrecord_detail:Array
+(
+    [good_id] => 1
+    [order_id] => 1
+    [member_id] => 1
+    [detail_bonus] => 10
+    [detail_desc] => 本次获得全返金额10元
+    [detail_status] => 20
+    [points_status] => 1
+    [detail_addtime] => 1538409601
+)
+
+2018-10-02 00:00:01 end
+2018-10-03 00:00:03 start
+2018-10-03 00:00:03 list:Array
+(
+    [0] => Array
+        (
+            [rec_id] => 7
+            [order_id] => 7
+            [goods_id] => 1
+            [goods_name] => 100元理财
+            [goods_price] => 100.00
+            [goods_num] => 1
+            [goods_image] => 1_05913874048906448.png
+            [goods_pay_price] => 100.00
+            [store_id] => 1
+            [buyer_id] => 2
+            [goods_type] => 1
+            [promotions_id] => 0
+            [commis_rate] => 0
+            [gc_id] => 1
+            [points] => 10
+            [pointsdays] => 15
+        )
+
+    [1] => Array
+        (
+            [rec_id] => 6
+            [order_id] => 6
+            [goods_id] => 1
+            [goods_name] => 100元理财
+            [goods_price] => 100.00
+            [goods_num] => 1
+            [goods_image] => 1_05913874048906448.png
+            [goods_pay_price] => 100.00
+            [store_id] => 1
+            [buyer_id] => 2
+            [goods_type] => 1
+            [promotions_id] => 0
+            [commis_rate] => 0
+            [gc_id] => 1
+            [points] => 10
+            [pointsdays] => 15
+        )
+
+    [2] => Array
+        (
+            [rec_id] => 1
+            [order_id] => 1
+            [goods_id] => 1
+            [goods_name] => 100元理财
+            [goods_price] => 100.00
+            [goods_num] => 1
+            [goods_image] => 1_05913874048906448.png
+            [goods_pay_price] => 100.00
+            [store_id] => 1
+            [buyer_id] => 1
+            [goods_type] => 1
+            [promotions_id] => 0
+            [commis_rate] => 0
+            [gc_id] => 1
+            [points] => 10
+            [pointsdays] => 15
+        )
+
+)
+
+2018-10-03 00:00:03 count:3
+2018-10-03 00:00:03 cuns:0
+2018-10-03 00:00:03 Array
+(
+    [order_id] => 7
+    [goods_id] => 1
+    [buyer_id] => 2
+    [points] => 10
+    [pointsdays] => 15
+    [points_price] => 10
+    [points_time] => 1538496003
+)
+
+2018-10-03 00:00:03 distributor_goodsrecord_detail:Array
+(
+    [good_id] => 1
+    [order_id] => 7
+    [member_id] => 2
+    [detail_bonus] => 10
+    [detail_desc] => 本次获得全返金额10元
+    [detail_status] => 20
+    [points_status] => 1
+    [detail_addtime] => 1538496003
+)
+
+2018-10-03 00:00:03 count:3
+2018-10-03 00:00:03 cuns:0
+2018-10-03 00:00:03 Array
+(
+    [order_id] => 6
+    [goods_id] => 1
+    [buyer_id] => 2
+    [points] => 10
+    [pointsdays] => 15
+    [points_price] => 10
+    [points_time] => 1538496003
+)
+
+2018-10-03 00:00:03 distributor_goodsrecord_detail:Array
+(
+    [good_id] => 1
+    [order_id] => 6
+    [member_id] => 2
+    [detail_bonus] => 10
+    [detail_desc] => 本次获得全返金额10元
+    [detail_status] => 20
+    [points_status] => 1
+    [detail_addtime] => 1538496003
+)
+
+2018-10-03 00:00:03 count:7
+2018-10-03 00:00:03 cuns:0
+2018-10-03 00:00:03 Array
+(
+    [order_id] => 1
+    [goods_id] => 1
+    [buyer_id] => 1
+    [points] => 10
+    [pointsdays] => 15
+    [points_price] => 10
+    [points_time] => 1538496003
+)
+
+2018-10-03 00:00:03 distributor_goodsrecord_detail:Array
+(
+    [good_id] => 1
+    [order_id] => 1
+    [member_id] => 1
+    [detail_bonus] => 10
+    [detail_desc] => 本次获得全返金额10元
+    [detail_status] => 20
+    [points_status] => 1
+    [detail_addtime] => 1538496003
+)
+
+2018-10-03 00:00:03 end
+2018-10-04 00:00:02 start
+2018-10-04 00:00:02 list:Array
+(
+    [0] => Array
+        (
+            [rec_id] => 7
+            [order_id] => 7
+            [goods_id] => 1
+            [goods_name] => 100元理财
+            [goods_price] => 100.00
+            [goods_num] => 1
+            [goods_image] => 1_05913874048906448.png
+            [goods_pay_price] => 100.00
+            [store_id] => 1
+            [buyer_id] => 2
+            [goods_type] => 1
+            [promotions_id] => 0
+            [commis_rate] => 0
+            [gc_id] => 1
+            [points] => 10
+            [pointsdays] => 15
+        )
+
+    [1] => Array
+        (
+            [rec_id] => 6
+            [order_id] => 6
+            [goods_id] => 1
+            [goods_name] => 100元理财
+            [goods_price] => 100.00
+            [goods_num] => 1
+            [goods_image] => 1_05913874048906448.png
+            [goods_pay_price] => 100.00
+            [store_id] => 1
+            [buyer_id] => 2
+            [goods_type] => 1
+            [promotions_id] => 0
+            [commis_rate] => 0
+            [gc_id] => 1
+            [points] => 10
+            [pointsdays] => 15
+        )
+
+    [2] => Array
+        (
+            [rec_id] => 1
+            [order_id] => 1
+            [goods_id] => 1
+            [goods_name] => 100元理财
+            [goods_price] => 100.00
+            [goods_num] => 1
+            [goods_image] => 1_05913874048906448.png
+            [goods_pay_price] => 100.00
+            [store_id] => 1
+            [buyer_id] => 1
+            [goods_type] => 1
+            [promotions_id] => 0
+            [commis_rate] => 0
+            [gc_id] => 1
+            [points] => 10
+            [pointsdays] => 15
+        )
+
+)
+
+2018-10-04 00:00:02 count:4
+2018-10-04 00:00:02 cuns:0
+2018-10-04 00:00:02 Array
+(
+    [order_id] => 7
+    [goods_id] => 1
+    [buyer_id] => 2
+    [points] => 10
+    [pointsdays] => 15
+    [points_price] => 10
+    [points_time] => 1538582402
+)
+
+2018-10-04 00:00:02 distributor_goodsrecord_detail:Array
+(
+    [good_id] => 1
+    [order_id] => 7
+    [member_id] => 2
+    [detail_bonus] => 10
+    [detail_desc] => 本次获得全返金额10元
+    [detail_status] => 20
+    [points_status] => 1
+    [detail_addtime] => 1538582402
+)
+
+2018-10-04 00:00:02 count:4
+2018-10-04 00:00:02 cuns:0
+2018-10-04 00:00:02 Array
+(
+    [order_id] => 6
+    [goods_id] => 1
+    [buyer_id] => 2
+    [points] => 10
+    [pointsdays] => 15
+    [points_price] => 10
+    [points_time] => 1538582402
+)
+
+2018-10-04 00:00:02 distributor_goodsrecord_detail:Array
+(
+    [good_id] => 1
+    [order_id] => 6
+    [member_id] => 2
+    [detail_bonus] => 10
+    [detail_desc] => 本次获得全返金额10元
+    [detail_status] => 20
+    [points_status] => 1
+    [detail_addtime] => 1538582402
+)
+
+2018-10-04 00:00:02 count:8
+2018-10-04 00:00:02 cuns:0
+2018-10-04 00:00:02 Array
+(
+    [order_id] => 1
+    [goods_id] => 1
+    [buyer_id] => 1
+    [points] => 10
+    [pointsdays] => 15
+    [points_price] => 10
+    [points_time] => 1538582402
+)
+
+2018-10-04 00:00:02 distributor_goodsrecord_detail:Array
+(
+    [good_id] => 1
+    [order_id] => 1
+    [member_id] => 1
+    [detail_bonus] => 10
+    [detail_desc] => 本次获得全返金额10元
+    [detail_status] => 20
+    [points_status] => 1
+    [detail_addtime] => 1538582402
+)
+
+2018-10-04 00:00:02 end
+2018-10-05 00:00:02 start
+2018-10-05 00:00:02 list:Array
+(
+    [0] => Array
+        (
+            [rec_id] => 7
+            [order_id] => 7
+            [goods_id] => 1
+            [goods_name] => 100元理财
+            [goods_price] => 100.00
+            [goods_num] => 1
+            [goods_image] => 1_05913874048906448.png
+            [goods_pay_price] => 100.00
+            [store_id] => 1
+            [buyer_id] => 2
+            [goods_type] => 1
+            [promotions_id] => 0
+            [commis_rate] => 0
+            [gc_id] => 1
+            [points] => 10
+            [pointsdays] => 15
+        )
+
+    [1] => Array
+        (
+            [rec_id] => 6
+            [order_id] => 6
+            [goods_id] => 1
+            [goods_name] => 100元理财
+            [goods_price] => 100.00
+            [goods_num] => 1
+            [goods_image] => 1_05913874048906448.png
+            [goods_pay_price] => 100.00
+            [store_id] => 1
+            [buyer_id] => 2
+            [goods_type] => 1
+            [promotions_id] => 0
+            [commis_rate] => 0
+            [gc_id] => 1
+            [points] => 10
+            [pointsdays] => 15
+        )
+
+    [2] => Array
+        (
+            [rec_id] => 1
+            [order_id] => 1
+            [goods_id] => 1
+            [goods_name] => 100元理财
+            [goods_price] => 100.00
+            [goods_num] => 1
+            [goods_image] => 1_05913874048906448.png
+            [goods_pay_price] => 100.00
+            [store_id] => 1
+            [buyer_id] => 1
+            [goods_type] => 1
+            [promotions_id] => 0
+            [commis_rate] => 0
+            [gc_id] => 1
+            [points] => 10
+            [pointsdays] => 15
+        )
+
+)
+
+2018-10-05 00:00:02 count:5
+2018-10-05 00:00:02 cuns:0
+2018-10-05 00:00:02 Array
+(
+    [order_id] => 7
+    [goods_id] => 1
+    [buyer_id] => 2
+    [points] => 10
+    [pointsdays] => 15
+    [points_price] => 10
+    [points_time] => 1538668802
+)
+
+2018-10-05 00:00:02 distributor_goodsrecord_detail:Array
+(
+    [good_id] => 1
+    [order_id] => 7
+    [member_id] => 2
+    [detail_bonus] => 10
+    [detail_desc] => 本次获得全返金额10元
+    [detail_status] => 20
+    [points_status] => 1
+    [detail_addtime] => 1538668802
+)
+
+2018-10-05 00:00:02 count:5
+2018-10-05 00:00:02 cuns:0
+2018-10-05 00:00:02 Array
+(
+    [order_id] => 6
+    [goods_id] => 1
+    [buyer_id] => 2
+    [points] => 10
+    [pointsdays] => 15
+    [points_price] => 10
+    [points_time] => 1538668802
+)
+
+2018-10-05 00:00:02 distributor_goodsrecord_detail:Array
+(
+    [good_id] => 1
+    [order_id] => 6
+    [member_id] => 2
+    [detail_bonus] => 10
+    [detail_desc] => 本次获得全返金额10元
+    [detail_status] => 20
+    [points_status] => 1
+    [detail_addtime] => 1538668802
+)
+
+2018-10-05 00:00:02 count:9
+2018-10-05 00:00:02 cuns:0
+2018-10-05 00:00:02 Array
+(
+    [order_id] => 1
+    [goods_id] => 1
+    [buyer_id] => 1
+    [points] => 10
+    [pointsdays] => 15
+    [points_price] => 10
+    [points_time] => 1538668802
+)
+
+2018-10-05 00:00:02 distributor_goodsrecord_detail:Array
+(
+    [good_id] => 1
+    [order_id] => 1
+    [member_id] => 1
+    [detail_bonus] => 10
+    [detail_desc] => 本次获得全返金额10元
+    [detail_status] => 20
+    [points_status] => 1
+    [detail_addtime] => 1538668802
+)
+
+2018-10-05 00:00:02 end
+2018-10-06 00:00:03 start
+2018-10-06 00:00:03 list:Array
+(
+    [0] => Array
+        (
+            [rec_id] => 7
+            [order_id] => 7
+            [goods_id] => 1
+            [goods_name] => 100元理财
+            [goods_price] => 100.00
+            [goods_num] => 1
+            [goods_image] => 1_05913874048906448.png
+            [goods_pay_price] => 100.00
+            [store_id] => 1
+            [buyer_id] => 2
+            [goods_type] => 1
+            [promotions_id] => 0
+            [commis_rate] => 0
+            [gc_id] => 1
+            [points] => 10
+            [pointsdays] => 15
+        )
+
+    [1] => Array
+        (
+            [rec_id] => 6
+            [order_id] => 6
+            [goods_id] => 1
+            [goods_name] => 100元理财
+            [goods_price] => 100.00
+            [goods_num] => 1
+            [goods_image] => 1_05913874048906448.png
+            [goods_pay_price] => 100.00
+            [store_id] => 1
+            [buyer_id] => 2
+            [goods_type] => 1
+            [promotions_id] => 0
+            [commis_rate] => 0
+            [gc_id] => 1
+            [points] => 10
+            [pointsdays] => 15
+        )
+
+    [2] => Array
+        (
+            [rec_id] => 1
+            [order_id] => 1
+            [goods_id] => 1
+            [goods_name] => 100元理财
+            [goods_price] => 100.00
+            [goods_num] => 1
+            [goods_image] => 1_05913874048906448.png
+            [goods_pay_price] => 100.00
+            [store_id] => 1
+            [buyer_id] => 1
+            [goods_type] => 1
+            [promotions_id] => 0
+            [commis_rate] => 0
+            [gc_id] => 1
+            [points] => 10
+            [pointsdays] => 15
+        )
+
+)
+
+2018-10-06 00:00:03 count:6
+2018-10-06 00:00:03 cuns:0
+2018-10-06 00:00:03 Array
+(
+    [order_id] => 7
+    [goods_id] => 1
+    [buyer_id] => 2
+    [points] => 10
+    [pointsdays] => 15
+    [points_price] => 10
+    [points_time] => 1538755203
+)
+
+2018-10-06 00:00:03 distributor_goodsrecord_detail:Array
+(
+    [good_id] => 1
+    [order_id] => 7
+    [member_id] => 2
+    [detail_bonus] => 10
+    [detail_desc] => 本次获得全返金额10元
+    [detail_status] => 20
+    [points_status] => 1
+    [detail_addtime] => 1538755203
+)
+
+2018-10-06 00:00:03 count:6
+2018-10-06 00:00:03 cuns:0
+2018-10-06 00:00:03 Array
+(
+    [order_id] => 6
+    [goods_id] => 1
+    [buyer_id] => 2
+    [points] => 10
+    [pointsdays] => 15
+    [points_price] => 10
+    [points_time] => 1538755203
+)
+
+2018-10-06 00:00:03 distributor_goodsrecord_detail:Array
+(
+    [good_id] => 1
+    [order_id] => 6
+    [member_id] => 2
+    [detail_bonus] => 10
+    [detail_desc] => 本次获得全返金额10元
+    [detail_status] => 20
+    [points_status] => 1
+    [detail_addtime] => 1538755203
+)
+
+2018-10-06 00:00:03 count:10
+2018-10-06 00:00:03 cuns:0
+2018-10-06 00:00:03 Array
+(
+    [order_id] => 1
+    [goods_id] => 1
+    [buyer_id] => 1
+    [points] => 10
+    [pointsdays] => 15
+    [points_price] => 10
+    [points_time] => 1538755203
+)
+
+2018-10-06 00:00:03 distributor_goodsrecord_detail:Array
+(
+    [good_id] => 1
+    [order_id] => 1
+    [member_id] => 1
+    [detail_bonus] => 10
+    [detail_desc] => 本次获得全返金额10元
+    [detail_status] => 20
+    [points_status] => 1
+    [detail_addtime] => 1538755203
+)
+
+2018-10-06 00:00:03 end
+2018-10-07 00:00:02 start
+2018-10-07 00:00:02 list:Array
+(
+    [0] => Array
+        (
+            [rec_id] => 7
+            [order_id] => 7
+            [goods_id] => 1
+            [goods_name] => 100元理财
+            [goods_price] => 100.00
+            [goods_num] => 1
+            [goods_image] => 1_05913874048906448.png
+            [goods_pay_price] => 100.00
+            [store_id] => 1
+            [buyer_id] => 2
+            [goods_type] => 1
+            [promotions_id] => 0
+            [commis_rate] => 0
+            [gc_id] => 1
+            [points] => 10
+            [pointsdays] => 15
+        )
+
+    [1] => Array
+        (
+            [rec_id] => 6
+            [order_id] => 6
+            [goods_id] => 1
+            [goods_name] => 100元理财
+            [goods_price] => 100.00
+            [goods_num] => 1
+            [goods_image] => 1_05913874048906448.png
+            [goods_pay_price] => 100.00
+            [store_id] => 1
+            [buyer_id] => 2
+            [goods_type] => 1
+            [promotions_id] => 0
+            [commis_rate] => 0
+            [gc_id] => 1
+            [points] => 10
+            [pointsdays] => 15
+        )
+
+    [2] => Array
+        (
+            [rec_id] => 1
+            [order_id] => 1
+            [goods_id] => 1
+            [goods_name] => 100元理财
+            [goods_price] => 100.00
+            [goods_num] => 1
+            [goods_image] => 1_05913874048906448.png
+            [goods_pay_price] => 100.00
+            [store_id] => 1
+            [buyer_id] => 1
+            [goods_type] => 1
+            [promotions_id] => 0
+            [commis_rate] => 0
+            [gc_id] => 1
+            [points] => 10
+            [pointsdays] => 15
+        )
+
+)
+
+2018-10-07 00:00:02 count:7
+2018-10-07 00:00:02 cuns:0
+2018-10-07 00:00:02 Array
+(
+    [order_id] => 7
+    [goods_id] => 1
+    [buyer_id] => 2
+    [points] => 10
+    [pointsdays] => 15
+    [points_price] => 10
+    [points_time] => 1538841602
+)
+
+2018-10-07 00:00:03 distributor_goodsrecord_detail:Array
+(
+    [good_id] => 1
+    [order_id] => 7
+    [member_id] => 2
+    [detail_bonus] => 10
+    [detail_desc] => 本次获得全返金额10元
+    [detail_status] => 20
+    [points_status] => 1
+    [detail_addtime] => 1538841603
+)
+
+2018-10-07 00:00:03 count:7
+2018-10-07 00:00:03 cuns:0
+2018-10-07 00:00:03 Array
+(
+    [order_id] => 6
+    [goods_id] => 1
+    [buyer_id] => 2
+    [points] => 10
+    [pointsdays] => 15
+    [points_price] => 10
+    [points_time] => 1538841603
+)
+
+2018-10-07 00:00:03 distributor_goodsrecord_detail:Array
+(
+    [good_id] => 1
+    [order_id] => 6
+    [member_id] => 2
+    [detail_bonus] => 10
+    [detail_desc] => 本次获得全返金额10元
+    [detail_status] => 20
+    [points_status] => 1
+    [detail_addtime] => 1538841603
+)
+
+2018-10-07 00:00:03 count:11
+2018-10-07 00:00:03 cuns:0
+2018-10-07 00:00:03 Array
+(
+    [order_id] => 1
+    [goods_id] => 1
+    [buyer_id] => 1
+    [points] => 10
+    [pointsdays] => 15
+    [points_price] => 10
+    [points_time] => 1538841603
+)
+
+2018-10-07 00:00:03 distributor_goodsrecord_detail:Array
+(
+    [good_id] => 1
+    [order_id] => 1
+    [member_id] => 1
+    [detail_bonus] => 10
+    [detail_desc] => 本次获得全返金额10元
+    [detail_status] => 20
+    [points_status] => 1
+    [detail_addtime] => 1538841603
+)
+
+2018-10-07 00:00:03 end
+2018-10-08 00:00:03 start
+2018-10-08 00:00:03 list:Array
+(
+    [0] => Array
+        (
+            [rec_id] => 7
+            [order_id] => 7
+            [goods_id] => 1
+            [goods_name] => 100元理财
+            [goods_price] => 100.00
+            [goods_num] => 1
+            [goods_image] => 1_05913874048906448.png
+            [goods_pay_price] => 100.00
+            [store_id] => 1
+            [buyer_id] => 2
+            [goods_type] => 1
+            [promotions_id] => 0
+            [commis_rate] => 0
+            [gc_id] => 1
+            [points] => 10
+            [pointsdays] => 15
+        )
+
+    [1] => Array
+        (
+            [rec_id] => 6
+            [order_id] => 6
+            [goods_id] => 1
+            [goods_name] => 100元理财
+            [goods_price] => 100.00
+            [goods_num] => 1
+            [goods_image] => 1_05913874048906448.png
+            [goods_pay_price] => 100.00
+            [store_id] => 1
+            [buyer_id] => 2
+            [goods_type] => 1
+            [promotions_id] => 0
+            [commis_rate] => 0
+            [gc_id] => 1
+            [points] => 10
+            [pointsdays] => 15
+        )
+
+    [2] => Array
+        (
+            [rec_id] => 1
+            [order_id] => 1
+            [goods_id] => 1
+            [goods_name] => 100元理财
+            [goods_price] => 100.00
+            [goods_num] => 1
+            [goods_image] => 1_05913874048906448.png
+            [goods_pay_price] => 100.00
+            [store_id] => 1
+            [buyer_id] => 1
+            [goods_type] => 1
+            [promotions_id] => 0
+            [commis_rate] => 0
+            [gc_id] => 1
+            [points] => 10
+            [pointsdays] => 15
+        )
+
+)
+
+2018-10-08 00:00:03 count:8
+2018-10-08 00:00:03 cuns:0
+2018-10-08 00:00:03 Array
+(
+    [order_id] => 7
+    [goods_id] => 1
+    [buyer_id] => 2
+    [points] => 10
+    [pointsdays] => 15
+    [points_price] => 10
+    [points_time] => 1538928003
+)
+
+2018-10-08 00:00:03 distributor_goodsrecord_detail:Array
+(
+    [good_id] => 1
+    [order_id] => 7
+    [member_id] => 2
+    [detail_bonus] => 10
+    [detail_desc] => 本次获得全返金额10元
+    [detail_status] => 20
+    [points_status] => 1
+    [detail_addtime] => 1538928003
+)
+
+2018-10-08 00:00:03 count:8
+2018-10-08 00:00:03 cuns:0
+2018-10-08 00:00:03 Array
+(
+    [order_id] => 6
+    [goods_id] => 1
+    [buyer_id] => 2
+    [points] => 10
+    [pointsdays] => 15
+    [points_price] => 10
+    [points_time] => 1538928003
+)
+
+2018-10-08 00:00:03 distributor_goodsrecord_detail:Array
+(
+    [good_id] => 1
+    [order_id] => 6
+    [member_id] => 2
+    [detail_bonus] => 10
+    [detail_desc] => 本次获得全返金额10元
+    [detail_status] => 20
+    [points_status] => 1
+    [detail_addtime] => 1538928003
+)
+
+2018-10-08 00:00:03 count:12
+2018-10-08 00:00:03 cuns:0
+2018-10-08 00:00:03 Array
+(
+    [order_id] => 1
+    [goods_id] => 1
+    [buyer_id] => 1
+    [points] => 10
+    [pointsdays] => 15
+    [points_price] => 10
+    [points_time] => 1538928003
+)
+
+2018-10-08 00:00:03 distributor_goodsrecord_detail:Array
+(
+    [good_id] => 1
+    [order_id] => 1
+    [member_id] => 1
+    [detail_bonus] => 10
+    [detail_desc] => 本次获得全返金额10元
+    [detail_status] => 20
+    [points_status] => 1
+    [detail_addtime] => 1538928003
+)
+
+2018-10-08 00:00:03 end
+2018-10-09 00:00:02 start
+2018-10-09 00:00:02 list:Array
+(
+    [0] => Array
+        (
+            [rec_id] => 7
+            [order_id] => 7
+            [goods_id] => 1
+            [goods_name] => 100元理财
+            [goods_price] => 100.00
+            [goods_num] => 1
+            [goods_image] => 1_05913874048906448.png
+            [goods_pay_price] => 100.00
+            [store_id] => 1
+            [buyer_id] => 2
+            [goods_type] => 1
+            [promotions_id] => 0
+            [commis_rate] => 0
+            [gc_id] => 1
+            [points] => 10
+            [pointsdays] => 15
+        )
+
+    [1] => Array
+        (
+            [rec_id] => 6
+            [order_id] => 6
+            [goods_id] => 1
+            [goods_name] => 100元理财
+            [goods_price] => 100.00
+            [goods_num] => 1
+            [goods_image] => 1_05913874048906448.png
+            [goods_pay_price] => 100.00
+            [store_id] => 1
+            [buyer_id] => 2
+            [goods_type] => 1
+            [promotions_id] => 0
+            [commis_rate] => 0
+            [gc_id] => 1
+            [points] => 10
+            [pointsdays] => 15
+        )
+
+    [2] => Array
+        (
+            [rec_id] => 1
+            [order_id] => 1
+            [goods_id] => 1
+            [goods_name] => 100元理财
+            [goods_price] => 100.00
+            [goods_num] => 1
+            [goods_image] => 1_05913874048906448.png
+            [goods_pay_price] => 100.00
+            [store_id] => 1
+            [buyer_id] => 1
+            [goods_type] => 1
+            [promotions_id] => 0
+            [commis_rate] => 0
+            [gc_id] => 1
+            [points] => 10
+            [pointsdays] => 15
+        )
+
+)
+
+2018-10-09 00:00:02 count:9
+2018-10-09 00:00:02 cuns:0
+2018-10-09 00:00:02 Array
+(
+    [order_id] => 7
+    [goods_id] => 1
+    [buyer_id] => 2
+    [points] => 10
+    [pointsdays] => 15
+    [points_price] => 10
+    [points_time] => 1539014402
+)
+
+2018-10-09 00:00:02 distributor_goodsrecord_detail:Array
+(
+    [good_id] => 1
+    [order_id] => 7
+    [member_id] => 2
+    [detail_bonus] => 10
+    [detail_desc] => 本次获得全返金额10元
+    [detail_status] => 20
+    [points_status] => 1
+    [detail_addtime] => 1539014402
+)
+
+2018-10-09 00:00:02 count:9
+2018-10-09 00:00:02 cuns:0
+2018-10-09 00:00:02 Array
+(
+    [order_id] => 6
+    [goods_id] => 1
+    [buyer_id] => 2
+    [points] => 10
+    [pointsdays] => 15
+    [points_price] => 10
+    [points_time] => 1539014402
+)
+
+2018-10-09 00:00:02 distributor_goodsrecord_detail:Array
+(
+    [good_id] => 1
+    [order_id] => 6
+    [member_id] => 2
+    [detail_bonus] => 10
+    [detail_desc] => 本次获得全返金额10元
+    [detail_status] => 20
+    [points_status] => 1
+    [detail_addtime] => 1539014402
+)
+
+2018-10-09 00:00:02 count:13
+2018-10-09 00:00:02 cuns:0
+2018-10-09 00:00:02 Array
+(
+    [order_id] => 1
+    [goods_id] => 1
+    [buyer_id] => 1
+    [points] => 10
+    [pointsdays] => 15
+    [points_price] => 10
+    [points_time] => 1539014402
+)
+
+2018-10-09 00:00:02 distributor_goodsrecord_detail:Array
+(
+    [good_id] => 1
+    [order_id] => 1
+    [member_id] => 1
+    [detail_bonus] => 10
+    [detail_desc] => 本次获得全返金额10元
+    [detail_status] => 20
+    [points_status] => 1
+    [detail_addtime] => 1539014402
+)
+
+2018-10-09 00:00:02 end
+2018-10-10 00:00:03 start
+2018-10-10 00:00:03 list:Array
+(
+    [0] => Array
+        (
+            [rec_id] => 7
+            [order_id] => 7
+            [goods_id] => 1
+            [goods_name] => 100元理财
+            [goods_price] => 100.00
+            [goods_num] => 1
+            [goods_image] => 1_05913874048906448.png
+            [goods_pay_price] => 100.00
+            [store_id] => 1
+            [buyer_id] => 2
+            [goods_type] => 1
+            [promotions_id] => 0
+            [commis_rate] => 0
+            [gc_id] => 1
+            [points] => 10
+            [pointsdays] => 15
+        )
+
+    [1] => Array
+        (
+            [rec_id] => 6
+            [order_id] => 6
+            [goods_id] => 1
+            [goods_name] => 100元理财
+            [goods_price] => 100.00
+            [goods_num] => 1
+            [goods_image] => 1_05913874048906448.png
+            [goods_pay_price] => 100.00
+            [store_id] => 1
+            [buyer_id] => 2
+            [goods_type] => 1
+            [promotions_id] => 0
+            [commis_rate] => 0
+            [gc_id] => 1
+            [points] => 10
+            [pointsdays] => 15
+        )
+
+    [2] => Array
+        (
+            [rec_id] => 1
+            [order_id] => 1
+            [goods_id] => 1
+            [goods_name] => 100元理财
+            [goods_price] => 100.00
+            [goods_num] => 1
+            [goods_image] => 1_05913874048906448.png
+            [goods_pay_price] => 100.00
+            [store_id] => 1
+            [buyer_id] => 1
+            [goods_type] => 1
+            [promotions_id] => 0
+            [commis_rate] => 0
+            [gc_id] => 1
+            [points] => 10
+            [pointsdays] => 15
+        )
+
+)
+
+2018-10-10 00:00:03 count:10
+2018-10-10 00:00:03 cuns:0
+2018-10-10 00:00:03 Array
+(
+    [order_id] => 7
+    [goods_id] => 1
+    [buyer_id] => 2
+    [points] => 10
+    [pointsdays] => 15
+    [points_price] => 10
+    [points_time] => 1539100803
+)
+
+2018-10-10 00:00:03 distributor_goodsrecord_detail:Array
+(
+    [good_id] => 1
+    [order_id] => 7
+    [member_id] => 2
+    [detail_bonus] => 10
+    [detail_desc] => 本次获得全返金额10元
+    [detail_status] => 20
+    [points_status] => 1
+    [detail_addtime] => 1539100803
+)
+
+2018-10-10 00:00:03 count:10
+2018-10-10 00:00:03 cuns:0
+2018-10-10 00:00:03 Array
+(
+    [order_id] => 6
+    [goods_id] => 1
+    [buyer_id] => 2
+    [points] => 10
+    [pointsdays] => 15
+    [points_price] => 10
+    [points_time] => 1539100803
+)
+
+2018-10-10 00:00:03 distributor_goodsrecord_detail:Array
+(
+    [good_id] => 1
+    [order_id] => 6
+    [member_id] => 2
+    [detail_bonus] => 10
+    [detail_desc] => 本次获得全返金额10元
+    [detail_status] => 20
+    [points_status] => 1
+    [detail_addtime] => 1539100803
+)
+
+2018-10-10 00:00:03 count:14
+2018-10-10 00:00:03 cuns:0
+2018-10-10 00:00:03 Array
+(
+    [order_id] => 1
+    [goods_id] => 1
+    [buyer_id] => 1
+    [points] => 10
+    [pointsdays] => 15
+    [points_price] => 10
+    [points_time] => 1539100803
+)
+
+2018-10-10 00:00:03 distributor_goodsrecord_detail:Array
+(
+    [good_id] => 1
+    [order_id] => 1
+    [member_id] => 1
+    [detail_bonus] => 10
+    [detail_desc] => 本次获得全返金额10元
+    [detail_status] => 20
+    [points_status] => 1
+    [detail_addtime] => 1539100803
+)
+
+2018-10-10 00:00:03 end

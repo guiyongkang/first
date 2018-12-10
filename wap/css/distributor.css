@@ -1,0 +1,105 @@
+/*我的团队*/
+#term-list li{height:100px; width:100%; margin-bottom:15px; background:#FFF; position:relative}
+#term-list .member-pic{position:absolute; top:10px; left:10px; width:80px; height:80px;}
+#term-list .member-pic img{display:block; max-width:100%; border-radius:50%}
+#term-list dl{margin:0px; padding:0px; width:100%; box-sizing:border-box; padding:10px 10px 0px 100px}
+#term-list dl dt{font-size:14px; line-height:20px; height:20px; overflow:hidden; font-weight:normal}
+#term-list dl dd{font-size:12px; line-height:20px; height:20px; font-weight:normal}
+
+/*我的推广二维码*/
+#spread_qrcode{margin:0px; padding:0px}
+#spread_qrcode img{display:block; width:100%;}
+
+/*分销记录*/
+#record-list li{height:100px; width:100%; margin-bottom:15px; background:#FFF; position:relative}
+#record-list .member-pic{position:absolute; top:10px; left:10px; width:80px; height:80px;}
+#record-list .member-pic img{display:block; max-width:100%;}
+#record-list dl{margin:0px; padding:0px; width:100%; box-sizing:border-box; padding:10px 10px 0px 100px}
+#record-list dl dt{font-size:14px; line-height:20px; height:20px; overflow:hidden; font-weight:normal;}
+#record-list dl dd{font-size:12px; line-height:20px; height:20px; font-weight:normal; color:#888}
+
+/*佣金记录*/
+#commission-list li{width:100%; margin-bottom:15px; background:#FFF;}
+#commission-list dl{margin:0px; padding:0px; width:100%; box-sizing:border-box; padding:10px 10px 0px}
+#commission-list dl dt{font-size:14px; line-height:32px; height:32px; border-bottom:#dfdfdf 1px dotted; color:#C81522; overflow:hidden; font-weight:normal;}
+#commission-list dl dt a{display:block; width:80px; height:24px; line-height:24px; float:right; background:#ED5564; color:#FFF; text-align:center; border-radius:8px;}
+#commission-list dl dt span{float:right; font-size:14px;}
+#commission-list dl dd.desc{font-size:12px; line-height:20px; padding:5px 0px; font-weight:normal; color:#888}
+#commission-list dl .time{font-size:12px; height:30px; line-height:30px; text-align:right; border-top:#dfdfdf 1px dotted; color:#222222}
+
+.status_10{color:red}
+.status_20{color:green}
+.status_30{color:#F60}
+.status_40{color:blue}
+
+#datastastics{margin:50px 0px 10px; width:100%; box-sizing:border-box; padding:0px 25px 0px 10px; height:50px; line-height:48px; border-top:1px #dfdfdf solid; border-bottom:1px #dfdfdf solid; background:url('../images/arrow_left.png') no-repeat right center #FFF; background-size:16px; font-size:14px; font-weight:normal}
+#datastastics span{padding:0px 5px; font-size:18px; color:#ED5564}
+#datastastics b{float:right; font-weight:normal; padding-right:}
+#datastastics b i{color:#ED5564}
+#datastastics a{float:right; padding:5px 20px; line-height:20px; display:block; margin-top:8px; background:#ED5564; border-radius:5px; color:#FFF; font-size:14px;}
+.status_10{color:red}
+.status_20{color:green}
+.status_30{color:#F60}
+.status_40{color:blue}
+
+#list-items-scroll ul{margin:0px; padding:0px; background:#FFF;}
+#list-items-scroll li{width:100%; box-sizing:border-box; height:50px; line-height:50px; border-bottom:solid #EEE 0.05rem; padding:0px 10px; font-size:14px; font-weight:noral; margin:10px 0px; background:url('../images/arrow_left.png') no-repeat right center #FFF; background-size:16px;}
+#list-items-scroll .no-margin{margin-top:0px}
+#list-items-scroll .level_curret{color:#ED5564}
+
+/*我的卡位*/
+#position-list{width:100%; margin:0px auto; padding:0px; border:1px #dfdfdf solid; background:#FFF}
+#position-list li{height:50px; font-size:14px; width:100%; font-weight:normal; border-top:#eeeeee solid 1px}
+#position-list li p{width:33.33%; box-sizing:border-box; border-left:1px #eeeeee solid; float:left; text-align:center; height:50px; padding:8px 0px; line-height:16px;}
+#position-list .position_title{background:#ED5564; height:50px; color:#FFF;}
+#position-list .position_title p{line-height:50px; padding:0px}
+#position-list .state{line-height:50px; padding:0px}
+#position-list .adddate{font-size:12px; line-height:50px; padding:0px}
+.state_0{color:red}
+.state_1{color:blue}
+
+.nctouch-cart-add-default i.icon-withdraw { position: absolute; z-index: 1; top: 0.5rem; left: 0.5rem; display: block; width: 0.8rem; height: 0.9rem; background-image: url(../images/withdraw_b.png); background-repeat: no-repeat; background-position: 50% 50%; background-size: 100%; }
+.nctouch-asset-info { display: block;}
+.nctouch-asset-info .container { position: relative; z-index: 1; height: 3rem;}
+.nctouch-asset-info .container.pre { background :#ED5564;}
+.nctouch-asset-info .container.voucher { background :#FB6E52;}
+.nctouch-asset-info .container.point { background :#F6BB43;}
+.nctouch-asset-info .container.rcard { background: #EC87BF;}
+.nctouch-asset-info .container.packet { background:#AC92ED;}
+.nctouch-asset-info .container .icon { position: absolute; z-index: 1; top: 0; left: 1.5rem; display: block; width: 3rem; height: 3rem; background-repeat: no-repeat; background-position: 50% 50%; background-size: contain; opacity: 0.3; -webkit-transform: rotate(-25deg); -ms-transform: rotate(25deg); transform: rotate(25deg);}
+.nctouch-asset-info .pre .icon { background-image: url(../images/mcc_06_w.png);}
+
+.withdraw_money{width:100%; box-sizing:border-box; background:#FFF; line-height:60px; height:60px; margin-top:8px; position:relative; padding:10px 8px 0px 60px;}
+.withdraw_money label{display:block; width:50px; height:60px; line-height:60px; font-size:16px; position:absolute; top:0px; left:0px; text-align:right; letter-spacing:1px;}
+.withdraw_money input{display:block; height:40px; line-height:40px; font-size:16px; border:none; width:100%}
+.withdraw_btn{width:100%; height:50px; line-height:50px; margin-top:10px;}
+.withdraw_btn a{width:90%; display:block; height:50px; line-height:50px; font-size:16px; font-weight:normal; text-align:center; text-align:center; background:#ED5564; color:#FFF; margin:0px auto}
+.withdraw_info{width:90%; box-sizing:border-box; margin:0px auto; padding:8px 0px; display:none}
+.withdraw_info p{width:100%; line-height:22px; font-size:14px; color:#999; margin:0px; padding:0px;}
+
+.withdraw_error_info{width:90%; height:22px; line-height:22px; font-size:12px; color:red; box-sizing:border-box; margin:0px auto; padding:8px 0px; display:none}
+
+.withdraw_location{width:100%; height:50px; line-height:50px; margin-top:10px;}
+.withdraw_location a{width:90%; display:block; height:50px; line-height:50px; font-size:16px; font-weight:normal; text-align:center; text-align:center; background:#F60; color:#FFF; margin:0px auto}
+
+/*提现记录*/
+#withdraw-list li{width:100%; margin-bottom:15px; background:#FFF;}
+#withdraw-list dl{margin:0px; padding:0px; width:100%; box-sizing:border-box; padding:10px 10px 0px}
+#withdraw-list dl dt{font-size:14px; line-height:32px; height:32px; border-bottom:#dfdfdf 1px dotted; color:#C81522; overflow:hidden; font-weight:normal;}
+#withdraw-list dl dt span{float:right; font-size:14px;}
+#withdraw-list dl dd.desc{font-size:12px; line-height:20px; padding:5px 0px; font-weight:normal; color:#888}
+#withdraw-list dl .time{font-size:12px; height:30px; line-height:30px; text-align:right; border-top:#dfdfdf 1px dotted; color:#222222}
+.withdraw_0{color:red}
+.withdraw_1{color:blue}
+.withdraw_2{color:#999; text-decoration:line-through}
+
+/*股东级别*/
+#team_count .icon{background-image: url(../images/star_w.png);}
+#team-list{width:100%; margin:10px auto 0px; padding:0px; border-top:1px #dfdfdf solid; border-bottom:1px #dfdfdf solid; background:#FFF;}
+#team-list li{height:50px; font-size:14px; width:100%; font-weight:normal; border-top:#eeeeee solid 1px}
+#team-list li p{box-sizing:border-box; border-left:1px #dfdfdf solid; float:left; text-align:center; height:50px; line-height:50px}
+#team-list .team_title{background:#eeeeee; color:#333;}
+#team-list .xuhao{width:20%}
+#team-list .jibie{width:50%}
+#team-list .renshu{width:30%; color:#F00}
+#team-list .team_title .renshu{color:#333}

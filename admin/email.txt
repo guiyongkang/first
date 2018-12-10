@@ -1,0 +1,19 @@
+smtp.qq.com:25 USERNAME - 530 Error: A secure connection is requiered(such as ssl). More information at http://service.mail.qq.com/cgi-bin/help?id=28
+smtp.qq.com:25 USERNAME - 530 Error: A secure connection is requiered(such as ssl). More information at http://service.mail.qq.com/cgi-bin/help?id=28
+smtp.qq.com:25 USERNAME - 530 Error: A secure connection is requiered(such as ssl). More information at http://service.mail.qq.com/cgi-bin/help?id=28
+smtp.qq.com:25 USERNAME - 530 Error: A secure connection is requiered(such as ssl). More information at http://service.mail.qq.com/cgi-bin/help?id=28
+smtp.qq.com:25 USERNAME - 530 Error: A secure connection is requiered(such as ssl). More information at http://service.mail.qq.com/cgi-bin/help?id=28
+smtp.qq.com:25 USERNAME - 530 Error: A secure connection is requiered(such as ssl). More information at http://service.mail.qq.com/cgi-bin/help?id=28
+smtp.qq.com:25 USERNAME - 530 Error: A secure connection is requiered(such as ssl). More information at http://service.mail.qq.com/cgi-bin/help?id=28
+smtp.qq.com:25 USERNAME - 530 Error: A secure connection is requiered(such as ssl). More information at http://service.mail.qq.com/cgi-bin/help?id=28
+smtp.qq.com:25 USERNAME - 530 Error: A secure connection is requiered(such as ssl). More information at http://service.mail.qq.com/cgi-bin/help?id=28
+smtp.qq.com:25 USERNAME - 530 Error: A secure connection is requiered(such as ssl). More information at http://service.mail.qq.com/cgi-bin/help?id=28
+smtp.qq.com:25 USERNAME - 530 Error: A secure connection is requiered(such as ssl). More information at http://service.mail.qq.com/cgi-bin/help?id=28
+smtp.exmail.qq.com:25 PASSWORD - 535 Error: 请使用授权码登录。详情请看: http://service.mail.qq.com/cgi-bin/help?subtype=1&&id=28&&no=1001256
+smtp.qq.com:25 USERNAME - 530 Error: A secure connection is requiered(such as ssl). More information at http://service.mail.qq.com/cgi-bin/help?id=28
+smtp.qq.com:25 USERNAME - 530 Error: A secure connection is requiered(such as ssl). More information at http://service.mail.qq.com/cgi-bin/help?id=28
+smtp.qq.com:25 USERNAME - 530 Error: A secure connection is requiered(such as ssl). More information at http://service.mail.qq.com/cgi-bin/help?id=28
+smtp.qq.com:25 USERNAME - 530 Error: A secure connection is requiered(such as ssl). More information at http://service.mail.qq.com/cgi-bin/help?id=28
+smtp.qq.com:25 USERNAME - 530 Error: A secure connection is requiered(such as ssl). More information at http://service.mail.qq.com/cgi-bin/help?id=28
+smtp.qq.com:25 USERNAME - 530 Error: A secure connection is requiered(such as ssl). More information at http://service.mail.qq.com/cgi-bin/help?id=28
+smtp.qq.com:25 USERNAME - 530 Error: A secure connection is requiered(such as ssl). More information at http://service.mail.qq.com/cgi-bin/help?id=28

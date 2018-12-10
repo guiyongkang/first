@@ -1,0 +1,116 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-touch-fullscreen" content="yes" />
+<meta name="format-detection" content="telephone=no" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+<meta name="format-detection" content="telephone=no" />
+<meta name="msapplication-tap-highlight" content="no" />
+<meta name="viewport"
+	content="initial-scale=1,maximum-scale=1,minimum-scale=1" />
+<title>我的红包</title>
+<link rel="stylesheet" type="text/css" href="../../css/base.css">
+<link rel="stylesheet" type="text/css" href="../../css/main.css">
+<link rel="stylesheet" type="text/css"
+	href="../../css/nctouch_member.css">
+<link rel="stylesheet" type="text/css" href="../../css/red_packet.css">
+</head>
+<body>
+	<header id="header">
+		<div class="header-wrap">
+			<div class="header-l">
+				<a href="javascript:history.go(-1)"> <i class="back"></i>
+				</a>
+			</div>
+			<div class="header-title">
+				<h1>我的红包</h1>
+			</div>
+			<div class="header-r">
+				<a href="javascript:void(0);" id="header-nav"><i
+					class="more bgc-t"></i><sup></sup></a>
+			</div>
+		</div>
+		<div class="nctouch-nav-layout">
+			<div class="nctouch-nav-menu">
+				<span class="arrow"></span>
+				<ul>
+					<li><a href="../../index.html"><i class="home"></i>首页</a></li>
+					<li><a href="../search.html"><i class="search"></i>搜索</a></li>
+					<li><a href="../product_first_categroy.html"><i
+							class="categroy"></i>分类</a></li>
+					<li><a href="javascript:void(0);"><i class="message"></i>消息</a></li>
+					<li><a href="../cart_list.html"><i class="cart"></i>购物车<sup></sup></a></li>
+					<li><a href="../member/member.html"><i class="member"></i>我的商城</a></li>
+				</ul>
+			</div>
+		</div>
+	</header>
+	<div class="nctouch-main-layout">
+		<div class="nctouch-voucher-list">
+			<div class="order-list-wp" id="rplist"></div>
+		</div>
+	</div>
+	<div class="fix-block-r">
+		<a href="javascript:void(0);" class="gotop-btn gotop hide"
+			id="goTopBtn"><i></i></a>
+	</div>
+	<footer id="footer" class="bottom"></footer>
+	<script type="text/html" id="list_model">
+   <div class="order-list">
+            <%if (list.length >0){%>
+                <ul>
+				   <% for(var j = 0;j<list.length;j++){%>
+					<li class="<%if(list[j].is_use==2){%>green-order-skin<%}else{%>gray-order-skin<%}%>">
+						<div class="order-ltlt">
+							<p>领取时间：<%=list[j].add_time%></p>
+						</div>
+						<div class="order-lcnt">
+							<div class="order-lcnt-shop">
+								<p>红包活动：<%=list[j].packet_name%></p>
+								<p>红包金额：<%=list[j].packet_price%> 积分</p>
+								<p>红包状态：<%if(list[j].is_use==1){%>已使用<%}else if(list[j].is_use==2){%>未使用<%}else{%>已使用<%}%></p>
+								
+							</div>
+						</div>
+					</li>
+					<%}%>
+                </ul>
+                <div class="pagination mt10">
+                    <a href="javascript:void(0);" class="pre-page <%if(curpage <=1 ){%>disabled<%}%>">上一页</a>
+                    <a href="javascript:void(0);" has_more="<%if (hasmore){%>true<%}else{%>false<%}%>"  class="next-page <%if (!hasmore){%>disabled<%}%>">下一页</a>
+                </div>
+            <%}else {%>
+                <div class="no-record">
+                    暂无记录
+                </div>
+            <%}%>
+        </div>
+<div class="red-tip">温馨提示：领取到的红包已放入您的积分里，<a href="predepositlog_list.html">去查看</a></div>
+</script>
+	<script type="text/javascript" src="../../js/config.js"></script>
+	<script type="text/javascript" src="../../js/zepto.min.js"></script>
+	<script type="text/javascript" src="../../js/template.js"></script>
+	<script type="text/javascript" src="../../js/common.js"></script>
+	<script type="text/javascript" src="../../js/ncscroll-load.js"></script>
+	<script>
+    function showSpacing(){
+        $('.spacing-div').remove();
+        $('.invalid').first().before('<div class="spacing-div"><span>已失效红包</span></div>');
+    }
+    $(function(){
+        var key = getCookie('key');
+        if (!key) {
+            window.location.href = WapSiteUrl+'/tmpl/member/login.html';
+            return;
+        }
+
+        //渲染list
+        var load_class = new ncScrollLoad();
+        load_class.loadInit({'url':ApiUrl + '/index.php?act=member_redpacket&op=redpacket_list','getparam':{'key':key},'tmplid':'list_model','containerobj':$("#rplist"),'iIntervalId':true,'callback':showSpacing});
+    });
+</script>
+</body>
+</html>

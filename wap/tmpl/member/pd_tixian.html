@@ -1,0 +1,198 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-touch-fullscreen" content="yes" />
+<meta name="format-detection" content="telephone=no"/>
+<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+<meta name="format-detection" content="telephone=no" />
+<meta name="msapplication-tap-highlight" content="no" />
+<meta name="viewport" content="initial-scale=1,maximum-scale=1,minimum-scale=1" />
+<title>积分提现</title>
+<link rel="stylesheet" type="text/css" href="../../css/base.css">
+<link rel="stylesheet" type="text/css" href="../../css/nctouch_common.css">
+<link rel="stylesheet" type="text/css" href="../../css/nctouch_cart.css">
+<link rel="stylesheet" type="text/css" href="../../css/distributor.css">
+<link rel="stylesheet" type="text/css" href="../../css/nctouch_member.css">
+</head>
+<body>
+<header id="header" class="fixed">
+	<div class="header-wrap">
+		<div class="header-l"> <a href="javascript:history.go(-1)"> <i class="back"></i> </a> </div>
+		<div class="header-title">
+			<h1>积分提现</h1>
+		</div>
+		<div class="header-r"> <a id="header-nav" href="javascript:void(0);"><i class="more"></i><sup></sup></a> </div>
+	</div>
+	<div class="nctouch-nav-layout">
+		<div class="nctouch-nav-menu"> <span class="arrow"></span>
+			<ul>
+				<li><a href="../../index.html"><i class="home"></i>首页</a></li>
+				<li><a href="../search.html"><i class="search"></i>搜索</a></li>
+				<li><a href="../product_first_categroy.html"><i class="categroy"></i>分类</a></li>
+				<li><a href="javascript:void(0);"><i class="message"></i>消息</a></li>
+				<li><a href="../cart_list.html"><i class="cart"></i>购物车<sup></sup></a></li>
+				<li><a href="../member/member.html"><i class="member"></i>我的商城</a></li>
+			</ul>
+		</div>
+	</div>
+</header>
+
+<div class="nctouch-main-layout">
+	<div id="pd_count" class="nctouch-asset-info"></div>
+	<div class="nctouch-cart-block" style="margin-top:8px;"> 
+		<!--正在使用的默认地址Begin-->
+		<div class="nctouch-cart-add-default"><a href="javascript:void(0);" id="list-address-valve"><i class="icon-withdraw"></i>
+			<dl>
+				<dt><span id="title"></span></dt>
+				<dd id="method_detail"><span id="detail"></span></dd>
+			</dl>
+			<i class="icon-arrow"></i></a></div>
+		<!--正在使用的默认地址End--> 
+	</div>
+    
+    <div class="withdraw_info" ret="0">
+    </div>
+    
+    <div class="withdraw_money">
+    	<label>金额</label><input type="text" name="money" id="money" placeholder="请输入提现金额" />
+    </div>
+    <div class="withdraw_error_info"></div>
+    
+    <div class="withdraw_btn">
+    	<a href="javascript:void(0);">立即提现</a>
+    </div>
+    
+    <div class="withdraw_location">
+    	<a href="pdcashlist.html">提现记录</a>
+    </div>
+    
+	<!--选择收货地址Begin-->
+	<div id="list-address-wrapper" class="nctouch-full-mask hide">
+		<div class="nctouch-full-mask-bg"></div>
+		<div class="nctouch-full-mask-block">
+			<div class="header">
+				<div class="header-wrap">
+					<div class="header-l"> <a href="javascript:void(0);"> <i class="back"></i> </a> </div>
+					<div class="header-title">
+						<h1>提现方式管理</h1>
+					</div>
+				</div>
+			</div>
+			<div class="nctouch-main-layout" id="list-address-scroll">
+				<ul class="nctouch-cart-add-list" id="list-address-add-list-ul">
+				</ul>
+				<div id="addresslist" class="mt10"> <a href="javascript:void(0);" class="btn-l" id="new-address-valve">新增提现方式</a> </div>
+			</div>
+		</div>
+	</div>
+	<!--选择收货地址End-->
+    
+	<!--新增收货地址Begin-->
+	<div id="new-address-wrapper" class="nctouch-full-mask hide">
+		<div class="nctouch-full-mask-bg"></div>
+		<div class="nctouch-full-mask-block">
+			<div class="header">
+				<div class="header-wrap">
+					<div class="header-l"> <a href="javascript:void(0);"> <i class="back"></i> </a> </div>
+					<div class="header-title">
+						<h1>新增提现方式</h1>
+					</div>
+				</div>
+			</div>
+			<div class="nctouch-main-layout" id="new-address-scroll">
+				<div class="nctouch-inp-con">
+					<form id="add_address_form">
+                    <input type="hidden" name="code" id="item_code" value="" />
+						<ul class="form-box">
+							<li class="form-item">
+								<h4>方式</h4>
+								<div class="input-box">
+									<input type="text" class="inp" name="vtitle" id="vtitle" autocomplete="off" readonly />
+								</div>
+							</li>
+							<li class="form-item other_item">
+								<h4>姓名</h4>
+								<div class="input-box">
+									<input type="text" class="inp" name="vname" id="vname" autocomplete="off" oninput="writeClear($(this));"/>
+									<span class="input-del"></span> </div>
+							</li>
+							<li class="form-item other_item">
+								<h4>账号</h4>
+								<div class="input-box">
+									<input type="text" class="inp" name="vno" id="vno" autocomplete="off" oninput="writeClear($(this));"/>
+									<span class="input-del"></span> </div>
+							</li>
+						</ul>
+						<div class="error-tips"></div>
+						<div class="form-btn"><a href="javascript:void(0);" class="btn">保存</a></div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--新增收货地址End--> 
+    
+    <!--提现方式类型-->
+    <div class="nctouch-full-mask hide" id="new-type-wrapper">
+      <div class="nctouch-full-mask-bg"></div>
+      <div class="nctouch-full-mask-block">
+        <div class="header">
+          <div class="header-wrap">
+            <div class="header-l"> <a href="javascript:void(0);"><i class="back"></i></a></div>
+            <div class="header-title">
+              <h1>类型</h1>
+            </div>
+          </div>
+        </div>
+        <div class="nctouch-main-layout-a secreen-layout" id="list-items-scroll" style="top: 2rem;">
+        </div>
+      </div>
+    </div>
+    <script type="text/html" id="search_items">
+    <ul>
+    <% var withdraw_list = datas.withdraw_list; %>
+    <% if(withdraw_list.length>0){%>
+    <% for(var i = 0;i<withdraw_list.length;i++){%>
+        <li onclick="select_code('<%=withdraw_list[i].code%>','<%=withdraw_list[i].name%>')">
+            <%=withdraw_list[i].name%>
+        </li>
+    <%}%>
+    <%}%>
+    </ul>	
+    </script>
+</div>
+<footer id="footer" class="bottom"></footer>
+<script type="text/html" id="list-address-add-list-script">
+<% for (var i=0; i<method_list.length; i++) { %>
+<li <% if (meid == method_list[i].meid) { %>class="selected"<% } %> data-param="{meid:'<%=method_list[i].meid%>',title:'<%=method_list[i].title%>',name:'<%=method_list[i].name%>',no:'<%=method_list[i].no%>'}"> <i></i>
+  <dl>
+    <dt><span id=""><%=method_list[i].title%></span><% if (method_list[i].is_default == 1) { %><sub>默认</sub><% } %></dt>
+	<%if(method_list[i].name){%>
+    <dd><span id=""><%=method_list[i].name %>&nbsp;<%=method_list[i].no %></span></dd>
+	<%}%>
+  </dl>
+</li>
+<% } %>
+</script> 
+
+<script type="text/html" id="pd_count_model">
+	<div class="container pre">
+		<i class="icon"></i>
+		    <dl>
+				<dt>积分余额</dt>
+				<dd>￥<em><%=money%></em></dd>
+			</dl>
+	</div>
+</script> 
+
+<script type="text/javascript" src="../../js/config.js"></script> 
+<script type="text/javascript" src="../../js/zepto.min.js"></script> 
+<script type="text/javascript" src="../../js/template.js"></script> 
+<script type="text/javascript" src="../../js/common.js"></script> 
+<script type="text/javascript" src="../../js/simple-plugin.js"></script> 
+<script type="text/javascript" src="../../js/tmpl/pd_tixian.js"></script>
+</body>
+</html>

@@ -1,0 +1,6219 @@
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 57ebe18f4e80c8fd36cc5c885dc858a5
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>result:Array
+(
+    [money] => 690.08
+)
+
+sql==>>bonus:690.08
+sql==>>result:Array
+(
+    [money] => 80.00
+)
+
+sql==>>bonus1:80.00
+sql==>>result:Array
+(
+    [money] => 
+)
+
+sql==>>bonus:0
+sql==>>result:Array
+(
+    [money] => 
+)
+
+sql==>>bonus1:0
+sql==>>result:Array
+(
+    [money] => 0.00
+)
+
+sql==>>bonus:0.00
+sql==>>result:Array
+(
+    [money] => 40.00
+)
+
+sql==>>bonus1:40.00
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 880b4c962d75748e9a21eb2cc2034475
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 57ebe18f4e80c8fd36cc5c885dc858a5
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => ab23d89e8ce620190cc12147a0dff0aa
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 57ebe18f4e80c8fd36cc5c885dc858a5
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 69d51d79cd3e192111c0967771b24e63
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 69f67e56d0d69861c4b7a4aa0162955c
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => e4024d400955f0874237b19226ef69b5
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 232681d34493876cbfd3584af26020a0
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 2c3a614249864039e6c19dad99b96694
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 99c3dfc0b6e5418b8891902092561492
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 477a63f2dca60f34f66f2d735e36ad61
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 99c3dfc0b6e5418b8891902092561492
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 82e810fd9e8be26414cc22b0e3a7af65
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 82e810fd9e8be26414cc22b0e3a7af65
+    [state_type] => state_send
+    [order_key] => 
+)
+
+sql==>>condition:state_send
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 4460667c3761668a47608057d876d83d
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 900d29d293ab732cbbdc4a0abb9dc86b
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => f38542fb8505a3a0d4e4aa8b9a34efd6
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => c779fa29c8162371ac4c70b8f4583714
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 6c97ecc3225df669ef8fb0575235e030
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 6c97ecc3225df669ef8fb0575235e030
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => b1f44144fbd6e928569204f6a87bfdf6
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => f411688bd8d09fbc9d2da4bd8646a292
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 512e4320ffdca7c59a89bdccedebf517
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 3038f8e4357cbb7a09b9e006653d2816
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 1bf7a1d1591f371b0412dc840b492da5
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 8e6cb59f31f15f25985755b56bde3a3d
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 764e54fac99f7b9f37b5ea7adce1fd85
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 8ee92de0d999517e0b322d41e5b629d7
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 17392a050abf642dcbeb98128e851213
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => a00cc8f192cedda6f79a86302e0fe71f
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 68c1048cd4252d303caf5441918cee3f
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 68c1048cd4252d303caf5441918cee3f
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => f411688bd8d09fbc9d2da4bd8646a292
+    [state_type] => state_send
+    [order_key] => 
+)
+
+sql==>>condition:state_send
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => bcff888463f27d19f1a6293b707ea27e
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 9ea8e88a74046b340c2bf1a8c51fc63a
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 37576be9f3972929badfbc595c418ced
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 9444bb0a7d443f5a9eb7add0dcc1a5a0
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 900d29d293ab732cbbdc4a0abb9dc86b
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 9f97db05386e5b7b2c5d9c74b564cf5b
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 6af30dbad8b7c614a1817b6c2a8ee644
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 6af30dbad8b7c614a1817b6c2a8ee644
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 8e6cb59f31f15f25985755b56bde3a3d
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => a8c110afa06ecc5027785444e5a988f6
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => a8c110afa06ecc5027785444e5a988f6
+    [state_type] => state_send
+    [order_key] => 
+)
+
+sql==>>condition:state_send
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => feb0b1c78af06f4e886cad2d41b88bb0
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 775ddd2d8d42fd03de3a283a8a3782eb
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => eb6fc31af80beb76d480cee8fe18422e
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 128e1508a34d73401c77b8f6a85f1192
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => b27060a8162c17bbced4a3a04afb8db6
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 9ea8e88a74046b340c2bf1a8c51fc63a
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => ebb93da18ef0f125266d5bd1d37f42e2
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => ebb93da18ef0f125266d5bd1d37f42e2
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 6af30dbad8b7c614a1817b6c2a8ee644
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 500bad8406f600d948318a8a9aad89e7
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 061597505b6d3e48b2e9a8bd4aa3fea8
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 061597505b6d3e48b2e9a8bd4aa3fea8
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => eb6fc31af80beb76d480cee8fe18422e
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => eb6fc31af80beb76d480cee8fe18422e
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => b7a4191fe66dc467c7f7cf9ffc259af9
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 707b209f2f9c833a9dd0387385cbc10a
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 707b209f2f9c833a9dd0387385cbc10a
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 37576be9f3972929badfbc595c418ced
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => ae66f244f336b34399fa6736fac02880
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => f28509ab208ba36793a36a133b4a2011
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 18b1811eb9351951d4727b0b98bcf53e
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => f28509ab208ba36793a36a133b4a2011
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => e08f0619dc6fbc4c940677b21a04ae15
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => ae66f244f336b34399fa6736fac02880
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => b89744299c709726019e9c8e49a842c4
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 900d29d293ab732cbbdc4a0abb9dc86b
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => da9aec201ea3e0962100886e9b00176d
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => f7b7a619a75e86489196f3bd9edb728e
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => f5e7cc3264742e651f1d5192aacc1729
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => ae66f244f336b34399fa6736fac02880
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => ae66f244f336b34399fa6736fac02880
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 1676339db4ceb24d71a69d137bf00a84
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 625b23938b0a4f8c15aca6143819d26b
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => c78c725cf4c91b678ad60d6b75370773
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => ab13bd74762ce3485f319b002d33644f
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => ed2137a0c0db2c39abca0d60a9668e21
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => ed2137a0c0db2c39abca0d60a9668e21
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 5ad46865cef79d556fa40d22fdbb2fae
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 1e0edf8e87182ee7a72f73e9d8995840
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 05b494a46433bb8f581456f566bab441
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 50a8f7d2e90e744d98dbad0e6f7413fd
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 1676339db4ceb24d71a69d137bf00a84
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 1676339db4ceb24d71a69d137bf00a84
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 7daa91c2b64b5fb64a593328f0988223
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => b246a66a956db1223957d0d25a40b0b9
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 55160043543218c5ec2315bd1b516a57
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 8fa0c2096c674836ba7900960ba5bc9a
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 6c5afcc3e96c8ea99fddd5dd462b4975
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 1ffd34662588adfff71393a82009b9ae
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 29b3ba1db1913134ad87f2d9d6b240f8
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => f263a9814239e1253f1036218a08e246
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 29ef5c114845b562b9504b0676d514ce
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 1ffd34662588adfff71393a82009b9ae
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 1ca233cd312128aa0cefd7675f8c55bb
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => fb62e26d944fa9c3487b9e281e903006
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => da9aec201ea3e0962100886e9b00176d
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 9b534456323c549180fe527c42a4bb6d
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 05b494a46433bb8f581456f566bab441
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 5ecbbc416b3b52e158490db4022af8d8
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => d309652c0e25883a0357c065baf71be4
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 8320d1bed36e42e8536c7f0c3a54e3e8
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 671202a1712bc3be46b362732e1785b9
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => c97eb20a4d363f4860a8ac42d275536e
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => ffb33ead375a89c3cf78e1677db0bf63
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 9665d1e0f5b9bc8bb59c10841efdd02a
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 141724cb8ebb64210b1e31e3117a382d
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 589085d6a6321326d10c6c7208261b6b
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 589085d6a6321326d10c6c7208261b6b
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 6140ba0ea2b613d53afe970c4fbf2960
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 6140ba0ea2b613d53afe970c4fbf2960
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 540eed74580d9f42144d829840879c80
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 2b904be4bb0ca2b542501dce314689f0
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 1c82eb86ba588120295fd7ddc68f2237
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 589085d6a6321326d10c6c7208261b6b
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 211e9ac870b77d78a9b64bd8add1de96
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 211e9ac870b77d78a9b64bd8add1de96
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 211e9ac870b77d78a9b64bd8add1de96
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 67b1a8ad18cf1dd74af419861bc529ad
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 9ea8e88a74046b340c2bf1a8c51fc63a
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 9ea8e88a74046b340c2bf1a8c51fc63a
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 9ea8e88a74046b340c2bf1a8c51fc63a
+    [state_type] => state_send
+    [order_key] => 
+)
+
+sql==>>condition:state_send
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 9ea8e88a74046b340c2bf1a8c51fc63a
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 66062e90ef6b45681cdb95da6d9bd16f
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 9ea8e88a74046b340c2bf1a8c51fc63a
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 9ea8e88a74046b340c2bf1a8c51fc63a
+    [state_type] => state_send
+    [order_key] => 
+)
+
+sql==>>condition:state_send
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 9ea8e88a74046b340c2bf1a8c51fc63a
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 454cad604a5d5fd1db9be9cea0f6775e
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => bd28da0beef24e172c7fef0dfa220109
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => bd28da0beef24e172c7fef0dfa220109
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 4e217e538ff7c8188a432df3bee2f4ef
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 3038f8e4357cbb7a09b9e006653d2816
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 7b72894a94b4faa25a62eafedeb60c23
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 9ea8e88a74046b340c2bf1a8c51fc63a
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 04ec00928c8ae89012f704ea830403f5
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 22341d6fee1b278f1c1d7e99ffda1f0d
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 9ea8e88a74046b340c2bf1a8c51fc63a
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 589085d6a6321326d10c6c7208261b6b
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => d33b7467606e660906d86dcc5f9283c4
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => d33b7467606e660906d86dcc5f9283c4
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => eb6fc31af80beb76d480cee8fe18422e
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 9ea8e88a74046b340c2bf1a8c51fc63a
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => b13f62401820610baf756a134047fecf
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 60f5c1636e5f260bfec905b758d84f8d
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 5bbb1afc9ff3d61ef402e41ed8b1b3b0
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => fba3d2b0a368ca44d4d1efbcb3bff49f
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => ae55a7bf96350e3027353363c1f37f7c
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 589085d6a6321326d10c6c7208261b6b
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => d2df4435395188e0c16e73fc0ddcb8df
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => e351d2a170c2871935c9296776678d9d
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 589085d6a6321326d10c6c7208261b6b
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => bd19cd9d7d7ff308d8cd923544cd75b8
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 788ce5198c3fd018b1f420e54fd9d5fd
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 8470bbc0f13f12e87cb55ebb994cbfb4
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => dfb5a58024162294928a8ebbb551d07b
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => dfbd903b22165270f41d38da10b35d7c
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 62c2020ea24c5947b90408b5e410f221
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 62c2020ea24c5947b90408b5e410f221
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 4d4c8ef905b08add1c23906817215d64
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => d2e0897f4f122b34f8b7c3fdf07e89f3
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 9a8eb67f49fefee88d847decb3b08708
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 7899cd714d84b5116696b04b140a8812
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => ae55a7bf96350e3027353363c1f37f7c
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 60ff2353e06644238487d897be487f7f
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 715472d2fbfe0590b7fc62d2e774df35
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => b395c1bf09d1f0e9eb043979fb32ef66
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 133506140ccd0baa63af6eb09a1bc844
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => a30d30d9e6f83ef13b5b98a3a2911cad
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 476e520a403f71d6289863de2725dea4
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => a30d30d9e6f83ef13b5b98a3a2911cad
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => a30d30d9e6f83ef13b5b98a3a2911cad
+    [state_type] => state_send
+    [order_key] => 
+)
+
+sql==>>condition:state_send
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => b6452c9ab65493c534a5002fbfa002c9
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => a30d30d9e6f83ef13b5b98a3a2911cad
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => d1e08a07b15c1aef199e9ace913c3440
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 6a3c7acb7c30e9137ac1eaefd3c22a0d
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 680b09d3914e6104cece6e5f5404611c
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 680b09d3914e6104cece6e5f5404611c
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => b499d60bde0180a19873d8ad2a426cf9
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 9ea8e88a74046b340c2bf1a8c51fc63a
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => a954d3edcf313f6425d9dfe3fb43eb7d
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => f9c0e6eb766642d94cf95c27385ca7b6
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => fc6c5b7d15599dd07b68a9f427c101de
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 8c7bd0fa2e0a56fb57ca55ac0266203c
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 24ca8e3deae36c739fdb7c8791d104a2
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => c0f396816e452f693b1a1d54249446f6
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => edf60064d6907a472b8606c7265aee3a
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 2be938cbcb8f1dfacaa20450a0c8e714
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 291bb352153ed7e70ff1734866c2dde6
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => c069c0743a9a0bfa8c41cbac2c755314
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 0bf6373e9d82b0781a64ad5a3ebe57a1
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 20cc010a94c77fa95eaa6a2b86b313da
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 341a3ae83a9c1acd8eaeaec89742763b
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 9ea8e88a74046b340c2bf1a8c51fc63a
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 900d29d293ab732cbbdc4a0abb9dc86b
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 04ec00928c8ae89012f704ea830403f5
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 60ff1f05d8e54b68a9b2721cbf02a3f0
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 60ff1f05d8e54b68a9b2721cbf02a3f0
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 39a055afa915302a64c5fd48eac8e9c6
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 39a055afa915302a64c5fd48eac8e9c6
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => dfb5a58024162294928a8ebbb551d07b
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 3cc6bfa34764ee08fa78231feff5e0fd
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 3cc6bfa34764ee08fa78231feff5e0fd
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => c8f9a12524cd4588e3c00d3ac32f3f40
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 9c7ecf63f3f449b836af141d2cf5fa96
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => ae55a7bf96350e3027353363c1f37f7c
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 3228abd1a08dab4590e1141bee71717c
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 3f4dea7d85384f60913202bec95dc7fa
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => db16de5bd9fed6b5872ffa1dbefc9d49
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 4cbc2f915e5becd34b453f7b939731cb
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => af79d13f7a661b8456909f64e0247161
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => af818397a6c1dc1682b8034c4b57763d
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 58177d2ee7121ab665c70b9f1068ffdb
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 48c1e50f152e4df21a4a50debaeb8b79
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 58177d2ee7121ab665c70b9f1068ffdb
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => af79d13f7a661b8456909f64e0247161
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => af79d13f7a661b8456909f64e0247161
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => af818397a6c1dc1682b8034c4b57763d
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => db16de5bd9fed6b5872ffa1dbefc9d49
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => db16de5bd9fed6b5872ffa1dbefc9d49
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => db16de5bd9fed6b5872ffa1dbefc9d49
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => f280c3848ef0dff7d9264d5dbb5271f8
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 3347c9434b896ac766b97d076b2505c5
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => f280c3848ef0dff7d9264d5dbb5271f8
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => eb29a3c8b60c285b7225f6a09d4ab190
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 9ea8e88a74046b340c2bf1a8c51fc63a
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => b2209268910de127b93ffb679f9d1258
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 3afb88354a367cd4881e9b8876703679
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 58177d2ee7121ab665c70b9f1068ffdb
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => a9d6910fa0812945e2d1cb4fd8763c95
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 3afb88354a367cd4881e9b8876703679
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 3a2500007e618dc67540da662db19c05
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 91a8242eebafb0fab749a52dd9b2777a
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 91a8242eebafb0fab749a52dd9b2777a
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 2c3b22db3e7f755d2cc14be30f57cf4e
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => ae6241807844a375f939e809be130d6f
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 1d85ffb51b39620c57cef0db6694682b
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 1d85ffb51b39620c57cef0db6694682b
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 0c1390410384c76cb62b1b3ff3008c00
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 1d85ffb51b39620c57cef0db6694682b
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 0c1390410384c76cb62b1b3ff3008c00
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 97990f0235d1ad606d6fe8930f74fb2e
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 521f4ab23ac919a28e044b45eaca5543
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 97990f0235d1ad606d6fe8930f74fb2e
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 36d7cbb07fa0769060f03bc50ff509c6
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => d8865f2722080c0da06a3985fb502f3c
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => e16222fe342a71cd92978ed8c0f4cb98
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 36d7cbb07fa0769060f03bc50ff509c6
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => f50de471c0ec7e174542351a291d5cac
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => af75c1d8c2a4a2b455b22370d3a8e677
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 666066e27a5a40a28d2e9303ca1f4cfd
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => af75c1d8c2a4a2b455b22370d3a8e677
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 666066e27a5a40a28d2e9303ca1f4cfd
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 8633e6d27be602a319ab606752d17055
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => fc4fcbe506cd66cd449ad59b86e32cfc
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => fc4fcbe506cd66cd449ad59b86e32cfc
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 70b4d1d7aaa1ac95ec8f53ae403a33f8
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 68f94ba9b6ca4d4ab38dc75a447bde9e
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 70b4d1d7aaa1ac95ec8f53ae403a33f8
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 666066e27a5a40a28d2e9303ca1f4cfd
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 9b93bd9bae820fa0269ba0820a88071e
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 9b93bd9bae820fa0269ba0820a88071e
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 68f94ba9b6ca4d4ab38dc75a447bde9e
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 68f94ba9b6ca4d4ab38dc75a447bde9e
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 68f94ba9b6ca4d4ab38dc75a447bde9e
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => a10fb2784b4f8a783b41bf230ba82940
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => bd19cd9d7d7ff308d8cd923544cd75b8
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 58177d2ee7121ab665c70b9f1068ffdb
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 58177d2ee7121ab665c70b9f1068ffdb
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 58177d2ee7121ab665c70b9f1068ffdb
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 9eb4f0eeebbbe26505beaaaed191d54e
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 6af30dbad8b7c614a1817b6c2a8ee644
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 9ea8e88a74046b340c2bf1a8c51fc63a
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 60f5c1636e5f260bfec905b758d84f8d
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => d8865f2722080c0da06a3985fb502f3c
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => d8865f2722080c0da06a3985fb502f3c
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => d8865f2722080c0da06a3985fb502f3c
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => aeec2270b4bd82b45f6731990e0511b6
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 9ea8e88a74046b340c2bf1a8c51fc63a
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 900d29d293ab732cbbdc4a0abb9dc86b
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 900d29d293ab732cbbdc4a0abb9dc86b
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 68c3a8a94d6a94dc1ba4d2eef6374382
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 1d85ffb51b39620c57cef0db6694682b
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => d7d7b738e5c3235ca63cb455a9dbf761
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => d7d7b738e5c3235ca63cb455a9dbf761
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 9ea8e88a74046b340c2bf1a8c51fc63a
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 56e45b55fa0c3429fcdafc6ad5958967
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => be2c7e1aac600f0e0d8db1857caab7a2
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => be2c7e1aac600f0e0d8db1857caab7a2
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 06fc79eb3a833a42f9c220cbff64f6f3
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 02bf59b36b3daa7068db16df42a78493
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 8e7fb94b076a46aa2836cc49c9b8810d
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 25b4d568f842afca0bf9868dccd615f4
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 8e7fb94b076a46aa2836cc49c9b8810d
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => ced0a3ee4369ea7b4997d5a3bd22c3a3
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 3647933647ef703a64606b7c751b2ba5
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 3647933647ef703a64606b7c751b2ba5
+    [state_type] => state_send
+    [order_key] => 
+)
+
+sql==>>condition:state_send
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 1c443b166999b4bd60f1e59cb16bded8
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 5b758b4925510c110ad968eb66fe42eb
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => baf06261602b566684180b17054a0d30
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 6a6c9b52e409d034a6ad1f3867a85ee0
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => baf06261602b566684180b17054a0d30
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 01e1ff2a32bb9d5d80427e6856a45ad2
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 595508275c09f5037d5673b327f2d163
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 2c29389af699948afad298398d2d1502
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 2c29389af699948afad298398d2d1502
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 36cb20e7a5a2d6aa0f42e44278482eb6
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => aeec2270b4bd82b45f6731990e0511b6
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 44e22f16675548797fafef0911b8f162
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => f8a75e862340d12d0810068df4e403a9
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 4259627d6725f1b922ae82edda0d37d3
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 34f5ad51093ef5c05e6fc95d464dba1b
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 3a785528e3294167199b1bdeee40715e
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 4628da214b972e30a0a5e989c606f3d4
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 09d03449e52461b46de8acdd18ccd90c
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => ea9fe192adcb987a6b8d6cf2198f0197
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => e842d7d7ad035afad762061cf7e46108
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 50c5864bc46d6e900ff370de14b0550e
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 1e654deb34730bd028bde3e11d08bf9d
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => b198f1efd4186e0c9ccc75fb43dad0cc
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => b80969dcca640171d30d41f382fa90d1
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 81dd268530c22caf7b26b2368ad3eb45
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => dcbdb12a9492bd81ac4b795222b79f86
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => dcbdb12a9492bd81ac4b795222b79f86
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => bd19cd9d7d7ff308d8cd923544cd75b8
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => dcbdb12a9492bd81ac4b795222b79f86
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => e751e040eddf34e2da48a5f67156ae17
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => e751e040eddf34e2da48a5f67156ae17
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 973cfb5caf8c0b53412ff346de5d2042
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => d33b7467606e660906d86dcc5f9283c4
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 973cfb5caf8c0b53412ff346de5d2042
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => d47ea1729c06972f21c59096147801a1
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => d151109a26c41f32e95ee4855db2e057
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 0b6d1628826950d35fcb66aa2e44cc29
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => d151109a26c41f32e95ee4855db2e057
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 4a17a0a30104c2147ce226548f38cd3b
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 4a17a0a30104c2147ce226548f38cd3b
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => e8f61bc230ee694478530af2eecfa1a5
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 12c681a6bffa3ac4f789a321df202f89
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 5339856363590a6f419c28ecb520efe0
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 5339856363590a6f419c28ecb520efe0
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 9604c4270ffc707a8e956b8b31ce2b27
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 497870cac6a5d2cc7f384d3339167f27
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 10c390bbacb6e83b44f50116365aca68
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 10c390bbacb6e83b44f50116365aca68
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 214faecfd78fa5e8bc5e611058ebe5d3
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 80d9df0a2cac53265e8318b04aabd25e
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 82134e987860bfe170eb77385e6a8dd3
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 2197ea366006cf7502a0f75cde8b0cc2
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => ffaf8c320c48d90f2e684018f7cea4ef
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 72440e8ece395a7cbad325c091c96e24
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 407110f532176b039cfe70821bf2e7f2
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => d6e1dea71823d607f831073772b1e924
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 698b5ae851336c839e41a85112ee3220
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 78f272e61698acefd405567b78a98aca
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => fce1f88775451566de6ca4bdcd238952
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => fce1f88775451566de6ca4bdcd238952
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => df1ce27f7e79341c846a8d4f8d866b15
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => df1ce27f7e79341c846a8d4f8d866b15
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 78f272e61698acefd405567b78a98aca
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => c9cc7de3fa2c1cb9d7e87effca15e1ca
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => c9cc7de3fa2c1cb9d7e87effca15e1ca
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => d435ac93c03f39e790515c9e03ddbea3
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 9eb4f0eeebbbe26505beaaaed191d54e
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => d435ac93c03f39e790515c9e03ddbea3
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 3fd0913bd31aa267a09596a6c8a11c15
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 3fd0913bd31aa267a09596a6c8a11c15
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 99653e979810c79454ce9644cc72a236
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 99653e979810c79454ce9644cc72a236
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 605a483e341d4205c8f4938b0280d1aa
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 605a483e341d4205c8f4938b0280d1aa
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => da2daf1b7dac279bf314ea61b6c857e1
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 51b0183438ca6a4b87f7cd21dd88480a
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => da2daf1b7dac279bf314ea61b6c857e1
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 297aa8c206b50c964e15db99e9b34820
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 297aa8c206b50c964e15db99e9b34820
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 86d6c8e4b7b31779ac4ca88e81bc8601
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 822edfa64965eac2d8a44f3bc925b2d7
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => e1b844a69fb679234552c74f1947d6a0
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => a710896239add208adc9742927e700f2
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => e1b844a69fb679234552c74f1947d6a0
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => a9450e251b937da7cea5c0dc4dc2e860
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 6110b8479c07536bc88997d1eaed0185
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => f94781df067904da2da65c8a67e2c7fb
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 0cb602c17a161c3a93a0993cb89bdb0e
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => bf77792822f94b513370b4f836d9366c
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 6af30dbad8b7c614a1817b6c2a8ee644
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 4cd1d53fef9015dbe6d838e8aead0157
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 6af30dbad8b7c614a1817b6c2a8ee644
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 7293afa59c2760da5a43ee8642af5b25
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 7293afa59c2760da5a43ee8642af5b25
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => d183dbdd14e8594dbb154959ab102aab
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => d50107e2bede7ef3ebaedcdb1df0efd8
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 23a2d9e8d43bc3811707a7dcb64a928c
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 965d8af3a0549ec6a7ad190a5e50a77d
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => aa43df1a5d9cef4e334370ee6dfb1477
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => aa43df1a5d9cef4e334370ee6dfb1477
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 57b88b70d62bc4d8e967a723fc6edc93
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 57b88b70d62bc4d8e967a723fc6edc93
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => c13dc9874e4e8d7b5f1ebc83255080c0
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 330a84e818d671fc7854b51393ea2f68
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => ffb33ead375a89c3cf78e1677db0bf63
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 2ff83682dff5190bd7bea3467ce8b0d9
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 2ff83682dff5190bd7bea3467ce8b0d9
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 9ea8e88a74046b340c2bf1a8c51fc63a
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => b80969dcca640171d30d41f382fa90d1
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => ed9acd0dc6d850eab5f401283f2d7ba2
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => abea320000d73a2134602bb5c80afe11
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => abea320000d73a2134602bb5c80afe11
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 68460c72399bbba529a4d16db4271ac3
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => abea320000d73a2134602bb5c80afe11
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => b255a9c9ba7e4ee3d162ecea46c25758
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => f50de471c0ec7e174542351a291d5cac
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 8063899a9c5f2382df58fecf63c19458
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 77bffd7a920cc27aa81f322fc2f19961
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 900d29d293ab732cbbdc4a0abb9dc86b
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 76aa04262ffd82fc645bbf1c18fe177b
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 900d29d293ab732cbbdc4a0abb9dc86b
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 76aa04262ffd82fc645bbf1c18fe177b
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 34d41f1f1c1e6ceec0ffdfd790afcccb
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 34d41f1f1c1e6ceec0ffdfd790afcccb
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 34d41f1f1c1e6ceec0ffdfd790afcccb
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 60f5c1636e5f260bfec905b758d84f8d
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 0c9138b6cc889b4dd425d0bc507ef0fb
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 32eeea787254b977a7c2ca8493fe9740
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 326587b8b39e8e2cbb5bb923e1b90fd2
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 464da1ff98071575a5c37695ad79e214
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => bd19cd9d7d7ff308d8cd923544cd75b8
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 6df5c75f872428e69b4f612f3932f070
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 0fbbdc00eee15ce259c3dd9bdfdb02ff
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => f0963a4fca76c5d0fe0bca919ad2c056
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => f0963a4fca76c5d0fe0bca919ad2c056
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 7f804f7afe2ba6aaf8d572a8b1b317a0
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => f9c7324887a52bb5c2219f6c571b9144
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => ca26ac1059d4895ad955137ea76df4dd
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => a858e0e5d4e5141478aa94ed0c361480
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => f9c7324887a52bb5c2219f6c571b9144
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => a858e0e5d4e5141478aa94ed0c361480
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 3038f8e4357cbb7a09b9e006653d2816
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => a858e0e5d4e5141478aa94ed0c361480
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 464da1ff98071575a5c37695ad79e214
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 464da1ff98071575a5c37695ad79e214
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => a858e0e5d4e5141478aa94ed0c361480
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => a5343a3022671093d349aa82cfa9af91
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 28c7cc2ead711416d08cafe74427c733
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => a5343a3022671093d349aa82cfa9af91
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 9e81a97e4c9c6c75496078c9a8077c0b
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 5c4a34b072d7aa987fa36a185f7d579f
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 22c2c118275664d103e3ff79f018793e
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 9e81a97e4c9c6c75496078c9a8077c0b
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 28c7cc2ead711416d08cafe74427c733
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 9e81a97e4c9c6c75496078c9a8077c0b
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 07c91e4efd499394206b908473001f58
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => f4e155a69aefa932414298ae1c41b36b
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 28c7cc2ead711416d08cafe74427c733
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => f4e155a69aefa932414298ae1c41b36b
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => b9bb48562fe0f7f84a7868c224b6a96a
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 6ea39bd41d40cb698f3a408f6c540fe7
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 1fe7a8e821999a890ad138229666a4f3
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 6ea39bd41d40cb698f3a408f6c540fe7
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 1fe7a8e821999a890ad138229666a4f3
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 74641a035b396548794218c18de8afcf
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => f79c75e47510042ee1a756fb3663d940
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 512e4320ffdca7c59a89bdccedebf517
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => a6d7ba808017a2393b55fd57101b1907
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => d6eb7a39f694ad8534713bc0e01329a5
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 48326a37f1e86426f3d8830b96bdd57a
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => b672ace1e8274264aa43e687f8bb2398
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => b672ace1e8274264aa43e687f8bb2398
+    [state_type] => state_send
+    [order_key] => 
+)
+
+sql==>>condition:state_send
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => b672ace1e8274264aa43e687f8bb2398
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 44f391b3f621dc55b1413c6d3b7da648
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => aeec2270b4bd82b45f6731990e0511b6
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 128e1508a34d73401c77b8f6a85f1192
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 900d29d293ab732cbbdc4a0abb9dc86b
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 4925c968339d81a4eac1aa171a017354
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => f411688bd8d09fbc9d2da4bd8646a292
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => f50de471c0ec7e174542351a291d5cac
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => f411688bd8d09fbc9d2da4bd8646a292
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => f411688bd8d09fbc9d2da4bd8646a292
+    [state_type] => state_send
+    [order_key] => 
+)
+
+sql==>>condition:state_send
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => f411688bd8d09fbc9d2da4bd8646a292
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 326587b8b39e8e2cbb5bb923e1b90fd2
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => dfd09b735a4fb76287f8f198da477307
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => b65ed705e3497b1a679ccc064289bb76
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 537246b3ef82f80f55e799a52e6b5f7a
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 4925c968339d81a4eac1aa171a017354
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => dfd09b735a4fb76287f8f198da477307
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => dfd09b735a4fb76287f8f198da477307
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => dfd09b735a4fb76287f8f198da477307
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => dfd09b735a4fb76287f8f198da477307
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => dfd09b735a4fb76287f8f198da477307
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => ff76fc8999f79520aa70704c8090b807
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 23af5ab75fe76a3d3828325a7d5b01b1
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 23af5ab75fe76a3d3828325a7d5b01b1
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 326587b8b39e8e2cbb5bb923e1b90fd2
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => c55026601802f54017808a741c7673d0
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 23af5ab75fe76a3d3828325a7d5b01b1
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 9e81a97e4c9c6c75496078c9a8077c0b
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 91ddc6ed38e9677aa2f7fb03931772fb
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 36d8a276679c0d280e135c78e755fd3f
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 8037730adf9957665400a51306e2480a
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 8037730adf9957665400a51306e2480a
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 8037730adf9957665400a51306e2480a
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 8037730adf9957665400a51306e2480a
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => c22757dcc5a77f6edb1b744d83b4551c
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 5aadba944e921ff1ddaa0f41d607c1e5
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => e9b140a0f2413956152a8cfdde0f3a5f
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 7053bfc92fc9cf98e4f101ee9ade77ac
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => dfd09b735a4fb76287f8f198da477307
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => dfd09b735a4fb76287f8f198da477307
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => dfd09b735a4fb76287f8f198da477307
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 85db220a27acb60f33fbb98cb208dfca
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 67a8341bea721b70762c0b7ce74bd996
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 67a8341bea721b70762c0b7ce74bd996
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 03743c375f35ba81cdf594ed8b7f0bc5
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 67a8341bea721b70762c0b7ce74bd996
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 7053bfc92fc9cf98e4f101ee9ade77ac
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 5e6d97590b268e9018dec9944a4dd6b7
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 4bc877fa284a708913452c7f8f5a0639
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => f411688bd8d09fbc9d2da4bd8646a292
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => f50de471c0ec7e174542351a291d5cac
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => a92b88cb06a964e697168a801eeb40bb
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 7053bfc92fc9cf98e4f101ee9ade77ac
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 2332011f0b9b65f161adcbd6eb4a9f5f
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 2997aa563bb60742bc2e89b0897e8f2b
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 2332011f0b9b65f161adcbd6eb4a9f5f
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 1fe7a8e821999a890ad138229666a4f3
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 9efb10998915d321993e022b704a7e7b
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => f5795ac5112dadceb3a9a4f0265ed9a9
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => ffb33ead375a89c3cf78e1677db0bf63
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => caf3b7ba5b36bbfba3311e644dc97af2
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => caf3b7ba5b36bbfba3311e644dc97af2
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 98ee0ede60a28324a7eb3c2c12464906
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => d6eb7a39f694ad8534713bc0e01329a5
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => b539764c58f6bba542965dec73be2dd9
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 2997aa563bb60742bc2e89b0897e8f2b
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => d6eb7a39f694ad8534713bc0e01329a5
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 2997aa563bb60742bc2e89b0897e8f2b
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => a592873e934f9767e879d4fd693054cd
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => a5343a3022671093d349aa82cfa9af91
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => a6a169597c786ea6a6c1237aec7a389a
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => c865acd63de43aa12edd2d96f6c3780d
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 03fc24ec3b9d32a0bdbc9ecebcbd40c3
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => a6a169597c786ea6a6c1237aec7a389a
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => d6eb7a39f694ad8534713bc0e01329a5
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 60869f464dd2acf1374b0ecf6bf7775c
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => fd049f22f98f32b80bb0fdeadaab4391
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 3547665a071fbac5a330f6e5994ce1ab
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => d33b7467606e660906d86dcc5f9283c4
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => d14a1d6dfea20449e34f89dd25c8edc3
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 1bea12e135c231d92d07535ce306884f
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => d33b7467606e660906d86dcc5f9283c4
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 0fb3b1beb42a445058290f9595c13f3d
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 0fb3b1beb42a445058290f9595c13f3d
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 56e45b55fa0c3429fcdafc6ad5958967
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => f411688bd8d09fbc9d2da4bd8646a292
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 59031119f86bb6844b2da2ba5c39b3c9
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 537246b3ef82f80f55e799a52e6b5f7a
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => fe7c451990e39616ca4b8e136697005a
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => fe7c451990e39616ca4b8e136697005a
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => fe7c451990e39616ca4b8e136697005a
+    [state_type] => state_send
+    [order_key] => 
+)
+
+sql==>>condition:state_send
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => fe7c451990e39616ca4b8e136697005a
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 4eda8fcc60b3fc6a17d728ccfd8cf782
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 4eda8fcc60b3fc6a17d728ccfd8cf782
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 4eda8fcc60b3fc6a17d728ccfd8cf782
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 4eda8fcc60b3fc6a17d728ccfd8cf782
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => c9c33fcc84784bd974930f11207a8a16
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => c9c33fcc84784bd974930f11207a8a16
+    [state_type] => state_send
+    [order_key] => 
+)
+
+sql==>>condition:state_send
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => c9c33fcc84784bd974930f11207a8a16
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => c9c33fcc84784bd974930f11207a8a16
+    [state_type] => state_send
+    [order_key] => 
+)
+
+sql==>>condition:state_send
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => c9c33fcc84784bd974930f11207a8a16
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => b093627b05c212eb3eedce99b420a1cd
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => b093627b05c212eb3eedce99b420a1cd
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => b093627b05c212eb3eedce99b420a1cd
+    [state_type] => state_send
+    [order_key] => 
+)
+
+sql==>>condition:state_send
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => b093627b05c212eb3eedce99b420a1cd
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => b02d95308207252c123951363800bc25
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => b02d95308207252c123951363800bc25
+    [state_type] => state_send
+    [order_key] => 
+)
+
+sql==>>condition:state_send
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => b02d95308207252c123951363800bc25
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => b02d95308207252c123951363800bc25
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => b02d95308207252c123951363800bc25
+    [state_type] => state_send
+    [order_key] => 
+)
+
+sql==>>condition:state_send
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => b02d95308207252c123951363800bc25
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => b02d95308207252c123951363800bc25
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => b02d95308207252c123951363800bc25
+    [state_type] => state_send
+    [order_key] => 
+)
+
+sql==>>condition:state_send
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => b02d95308207252c123951363800bc25
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => b02d95308207252c123951363800bc25
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => b02d95308207252c123951363800bc25
+    [state_type] => state_send
+    [order_key] => 
+)
+
+sql==>>condition:state_send
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => b02d95308207252c123951363800bc25
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => b02d95308207252c123951363800bc25
+    [state_type] => state_send
+    [order_key] => 
+)
+
+sql==>>condition:state_send
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => b02d95308207252c123951363800bc25
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => b02d95308207252c123951363800bc25
+    [state_type] => state_send
+    [order_key] => 
+)
+
+sql==>>condition:state_send
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => b02d95308207252c123951363800bc25
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => b02d95308207252c123951363800bc25
+    [state_type] => state_send
+    [order_key] => 
+)
+
+sql==>>condition:state_send
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => b02d95308207252c123951363800bc25
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => b093627b05c212eb3eedce99b420a1cd
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => b093627b05c212eb3eedce99b420a1cd
+    [state_type] => state_send
+    [order_key] => 
+)
+
+sql==>>condition:state_send
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => b093627b05c212eb3eedce99b420a1cd
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => b093627b05c212eb3eedce99b420a1cd
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => b093627b05c212eb3eedce99b420a1cd
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => b093627b05c212eb3eedce99b420a1cd
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => b02d95308207252c123951363800bc25
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => b02d95308207252c123951363800bc25
+    [state_type] => state_send
+    [order_key] => 
+)
+
+sql==>>condition:state_send
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => b02d95308207252c123951363800bc25
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => b02d95308207252c123951363800bc25
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => b02d95308207252c123951363800bc25
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => b02d95308207252c123951363800bc25
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => b02d95308207252c123951363800bc25
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => b02d95308207252c123951363800bc25
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => b02d95308207252c123951363800bc25
+    [state_type] => state_send
+    [order_key] => 
+)
+
+sql==>>condition:state_send
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => b02d95308207252c123951363800bc25
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => b02d95308207252c123951363800bc25
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => b02d95308207252c123951363800bc25
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => b02d95308207252c123951363800bc25
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => b093627b05c212eb3eedce99b420a1cd
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => b093627b05c212eb3eedce99b420a1cd
+    [state_type] => state_send
+    [order_key] => 
+)
+
+sql==>>condition:state_send
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => b093627b05c212eb3eedce99b420a1cd
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => b093627b05c212eb3eedce99b420a1cd
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => b093627b05c212eb3eedce99b420a1cd
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => b093627b05c212eb3eedce99b420a1cd
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => b093627b05c212eb3eedce99b420a1cd
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => b093627b05c212eb3eedce99b420a1cd
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => b02d95308207252c123951363800bc25
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => b02d95308207252c123951363800bc25
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => b02d95308207252c123951363800bc25
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => b02d95308207252c123951363800bc25
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => b02d95308207252c123951363800bc25
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => b02d95308207252c123951363800bc25
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => b02d95308207252c123951363800bc25
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => b02d95308207252c123951363800bc25
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => b02d95308207252c123951363800bc25
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => b02d95308207252c123951363800bc25
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => b093627b05c212eb3eedce99b420a1cd
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => b093627b05c212eb3eedce99b420a1cd
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => b093627b05c212eb3eedce99b420a1cd
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => b093627b05c212eb3eedce99b420a1cd
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => a23cc97416cfeaf27d0a2ae3b1684fc2
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => a23cc97416cfeaf27d0a2ae3b1684fc2
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => a23cc97416cfeaf27d0a2ae3b1684fc2
+    [state_type] => state_send
+    [order_key] => 
+)
+
+sql==>>condition:state_send
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => a23cc97416cfeaf27d0a2ae3b1684fc2
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => a23cc97416cfeaf27d0a2ae3b1684fc2
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => a23cc97416cfeaf27d0a2ae3b1684fc2
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => b093627b05c212eb3eedce99b420a1cd
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => b02d95308207252c123951363800bc25
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 548cb3cf3b6b068c4db39beb33ae8cee
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 548cb3cf3b6b068c4db39beb33ae8cee
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => b02d95308207252c123951363800bc25
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => d019a656c1e21735973429495b0b441f
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => d019a656c1e21735973429495b0b441f
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => d019a656c1e21735973429495b0b441f
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 3f82a7b20b4e699882cc2746393ca68d
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 7c04258baa15abc865c9b7eeeed03bf4
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 7c04258baa15abc865c9b7eeeed03bf4
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 7c04258baa15abc865c9b7eeeed03bf4
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 7c04258baa15abc865c9b7eeeed03bf4
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 7c04258baa15abc865c9b7eeeed03bf4
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 7c04258baa15abc865c9b7eeeed03bf4
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 7c04258baa15abc865c9b7eeeed03bf4
+    [state_type] => state_send
+    [order_key] => 
+)
+
+sql==>>condition:state_send
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 7c04258baa15abc865c9b7eeeed03bf4
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 7c04258baa15abc865c9b7eeeed03bf4
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 7c04258baa15abc865c9b7eeeed03bf4
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 7c04258baa15abc865c9b7eeeed03bf4
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 3691edc72761875a4bbdf3e041078e36
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 3691edc72761875a4bbdf3e041078e36
+    [state_type] => state_send
+    [order_key] => 
+)
+
+sql==>>condition:state_send
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 3691edc72761875a4bbdf3e041078e36
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 219b2f6708f3da271f4a88b7e9de8e97
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 3f82a7b20b4e699882cc2746393ca68d
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 4f347d7a5a8210a8aed3f23b1a8ddc4a
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 9675b6ef0fc1465af70ace14c432c7ae
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 9675b6ef0fc1465af70ace14c432c7ae
+    [state_type] => state_send
+    [order_key] => 
+)
+
+sql==>>condition:state_send
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 9675b6ef0fc1465af70ace14c432c7ae
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 9675b6ef0fc1465af70ace14c432c7ae
+    [state_type] => state_send
+    [order_key] => 
+)
+
+sql==>>condition:state_send
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => a8179cfd444495cc9cdad7bd8ccba48a
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => a8179cfd444495cc9cdad7bd8ccba48a
+    [state_type] => state_send
+    [order_key] => 
+)
+
+sql==>>condition:state_send
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => a8179cfd444495cc9cdad7bd8ccba48a
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => a8179cfd444495cc9cdad7bd8ccba48a
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => a8179cfd444495cc9cdad7bd8ccba48a
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => a8179cfd444495cc9cdad7bd8ccba48a
+    [state_type] => state_send
+    [order_key] => 
+)
+
+sql==>>condition:state_send
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => a8179cfd444495cc9cdad7bd8ccba48a
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => a8179cfd444495cc9cdad7bd8ccba48a
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => a1e95f77c87cd0c331011fde0521ce0d
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => a1e95f77c87cd0c331011fde0521ce0d
+    [state_type] => state_send
+    [order_key] => 
+)
+
+sql==>>condition:state_send
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => a1e95f77c87cd0c331011fde0521ce0d
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 387e4e54ba18dca11ebf6c20871e488e
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 387e4e54ba18dca11ebf6c20871e488e
+    [state_type] => state_send
+    [order_key] => 
+)
+
+sql==>>condition:state_send
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 3ab1fe3925f7a1b1351a5b69caa0f0ba
+    [state_type] => state_new
+    [order_key] => 
+)
+
+sql==>>condition:state_new
+sql==>>fanyong_list:ok
+sql==>>POST:Array
+(
+    [key] => 3ab1fe3925f7a1b1351a5b69caa0f0ba
+    [state_type] => state_send
+    [order_key] => 
+)
+
+sql==>>condition:state_send

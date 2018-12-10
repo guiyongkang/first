@@ -1,0 +1,60 @@
+sql==>>111Array
+(
+    [0] => Array
+        (
+            [order_id] => 1360
+            [goods_id] => 3
+            [store_id] => 2
+            [goods_name] => 多功能果蔬解毒机
+            [goods_price] => 1000.00
+            [goods_num] => 1
+            [goods_image] => 2_05899719948116912.png
+            [buyer_id] => 4
+        )
+
+)
+
+sql==>>111Array
+(
+    [0] => Array
+        (
+            [order_id] => 1360
+            [goods_id] => 3
+            [store_id] => 2
+            [goods_name] => 多功能果蔬解毒机
+            [goods_price] => 1000.00
+            [goods_num] => 1
+            [goods_image] => 2_05899719948116912.png
+            [buyer_id] => 4
+            [goods_type] => 1
+            [promotions_id] => 0
+            [commis_rate] => 0
+            [gc_id] => 3
+            [goods_pay_price] => 1000
+        )
+
+)
+
+sql==>>111Array
+(
+    [0] => Array
+        (
+            [order_id] => 1361
+            [goods_id] => 3
+            [store_id] => 2
+            [goods_name] => 多功能果蔬解毒机
+            [goods_price] => 1000.00
+            [goods_num] => 1
+            [goods_image] => 2_05899719948116912.png
+            [buyer_id] => 4
+            [points] => 2
+            [pointsdays] => 50
+            [goods_type] => 1
+            [promotions_id] => 0
+            [commis_rate] => 0
+            [gc_id] => 3
+            [goods_pay_price] => 1000
+        )
+
+)
+

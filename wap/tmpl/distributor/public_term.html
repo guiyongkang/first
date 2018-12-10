@@ -1,0 +1,119 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-touch-fullscreen" content="yes" />
+<meta name="format-detection" content="telephone=no"/>
+<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+<meta name="format-detection" content="telephone=no" />
+<meta name="msapplication-tap-highlight" content="no" />
+<meta name="viewport" content="initial-scale=1,maximum-scale=1,minimum-scale=1" />
+<title>公排下级管理</title>
+<link rel="stylesheet" type="text/css" href="../../css/base.css">
+<link rel="stylesheet" type="text/css" href="../../css/nctouch_member.css">
+<link rel="stylesheet" type="text/css" href="../../css/nctouch_common.css">
+<link rel="stylesheet" type="text/css" href="../../css/distributor.css">
+</head>
+<body>
+<header id="header" class="fixed">
+  <div class="header-wrap">
+    <div class="header-l"><a href="../member/member.html"><i class="back"></i></a></div>
+    <div class="header-title">
+		<h1>公排下级管理</h1>
+	</div>
+    <div class="header-r"> <a id="header-nav" href="javascript:void(0);"><i class="more"></i><sup></sup></a> </div>
+  </div>
+  <div class="nctouch-nav-layout">
+    <div class="nctouch-nav-menu"> <span class="arrow"></span>
+      <ul>
+        <li><a href="../../index.html"><i class="home"></i>首页</a></li>
+        <li><a href="../search.html"><i class="search"></i>搜索</a></li>
+        <li><a href="../product_first_categroy.html"><i class="categroy"></i>分类</a></li>
+        <li><a href="javascript:void(0);"><i class="message"></i>消息</a></li>
+        <li><a href="../cart_list.html"><i class="cart"></i>购物车<sup></sup></a></li>
+        <li><a href="../member/member.html"><i class="member"></i>我的商城</a></li>
+      </ul>
+    </div>
+  </div>
+</header>
+<!--筛选部分-->
+<div class="nctouch-full-mask hide">
+  <div class="nctouch-full-mask-bg"></div>
+  <div class="nctouch-full-mask-block">
+    <div class="header">
+      <div class="header-wrap">
+        <div class="header-l"> <a href="javascript:void(0);"><i class="back"></i></a></div>
+        <div class="header-title">
+          <h1>层级选择</h1>
+        </div>
+      </div>
+    </div>
+    <div class="nctouch-main-layout-a secreen-layout" id="list-items-scroll" style="top: 2rem;"><div></div></div>
+  </div>
+</div>
+
+<div class="nctouch-main-layout">
+  <div class="nctouch-order-list">
+  	<div id="datastastics"><b></b>团队总人数<span></span></div>
+    <ul id="term-list">
+    </ul>
+  </div>
+  <!--底部总金额固定层End-->
+</div>
+<div class="fix-block-r">
+	<a href="javascript:void(0);" class="gotop-btn gotop hide" id="goTopBtn"><i></i></a>
+</div>
+<footer id="footer" class="bottom"></footer>
+<script type="text/html" id="search_items">
+<ul>
+<% var level_list = datas.level_list; %>
+<% if(level_list.length>0){%>
+<% for(var i = 0;i<level_list.length;i++){%>
+	<li onclick="select_level(<%=level_list[i]+1%>)">
+		<%=level_list[i]+1%>级
+	</li>
+<%}%>
+<%}%>
+</ul>	
+</script>
+<script type="text/html" id="term-list-tmpl">
+<% var term_list = datas.term_list; %>
+<% if (term_list.length > 0){%>
+	<% for(var i = 0;i<term_list.length;i++){
+		var termlist = term_list[i];
+	%>
+		<li>
+			<div class="member-pic">
+				<img src="<%=termlist.avatar%>"/>
+			</div>
+			<dl>
+				<dt>昵称：<%=termlist.nick_name%></dt>
+				<dd>位置：第<%=termlist.y%>级，第<%=termlist.x%>个</dd>
+				<dd class="state_<%=termlist.status%>">状态：<%=termlist.state%></dd>
+				<dd>加入时间：<%=termlist.addtime%></dd>
+			</dl>
+		</li>
+	<%}%>
+	<% if (hasmore) {%>
+	<li class="loading"><div class="spinner"><i></i></div>数据读取中...</li>
+	<% } %>
+<%}else {%>
+	<div class="nctouch-norecord order">
+		<div class="norecord-ico"><i></i></div>
+		<dl style="padding:0px; color:#888">
+			<dt>您还没有发展团队</dt>
+		</dl>
+	</div>
+<%}%>
+</script> 
+<script type="text/javascript" src="../../js/zepto.min.js"></script> 
+<script type="text/javascript" src="../../js/template.js"></script> 
+<script type="text/javascript" src="../../js/config.js"></script> 
+<script type="text/javascript" src="../../js/common.js"></script> 
+<script type="text/javascript" src="../../js/simple-plugin.js"></script> 
+<script type="text/javascript" src="../../js/zepto.waypoints.js"></script> 
+<script type="text/javascript" src="../../js/tmpl/public_term.js"></script>
+</body>
+</html>

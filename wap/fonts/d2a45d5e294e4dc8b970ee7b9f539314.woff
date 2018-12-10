@@ -1,0 +1,967 @@
+<!doctype html>
+<html lang="zh">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>gongpaiv5 - Powered by 33hao.com</title>
+<meta name="keywords" content="33hao,PHP商城系统,好商城商城系统,多用户商城系统,电商ERP,电商CRM,电子商务解决方案" />
+<meta name="description" content="33hao专注于研发符合时代发展需要的电子商务商城系统，以专业化的服务水平为企业级用户提供B(2B)2C【B2B2C】电子商务平台解决方案，全力打造电商平台专项ERP(CRM)系统、ERP(RFID)系统等，引领中国电子商务行业企业级需求的发展方向。咨询电话：400-333-8888" />
+<meta name="author" content="33HAO">
+<meta name="copyright" content="33HAO Inc. All Rights Reserved">
+<meta name="renderer" content="webkit">
+<meta name="renderer" content="ie-stand">
+<style type="text/css">
+body { _behavior: url(http://gongpaiv5.siruishop.com/shop/templates/default/css/csshover.htc);
+}
+</style>
+<link rel="shortcut icon" href="http://gongpaiv5.siruishop.com/favicon.ico" />
+<link href="http://gongpaiv5.siruishop.com/shop/templates/default/css/base.css" rel="stylesheet" type="text/css">
+<link href="http://gongpaiv5.siruishop.com/shop/templates/default/css/home_header.css" rel="stylesheet" type="text/css">
+<link href="http://gongpaiv5.siruishop.com/shop/resource/font/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+<!--[if IE 7]>
+  <link rel="stylesheet" href="http://gongpaiv5.siruishop.com/shop/resource/font/font-awesome/css/font-awesome-ie7.min.css">
+<![endif]-->
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+      <script src="http://gongpaiv5.siruishop.com/data/resource/js/html5shiv.js"></script>
+      <script src="http://gongpaiv5.siruishop.com/data/resource/js/respond.min.js"></script>
+<![endif]-->
+<script>
+var COOKIE_PRE = '3E6B_';var _CHARSET = 'utf-8';var LOGIN_SITE_URL = 'http://gongpaiv5.siruishop.com/member';var MEMBER_SITE_URL = 'http://gongpaiv5.siruishop.com/member';var SITEURL = 'http://gongpaiv5.siruishop.com/shop';var SHOP_SITE_URL = 'http://gongpaiv5.siruishop.com/shop';var RESOURCE_SITE_URL = 'http://gongpaiv5.siruishop.com/data/resource';var RESOURCE_SITE_URL = 'http://gongpaiv5.siruishop.com/data/resource';var SHOP_TEMPLATES_URL = 'http://gongpaiv5.siruishop.com/shop/templates/default';
+</script>
+<script src="http://gongpaiv5.siruishop.com/data/resource/js/jquery.js"></script>
+<script src="http://gongpaiv5.siruishop.com/data/resource/js/common.js" charset="utf-8"></script>
+<script src="http://gongpaiv5.siruishop.com/data/resource/js/jquery-ui/jquery.ui.js"></script>
+<script src="http://gongpaiv5.siruishop.com/data/resource/js/jquery.validation.min.js"></script>
+<script src="http://gongpaiv5.siruishop.com/data/resource/js/dialog/dialog.js" id="dialog_js" charset="utf-8"></script>
+<script type="text/javascript">
+var PRICE_FORMAT = '&yen;%s';
+$(function(){
+	//首页左侧分类菜单
+	$(".category ul.menu").find("li").each(
+		function() {
+			$(this).hover(
+				function() {
+				    var cat_id = $(this).attr("cat_id");
+					var menu = $(this).find("div[cat_menu_id='"+cat_id+"']");
+					menu.show();
+					$(this).addClass("hover");					
+					var menu_height = menu.height();
+					if (menu_height < 60) menu.height(80);
+					menu_height = menu.height();
+					var li_top = $(this).position().top;
+					$(menu).css("top",-li_top + 37);
+				},
+				function() {
+					$(this).removeClass("hover");
+				    var cat_id = $(this).attr("cat_id");
+					$(this).find("div[cat_menu_id='"+cat_id+"']").hide();
+				}
+			);
+		}
+	);
+	$(".head-user-menu dl").hover(function() {
+		$(this).addClass("hover");
+	},
+	function() {
+		$(this).removeClass("hover");
+	});
+	$('.head-user-menu .my-cart').mouseover(function(){// 运行加载购物车
+		load_cart_information();
+		$(this).unbind('mouseover');
+	});
+    
+	$('#button').click(function(){
+	    if ($('#keyword').val() == '') {
+		    if ($('#keyword').attr('data-value') == '') {
+			    return false
+			} else {
+				window.location.href="http://gongpaiv5.siruishop.com/shop/index.php?act=search&op=index&keyword="+$('#keyword').attr('data-value');
+			    return false;
+			}
+	    }
+	});
+	$(".head-search-bar").hover(null,
+	function() {
+		$('#search-tip').hide();
+	});
+	// input ajax tips
+	$('#keyword').focus(function(){
+		if($('#search_act').val()=='search') {
+			$('#search-tip').show();
+		} else {
+			$('#search-tip').hide();
+		}
+		}).autocomplete({
+		//minLength:0,
+        source: function (request, response) {
+            $.getJSON('http://gongpaiv5.siruishop.com/shop/index.php?act=search&op=auto_complete', request, function (data, status, xhr) {
+                $('#top_search_box > ul').unwrap();
+                response(data);
+                if (status == 'success') {
+                    $('#search-tip').hide();
+                    $(".head-search-bar").unbind('mouseover');
+                    $('body > ul:last').wrap("<div id='top_search_box'></div>").css({'zIndex':'1000','width':'362px'});
+                }
+            });
+       },
+		select: function(ev,ui) {
+			$('#keyword').val(ui.item.label);
+			$('#top_search_form').submit();
+		}
+	});
+	$('#search-his-del').on('click',function(){$.cookie('3E6B_his_sh',null,{path:'/'});$('#search-his-list').empty();});
+});
+</script>
+</head>
+<body>
+<!-- PublicTopLayout Begin -->
+<div id="append_parent"></div>
+<div id="ajaxwaitid"></div>
+<div id="vToolbar" class="nc-appbar">
+  <div class="nc-appbar-tabs" id="appBarTabs">
+        <div class="user ta_delay" nctype="a-barLoginBox">
+      <div class="avatar"><img src="http://gongpaiv5.siruishop.com/data/upload/shop/common/default_user_portrait.gif"/></div>
+      <p>未登录</p>
+    </div>
+    <div class="user-login-box" nctype="barLoginBox" style="display:none;"> <i class="arrow"></i> <a href="javascript:void(0);" class="close-a" nctype="close-barLoginBox" title="关闭">X</a>
+      <form id="login_form" method="post" action="http://gongpaiv5.siruishop.com/member/index.php?act=login&op=login" onsubmit="ajaxpost('login_form', '', '', 'onerror')">
+        <input type='hidden' name='formhash' value='yJMXH7AlAsFpCbJlrFKBvDZ6ry945tv' />        <input type="hidden" name="form_submit" value="ok" />
+        <input name="nchash" type="hidden" value="c7953ec9" />
+        <dl>
+          <dt><strong>登录账号</strong></dt>
+          <dd>
+            <input type="text" class="text" tabindex="1" autocomplete="off"  name="user_name" autofocus >
+            <label></label>
+          </dd>
+        </dl>
+        <dl>
+          <dt><strong>登录密码</strong><a href="http://gongpaiv5.siruishop.com/member/index.php?act=login&op=forget_password" target="_blank">忘记登录密码？</a></dt>
+          <dd>
+            <input tabindex="2" type="password" class="text" name="password" autocomplete="off">
+            <label></label>
+          </dd>
+        </dl>
+                <dl>
+          <dt><strong>验证码</strong><a href="javascript:void(0)" class="ml5" onclick="javascript:document.getElementById('codeimage').src='http://gongpaiv5.siruishop.com/shop/index.php?act=seccode&op=makecode&nchash=c7953ec9&t=' + Math.random();">更换验证码</a></dt>
+          <dd>
+            <input tabindex="3" type="text" name="captcha" autocomplete="off" class="text w130" id="captcha2" maxlength="4" size="10" />
+            <img src="" name="codeimage" border="0" id="codeimage" class="vt">
+            <label></label>
+          </dd>
+        </dl>
+                    <div class="bottom">
+              <input type="submit" class="submit" value="确认">
+              <input type="hidden" value="" name="ref_url">
+              <a href="http://gongpaiv5.siruishop.com/member/index.php?act=login&op=register&" target="_blank">注册新用户</a>
+                            <h4></h4>
+                            <a href="javascript:void(0);" onclick="ajax_form('weixin_form', '微信账号登录', 'http://gongpaiv5.siruishop.com/member/index.php?act=connect_wx&op=index', 360);" title="微信账号登录" class="mr20">微信</a>
+                                          <a href="http://gongpaiv5.siruishop.com/member/index.php?act=connect_sina" title="新浪微博账号登录" class="mr20">新浪微博</a>
+                                          <a href="http://gongpaiv5.siruishop.com/member/index.php?act=connect_qq" title="QQ账号登录" class="mr20">QQ账号</a>
+                                      </div>
+      </form>
+    </div>
+        <ul class="tools">
+             <li><a href="http://wpa.qq.com/msgrd?v=3&amp;uin=355716601&amp;site=qq&amp;menu=yes" id="chat_show_user" class="chat ta_delay"><div class="tools_img"></div><span>QQ客服</span><i id="new_msg" class="new_msg" style="display:none;"></i></a></li>
+                 <li><a href="javascript:void(0);" id="rtoolbar_cart" class="cart ta_delay"><div class="tools_img"></div><span>购物车</span><i id="rtoobar_cart_count" class="new_msg" style="display:none;"></i></a></li>
+                  <li><a href="javascript:void(0);" id="compare" class="compare ta_delay"><div class="tools_img"></div><span>对比</span></a></li>
+            <li><a href="javascript:void(0);" id="gotop" class="gotop ta_delay"><div class="tools_img"></div><span>顶部</span></a></li>
+    </ul>
+    <div class="content-box" id="content-compare">
+      <div class="top">
+        <h3>商品对比</h3>
+        <a href="javascript:void(0);" class="close" title="隐藏"></a></div>
+      <div id="comparelist"></div>
+    </div>
+    <div class="content-box" id="content-cart">
+      <div class="top">
+        <h3>我的购物车</h3>
+        <a href="javascript:void(0);" class="close" title="隐藏"></a></div>
+      <div id="rtoolbar_cartlist"></div>
+    </div>
+    <a id="activator" href="javascript:void(0);" class="nc-appbar-hide"></a> </div>
+  <div class="nc-hidebar" id="ncHideBar">
+    <div class="nc-hidebar-bg">
+            <div class="user-avatar"><img src="http://gongpaiv5.siruishop.com/data/upload/shop/common/default_user_portrait.gif"/></div>
+            <div class="frame"></div>
+      <div class="show"></div>
+  </div>
+</div>
+</div>
+<div style=" background:#7BA6FC;">
+  <div class="wrapper" id="top-banner" style="display: none;">
+      <a href="javascript:void(0);" class="close" title="关闭"></a>
+      <a href="http://bbs.33hao.com/thread-12959-1-1.html" title="好商城V5.6"><img border="0" src="http://gongpaiv5.siruishop.com/data/upload/shop/common/04716538681718544.png" alt=""></a>
+  </div>
+</div>
+<div class="public-top-layout w">
+  <div class="topbar wrapper">
+    <div class="service fl">
+      <div class="tel">服务热线：<b>400-333-8888</b></div>
+      <div class="m-mx"> <span><i></i><a href="http://gongpaiv5.siruishop.com/wap">手机逛商城</a></span>
+        <div>
+                    <dl class="down_app">
+            <dd>
+              <div class="qrcode"><img src="http://gongpaiv5.siruishop.com/data/upload/shop/common/mb_app.png" width="120" height="120"></div>
+              <div class="hint">
+                <h4>手机客户端</h4>
+                </div>
+              <div class="addurl">
+                                <a href="http://v5.33hao.com/app.apk" target="_blank"><i class="icon-android"></i>Android</a>
+                                                <a href="https://itunes.apple.com/us/app/storybear/id1146409944" target="_blank"><i class="icon-apple"></i>iPhone</a>
+                              </div>
+            </dd>
+          </dl>
+                  </div>
+      </div>
+      <div class="left">
+      <a href="http://gongpaiv5.siruishop.com/index.php?act=index&op=select_city&ref_url=%2Fwap%2Fimages%2Farrow_left_b.png%29%3B%2520background-position%3A%252050%2525%252050%2525%3B%2520background-repeat%3A%2520no-repeat%3B%2520background-size%3A%2520100%2525%3B%2520opacity%3A%25200.75%3B%2520%257D%250D%250A.header-l%2520a%2520i.close%2520%257B%2520width%3A%252080%2525%3B%2520height%3A%252080%2525%3B%2520margin%3A%252010%2525%3B%2520background-image%3A%2520url%28%2Fimages%2Fclose_window.png%29%3B%2520background-position%3A%252050%2525%252050%2525%3B%2520background-repeat%3A%2520no-repeat%3B%2520background-size%3A%2520100%2525%3B%2520opacity%3A%25200.75%3B%2520%257D%250D%250A.header-l%2520a%2520i.set%2520%257B%2520background-image%3A%2520url%28%2Fimages%2Fset_b.png%29%3B%2520background-position%3A%252050%2525%252050%2525%3B%2520background-repeat%3A%2520no-repeat%3B%2520background-size%3A%2520100%2525%3B%2520opacity%3A%25200.65%3B%2520%257D%250D%250A.header-l%2520a%2520i.home%2520%257B%2520width%3A%252080%2525%3B%2520height%3A%252080%2525%3B%2520margin%3A%252010%2525%3B%2520background-image%3A%2520url%28%2Fimages%2Fhome_b.png%29%3B%2520background-repeat%3A%2520no-repeat%3B%2520background-position%3A%252050%2525%252050%2525%3B%2520background-size%3A%252090%2525%3B%2520opacity%3A%25200.7%3B%2520%257D%250D%250A%2F%2A%25E5%258D%2595%25E4%25B8%2580%25E6%25A0%2587%25E9%25A2%2598%2A%2F%250D%250A.header-title%2520%257B%2520display%3A%2520inline-block%3B%2520margin%3A%25200%2520auto%3B%2520%257D%250D%250A.header-title%2520h1%2520%257B%2520font-size%3A%25200.8rem%3B%2520line-height%3A%25201.95rem%3B%2520height%3A%25201.95rem%3B%2520%257D%250D%250A%2F%2A%25E5%2595%2586%25E5%25AE%25B6%25E5%2592%258C%25E4%25BC%259A%25E5%2591%2598%25E5%2588%2587%25E6%258D%25A2%2A%2F%250D%250A.header-ls%2520%257B%2520display%3A%2520block%3B%2520width%3A%25204rem%3B%2520height%3A%25201.95rem%3B%2520position%3A%2520absolute%3B%2520top%3A%25200.2rem%3B%2520left%3A%25200%3B%2520%257D%250D%250A.header-ls%2520a%2520%257B%2520position%3A%2520relative%3B%2520z-index%3A%25201%3Bopacity%3A%25200.65%3B%2520display%3A%2520inline-block%3B%2520line-break%3A%25201rem%3B%2520padding%3A%25202px%25204px%3B%2520color%3A" title="切换城市" class="area">当前地区：<span>全国</span><i></i> </a>
+      </div>	  
+    </div>
+    <div class="quick-menu">
+      <dl>
+        <dt>客户服务<i></i></dt>
+        <dd>
+          <ul>
+            <li><a href="http://gongpaiv5.siruishop.com/member/index.php?act=article&op=article&ac_id=2">帮助中心</a></li>
+            <li><a href="http://gongpaiv5.siruishop.com/member/index.php?act=article&op=article&ac_id=5">售后服务</a></li>
+            <li><a href="http://gongpaiv5.siruishop.com/member/index.php?act=article&op=article&ac_id=6">客服中心</a></li>
+          </ul>
+        </dd>
+      </dl>
+      <dl>
+        <dt><a href="http://gongpaiv5.siruishop.com/shop/index.php?act=show_joinin&op=index" title="商家管理">商家管理</a><i></i></dt>
+        <dd>
+          <ul>
+		    <li><a href="http://gongpaiv5.siruishop.com/shop/index.php?act=show_joinin&op=index" title="招商入驻">招商入驻</a></li>
+            <li><a href="http://gongpaiv5.siruishop.com/shop/index.php?act=seller_login&op=show_login" target="_blank" title="商家登录">商家登录</a></li>
+          </ul>
+	 </dd>
+      </dl>
+            </dl>
+    </div>
+    <div class="head-user-mall">
+    <dl class="my-mall">
+        <dt><span class="ico"></span><a href="http://gongpaiv5.siruishop.com/shop/index.php?act=member&op=home" title="我的商城">我的商城</a><i class="arrow"></i></dt>
+        <dd>
+          <div class="user-centent-menu">
+            <ul>
+              <li><a href="http://gongpaiv5.siruishop.com/member/index.php?act=member_message&op=message">站内消息(<span>0</span>)</a></li>
+              <li><a href="http://gongpaiv5.siruishop.com/shop/index.php?act=member_order" class="arrow">我的订单<i></i></a></li>
+              <li><a href="http://gongpaiv5.siruishop.com/shop/index.php?act=member_consult&op=my_consult">咨询回复(<span id="member_consult">0</span>)</a></li>
+              <li><a href="http://gongpaiv5.siruishop.com/shop/index.php?act=member_favorite_goods&op=fglist" class="arrow">我的收藏<i></i></a></li>
+                            <li><a href="http://gongpaiv5.siruishop.com/member/index.php?act=member_voucher">代金券(<span id="member_voucher">0</span>)</a></li>
+                                          <li><a href="http://gongpaiv5.siruishop.com/member/index.php?act=member_points" class="arrow">我的积分<i></i></a></li>
+                          </ul>
+          </div>
+          <div class="browse-history">
+            <div class="part-title">
+              <h4>最近浏览的商品</h4>
+              <span style="float:right;"><a href="http://gongpaiv5.siruishop.com/shop/index.php?act=member_goodsbrowse&op=list">全部浏览历史</a></span> </div>
+            <ul>
+              <li class="no-goods"><img class="loading" src="http://gongpaiv5.siruishop.com/shop/templates/default/images/loading.gif" /></li>
+            </ul>
+          </div>
+        </dd>
+      </dl>
+    </div>
+    <div class="user-entry">
+      您好,       <span class="wr"><a class="login" href="http://gongpaiv5.siruishop.com/member/index.php?act=login&op=index">请登录</a> <a href="http://gongpaiv5.siruishop.com/member/index.php?act=login&op=register">注册</a></span>
+            <span><a href="http://gongpaiv5.siruishop.com/index.php?act=invite">邀请返利</a></span>
+    </div>
+  </div>
+</div>
+
+<script type="text/javascript">	
+//登录开关
+var connect_qq = "1";
+var connect_sn = "1";
+var connect_wx = "1";
+var connect_weixin_appid = "1";
+
+$(function() {
+	$('#gotop').click(function(){
+	        $('html, body').animate({
+	            scrollTop: 0
+	        }, 500);
+	});
+	//顶部banner
+	var haokey = getCookie('haokey');
+		if(haokey){
+		$("#top-banner").hide();
+		} else {
+			$("#top-banner").slideDown(800);
+			}
+		$("#top-banner .close").click(function(){
+			setCookie('haokey','yes',1);
+			$("#top-banner").hide();
+	});
+	//我的商城
+		$(".head-user-mall dl").hover(function() {
+			$(this).addClass("hover");
+		},
+		function() {
+			$(this).removeClass("hover");
+		});
+		$('.head-user-mall .my-mall').mouseover(function(){// 最近浏览的商品
+			load_history_information();
+			$(this).unbind('mouseover');
+		});
+	
+		$('#activator').click(function() {
+			$('#content-cart').animate({'right': '-250px'});
+			$('#content-compare').animate({'right': '-250px'});
+			$('#vToolbar').animate({'right': '-60px'}, 300,
+			function() {
+				$('#ncHideBar').animate({'right': '59px'},	300);
+			});
+	        $('div[nctype^="bar"]').hide();
+		});
+		$('#ncHideBar').click(function() {
+			$('#ncHideBar').animate({
+				'right': '-86px'
+			},
+			300,
+			function() {
+				$('#content-cart').animate({'right': '-250px'});
+				$('#content-compare').animate({'right': '-250px'});
+				$('#vToolbar').animate({'right': '6px'},300);
+			});
+		});
+    $("#compare").click(function(){
+    	if ($("#content-compare").css('right') == '-250px') {
+ 		   loadCompare(false);
+ 		   $('#content-cart').animate({'right': '-250px'});
+  		   $("#content-compare").animate({right:'0px'});
+    	} else {
+    		$(".close").click();
+    		$(".chat-list").css("display",'none');
+        }
+	});
+    $("#rtoolbar_cart").click(function(){
+        if ($("#content-cart").css('right') == '-250px') {
+         	$('#content-compare').animate({'right': '-250px'});
+    		$("#content-cart").animate({right:'0px'});
+    		if (!$("#rtoolbar_cartlist").html()) {
+    			$("#rtoolbar_cartlist").load('http://gongpaiv5.siruishop.com/shop/index.php?act=cart&op=ajax_load&type=html');
+    		}
+        } else {
+        	$(".close").click();
+        	$(".chat-list").css("display",'none');
+        }
+	});
+	$(".close").click(function(){
+		$(".content-box").animate({right:'-250px'});
+      });
+
+	$(".quick-menu dl").hover(function() {
+		$(this).addClass("hover");
+	},
+	function() {
+		$(this).removeClass("hover");
+	});
+
+    // 右侧bar用户信息
+    $('div[nctype="a-barUserInfo"]').click(function(){
+        $('div[nctype="barUserInfo"]').toggle();
+    });
+    // 右侧bar登录
+    $('div[nctype="a-barLoginBox"]').click(function(){
+        $('div[nctype="barLoginBox"]').toggle();
+        document.getElementById('codeimage').src='http://gongpaiv5.siruishop.com/shop/index.php?act=seccode&op=makecode&nchash=c7953ec9&t=' + Math.random();
+    });
+    $('a[nctype="close-barLoginBox"]').click(function(){
+        $('div[nctype="barLoginBox"]').toggle();
+    });
+        });
+</script><!-- PublicHeadLayout Begin -->
+<div class="header-wrap">
+  <header class="public-head-layout wrapper">
+    <h1 class="site-logo"><a href="http://gongpaiv5.siruishop.com/shop"><img src="http://gongpaiv5.siruishop.com/data/upload/shop/common/logo.png" class="pngFix"></a></h1>
+    <div class="logo-banner"><a href='' title='顶部logo边广告'><img style='width:100px;height:70px' border='0' src='http://gongpaiv5.siruishop.com/data/upload/shop/33hao/05048168915006375.gif' alt=''/></a></div>
+   
+    <div class="head-search-layout">
+      <div class="head-search-bar" id="head-search-bar">
+     <div id="search">
+          <ul class="tab">
+            <li act="search" class="current"><span>商品</span><i class="arrow"></i></li>
+            <li act="store_list"><span>店铺</span></li>
+          </ul>
+        </div>
+
+        <form action="http://gongpaiv5.siruishop.com/shop" method="get" class="search-form" id="top_search_form">
+          <input name="act" id="search_act" value="search" type="hidden">
+                    <input name="keyword" id="keyword" type="text" class="input-text" value="" maxlength="60" x-webkit-speech lang="zh-CN" onwebkitspeechchange="foo()" placeholder="请输入您要搜索的商品关键字" data-value="" x-webkit-grammar="builtin:search" autocomplete="off" />
+          <input type="submit" id="button" value="搜索" class="input-submit">
+        </form>
+        <div class="search-tip" id="search-tip">
+          <div class="search-history">
+            <div class="title">历史纪录<a href="javascript:void(0);" id="search-his-del">清除</a></div>
+            <ul id="search-his-list">
+                          </ul>
+          </div>
+          <div class="search-hot">
+            <div class="title">热门搜索...</div>
+            <ul>
+                          </ul>
+          </div>
+        </div>
+      </div>
+      <div class="keyword">
+        <ul>
+                    <li><a href="http://gongpaiv5.siruishop.com/shop/index.php?act=search&op=index&keyword=%E6%89%8B%E8%A1%A8">手表</a></li>
+                    <li><a href="http://gongpaiv5.siruishop.com/shop/index.php?act=search&op=index&keyword=%E5%86%85%E8%A1%A3">内衣</a></li>
+                    <li><a href="http://gongpaiv5.siruishop.com/shop/index.php?act=search&op=index&keyword=%E5%B0%8F%E7%B1%B3">小米</a></li>
+                    <li><a href="http://gongpaiv5.siruishop.com/shop/index.php?act=search&op=index&keyword=%E6%89%8B%E6%9C%BA">手机</a></li>
+                  </ul>
+      </div>
+    </div>
+    <div class="head-user-menu">
+      <dl class="my-cart">
+        <div class="addcart-goods-num">0</div>
+        <dt><span class="ico"></span>我的购物车<i class="arrow"></i></dt>
+        <dd>
+          <div class="sub-title">
+            <h4>最新加入的商品</h4>
+          </div>
+          <div class="incart-goods-box">
+            <div class="incart-goods"> <img class="loading" src="http://gongpaiv5.siruishop.com/shop/templates/default/images/loading.gif" /> </div>
+          </div>
+          <div class="checkout"> <span class="total-price">共<i>0</i>种商品</span><a href="http://gongpaiv5.siruishop.com/shop/index.php?act=cart" class="btn-cart">去购物车结算</a> </div>
+        </dd>
+      </dl>
+    </div>
+  </header>
+</div>
+<!-- PublicHeadLayout End --> 
+
+<!-- publicNavLayout Begin -->
+<nav class="public-nav-layout ">
+  <div class="wrapper">
+    <div class="all-category">
+      
+<div class="title"><i></i>
+  <h3><a href="http://gongpaiv5.siruishop.com/shop/index.php?act=category&op=index">全部商品分类</a></h3>
+</div>
+<div class="category">
+  <ul class="menu">
+        
+    <li cat_id="1" class="odd" >
+
+      <div class="class"><span class="arrow"></span>
+                                    <h4><a href="http://gongpaiv5.siruishop.com/shop/index.php?act=search&op=index&cate_id=1">测试分类一</a></h4>
+	               </div>
+      <div class="sub-class" cat_menu_id="1">
+        <div class="sub-class-content">
+          <div class="recommend-class">
+                      </div>
+                  </div>
+        <div class="sub-class-right">
+                    
+          <div class="adv-promotions">
+                    </div>
+        </div>
+      </div>
+    </li>
+          </ul>
+</div>
+    </div>
+    <ul class="site-menu">
+      <li><a href="http://gongpaiv5.siruishop.com" class="current"><span>首页</span></a></li>
+                   <li><a
+         href="http://gongpaiv5.siruishop.com/index.php?act=show_groupbuy">抢购</a></li>
+                        <li><a
+         href="http://gongpaiv5.siruishop.com/index.php?act=brand">品牌</a></li>
+                        <li><a
+         href="http://gongpaiv5.siruishop.com/index.php?act=promotion">打折促销</a></li>
+                        <li><a
+         href="http://gongpaiv5.siruishop.com/index.php?act=pointshop">积分兑换</a></li>
+                        <li><a
+         href="http://gongpaiv5.siruishop.com/index.php?act=store_list&op=index">店铺</a></li>
+                        <li><a
+         href="http://gongpaiv5.siruishop.com/index.php?act=special">专题活动</a></li>
+                        <li><a
+         href="http://gongpaiv5.siruishop.com/index.php?act=flea">二手市场</a></li>
+                        <li><a
+         href="http://gongpaiv5.siruishop.com/cms">门户</a></li>
+                        <li><a
+         href="http://gongpaiv5.siruishop.com/circle">圈子</a></li>
+                        <li><a
+         href="http://gongpaiv5.siruishop.com/microshop">微商城</a></li>
+                                                                                              </ul>
+  </div>
+</nav>
+<div class="nch-breadcrumb-layout">
+  </div>
+<link href="http://gongpaiv5.siruishop.com/shop/templates/default/css/index.css" rel="stylesheet" type="text/css">
+<script src="http://gongpaiv5.siruishop.com/data/resource/js/waypoints.js"></script>
+<script type="text/javascript" src="http://gongpaiv5.siruishop.com/shop/resource/js/home_index.js" charset="utf-8"></script>
+<style type="text/css">
+.category { display:block !important; }
+</style>
+<!--[if IE 6]>
+<script type="text/javascript" src="http://gongpaiv5.siruishop.com/data/resource/js/ie6.js" charset="utf-8"></script>
+<![endif]-->
+<div class="clear"></div>
+<div class="home-focus-layout"> 
+  <ul id="fullScreenSlides" class="full-screen-slides">
+          
+  </ul>
+  <div class="jfocus-trigeminybox">
+  <a class="limited_time" title="限时打折" href="http://gongpaiv5.siruishop.com/index.php?act=promotion&op=index">
+        <div class="clock-wrap">
+          <div class="clock">
+            <div class="clock-h" id="ClockHours" style="-webkit-transform: rotate(93deg);"></div>
+            <div class="clock-m"></div>
+            <div class="clock-s"></div>
+          </div>
+    </div>
+    </a>
+  <div class="jfocus-trigeminy"> 
+    <ul>
+              </ul>
+  </div>
+  </div>
+<script type="text/javascript">
+	update_screen_focus();
+</script>  <div class="right-sidebar">
+    <div class="right-bannder"></div>
+    <div class="right-bannder-content"> <a href='' title='首页右侧广告1'><img style='width:180px;height:194px' border='0' src='http://gongpaiv5.siruishop.com/data/upload/shop/33hao/05193052323128277.jpg' alt=''/></a><a href='' title='首页右侧广告2'><img style='width:180px;height:194px' border='0' src='http://gongpaiv5.siruishop.com/data/upload/shop/33hao/05193052753284411.jpg' alt=''/></a></div>
+  </div>
+</div>
+<div class="home-sale-layout wrapper">
+  <div class="left-layout"><div class="index-sale">
+    <ul class="tabs-nav">
+                      </ul>
+                  </div></div>
+    <div class="right-sidebar">
+    <div class="title">
+      <h3>商城快报</h3>
+    </div>
+     <div class="news">
+     <ul>
+                          <li><a target="_blank" href="http://www.33hao.com/" title="好商城热销中">好商城热销中 </a>
+            <time>(06-04)</time>
+          </li>
+                    <li><a target="_blank" href="http://gongpaiv5.siruishop.com/member/index.php?act=article&op=show&article_id=36" title="管理功能说明">管理功能说明 </a>
+            <time>(06-04)</time>
+          </li>
+                    <li><a target="_blank" href="http://gongpaiv5.siruishop.com/member/index.php?act=article&op=show&article_id=37" title="如何扩充水印字体库">如何扩充水印字体库 </a>
+            <time>(06-04)</time>
+          </li>
+                    <li><a target="_blank" href="http://gongpaiv5.siruishop.com/member/index.php?act=article&op=show&article_id=38" title="提示信息">提示信息 </a>
+            <time>(06-04)</time>
+          </li>
+                        </ul>
+      </div>
+      <div class="ntrance">
+      <ul>
+        <li><a rel="nofollow" href="http://gongpaiv5.siruishop.com/shop/index.php?act=invite&op=index" target="_self"><i class="i_ico01"></i>推广返利</a></li>
+    <li><a rel="nofollow" href="http://gongpaiv5.siruishop.com/other/service/index.html" target="_blank"><i class="i_ico02"></i>7大服务</a></li>
+    <li><a rel="nofollow" href="http://gongpaiv5.siruishop.com/other/guide/index.html" target="_blank"><i class="i_ico03"></i>导购流程</a></li>
+    <li><a rel="nofollow" href="http://gongpaiv5.siruishop.com/delivery" target="_self"><i class="i_ico04"></i>物流自提</a></li>
+      <li><a rel="nofollow" href="http://gongpaiv5.siruishop.com/shop/index.php?act=show_joinin&op=index" target="_self"><i class="i_ico05"></i>招商入驻</a></li>
+      <li><a rel="nofollow" href="http://gongpaiv5.siruishop.com/shop/index.php?act=seller_login&op=show_login" target="_self"><i class="i_ico06"></i>商家管理</a></li>
+      
+      </ul>
+    </div>
+</div>
+</div>
+<div class="wrapper mt20">
+	<a href='http://http://www.33hao.com' target='_blank' title='好商城活动'><img style='width:1200px;height:90px' border='0' src='http://gongpaiv5.siruishop.com/data/upload/shop/33hao/05509495194736947.png' alt='好商城活动'/></a></div>
+
+<!--str抢购-->
+<!--end-->
+
+<div class="home-standard-layout wrapper style-red">
+  <div class="left-sidebar">
+    <div class="title">
+            <div class="pic-type"><img src="http://gongpaiv5.siruishop.com/data/upload/"/></div>
+          </div>
+    <div class="left-ads">
+          </div>
+    <div class="recommend-classes">
+    <h3>大家还喜欢了</h3>
+      <ul>
+              </ul>
+    </div>
+  </div>
+  <div class="middle-layout">
+ 
+  <ul class="right-brand">
+
+                                   <li>
+          <a href="http://gongpaiv5.siruishop.com/index.php?act=brand&op=index" title="" target="_blank">更多</a>
+        </li>
+            </ul>
+    
+    <ul class="tabs-nav">
+          </ul>
+      </div>
+</div>
+
+<div class="home-standard-layout wrapper style-pink">
+  <div class="left-sidebar">
+    <div class="title">
+            <div class="pic-type"><img src="http://gongpaiv5.siruishop.com/data/upload/"/></div>
+          </div>
+    <div class="left-ads">
+          </div>
+    <div class="recommend-classes">
+    <h3>大家还喜欢了</h3>
+      <ul>
+              </ul>
+    </div>
+  </div>
+  <div class="middle-layout">
+ 
+  <ul class="right-brand">
+
+                                   <li>
+          <a href="http://gongpaiv5.siruishop.com/index.php?act=brand&op=index" title="" target="_blank">更多</a>
+        </li>
+            </ul>
+    
+    <ul class="tabs-nav">
+          </ul>
+      </div>
+</div>
+
+<div class="home-standard-layout wrapper style-orange">
+  <div class="left-sidebar">
+    <div class="title">
+            <div class="pic-type"><img src="http://gongpaiv5.siruishop.com/data/upload/"/></div>
+          </div>
+    <div class="left-ads">
+          </div>
+    <div class="recommend-classes">
+    <h3>大家还喜欢了</h3>
+      <ul>
+              </ul>
+    </div>
+  </div>
+  <div class="middle-layout">
+ 
+  <ul class="right-brand">
+
+                                   <li>
+          <a href="http://gongpaiv5.siruishop.com/index.php?act=brand&op=index" title="" target="_blank">更多</a>
+        </li>
+            </ul>
+    
+    <ul class="tabs-nav">
+          </ul>
+      </div>
+</div>
+
+<div class="home-standard-layout wrapper style-green">
+  <div class="left-sidebar">
+    <div class="title">
+            <div class="pic-type"><img src="http://gongpaiv5.siruishop.com/data/upload/"/></div>
+          </div>
+    <div class="left-ads">
+          </div>
+    <div class="recommend-classes">
+    <h3>大家还喜欢了</h3>
+      <ul>
+              </ul>
+    </div>
+  </div>
+  <div class="middle-layout">
+ 
+  <ul class="right-brand">
+
+                                   <li>
+          <a href="http://gongpaiv5.siruishop.com/index.php?act=brand&op=index" title="" target="_blank">更多</a>
+        </li>
+            </ul>
+    
+    <ul class="tabs-nav">
+          </ul>
+      </div>
+</div>
+
+<div class="home-standard-layout wrapper style-blue">
+  <div class="left-sidebar">
+    <div class="title">
+            <div class="pic-type"><img src="http://gongpaiv5.siruishop.com/data/upload/"/></div>
+          </div>
+    <div class="left-ads">
+          </div>
+    <div class="recommend-classes">
+    <h3>大家还喜欢了</h3>
+      <ul>
+              </ul>
+    </div>
+  </div>
+  <div class="middle-layout">
+ 
+  <ul class="right-brand">
+
+                                   <li>
+          <a href="http://gongpaiv5.siruishop.com/index.php?act=brand&op=index" title="" target="_blank">更多</a>
+        </li>
+            </ul>
+    
+    <ul class="tabs-nav">
+          </ul>
+      </div>
+</div>
+
+<div class="home-standard-layout wrapper style-purple">
+  <div class="left-sidebar">
+    <div class="title">
+            <div class="pic-type"><img src="http://gongpaiv5.siruishop.com/data/upload/"/></div>
+          </div>
+    <div class="left-ads">
+          </div>
+    <div class="recommend-classes">
+    <h3>大家还喜欢了</h3>
+      <ul>
+              </ul>
+    </div>
+  </div>
+  <div class="middle-layout">
+ 
+  <ul class="right-brand">
+
+                                   <li>
+          <a href="http://gongpaiv5.siruishop.com/index.php?act=brand&op=index" title="" target="_blank">更多</a>
+        </li>
+            </ul>
+    
+    <ul class="tabs-nav">
+          </ul>
+      </div>
+</div>
+
+<div class="home-standard-layout wrapper style-brown">
+  <div class="left-sidebar">
+    <div class="title">
+            <div class="pic-type"><img src="http://gongpaiv5.siruishop.com/data/upload/"/></div>
+          </div>
+    <div class="left-ads">
+          </div>
+    <div class="recommend-classes">
+    <h3>大家还喜欢了</h3>
+      <ul>
+              </ul>
+    </div>
+  </div>
+  <div class="middle-layout">
+ 
+  <ul class="right-brand">
+
+                                   <li>
+          <a href="http://gongpaiv5.siruishop.com/index.php?act=brand&op=index" title="" target="_blank">更多</a>
+        </li>
+            </ul>
+    
+    <ul class="tabs-nav">
+          </ul>
+      </div>
+</div>
+
+<div class="home-standard-layout wrapper style-default">
+  <div class="left-sidebar">
+    <div class="title">
+            <div class="pic-type"><img src="http://gongpaiv5.siruishop.com/data/upload/"/></div>
+          </div>
+    <div class="left-ads">
+          </div>
+    <div class="recommend-classes">
+    <h3>大家还喜欢了</h3>
+      <ul>
+              </ul>
+    </div>
+  </div>
+  <div class="middle-layout">
+ 
+  <ul class="right-brand">
+
+                                   <li>
+          <a href="http://gongpaiv5.siruishop.com/index.php?act=brand&op=index" title="" target="_blank">更多</a>
+        </li>
+            </ul>
+    
+    <ul class="tabs-nav">
+          </ul>
+      </div>
+</div>
+ 
+<div class="wrapper">
+  <div class="sale_lum clearfix">
+    <div class="m" id="sale_cx">
+      <div class="mt">
+        <h2>今日抄底</h2>
+      </div>
+      <div class="sale_cx">
+              </div>
+    </div>
+    <div class="m" id="share">
+      <div class="mt">
+        <h2>热门晒单</h2>
+      </div>
+      <div class="share" id="sl">
+        <ul class="show_share">
+                  </ul>
+        <script type="text/javascript">$(document).ready(function() {function statusRunner() {setTimeout(function() {var sl = $('#sl li'), f = $('#sl li:last');f.hide().insertBefore(sl.eq(0)).css('opacity','0.1');f.slideDown(500, function() {	f.animate({	opacity: 1 });});statusRunner();}, 7000);}statusRunner();});</script></div>
+    </div>
+  </div>
+</div>
+</div>
+<div class="wrapper index-brand">
+<div class="brand-title">
+<a href="http://gongpaiv5.siruishop.com/shop/index.php?act=brand&op=index">更多品牌&nbsp;&nbsp;&gt;</a>
+<h3>推荐品牌<span>品牌汇集，一站购齐</span></h3>
+</div>
+  <ul class="logo-list">
+      </ul>
+</div>
+<div class="clear"></div>
+<div class="wrapper">
+  <div class="mt20"><a href='http://www.33hao.com' target='_blank' title='首页通栏'><img style='width:1200px;height:90px' border='0' src='http://gongpaiv5.siruishop.com/data/upload/shop/33hao/04716538681718544.png' alt='首页通栏'/></a></div>
+</div>
+<div class="index-link wrapper">
+  <dl class="website">
+    <dt>合作伙伴 | 友情链接<b></b></dt>
+    <dd>
+            <a href="http://bbs.33hao.com" target="_blank" title="支持论坛">支持论坛</a>
+            <a href="http://33haocom.taobao.com" target="_blank" title="淘宝店">淘宝店</a>
+          </dd>
+  </dl>
+</div>
+<div id="nav_box">
+  <ul>
+  </ul>
+</div>
+
+
+<script language="javascript">
+function fade(){$("img[rel='lazy']").each(function(){var $scroTop=$(this).offset();if($scroTop.top<=$(window).scrollTop()+$(window).height()){$(this).hide();$(this).attr("src",$(this).attr("data-url"));$(this).removeAttr("rel");$(this).removeAttr("name");$(this).fadeIn(500)}})}if($("img[rel='lazy']").length>0){$(window).scroll(function(){fade()})}fade();
+
+</script>
+<div id="cti">
+  <div class="wrapper">
+    <ul>
+                                <li><span class="line"></span> <span class="icon"> <img style="width: 60px;" src="http://gongpaiv5.siruishop.com/data/upload/shop/contracticon/7day_60.gif" /> </span> <span class="name"> 7天退货 </span> </li>
+                                  <li><span class="line"></span> <span class="icon"> <img style="width: 60px;" src="http://gongpaiv5.siruishop.com/data/upload/shop/contracticon/pz_60.gif" /> </span> <span class="name"> 品质承诺 </span> </li>
+                                  <li><span class="line"></span> <span class="icon"> <img style="width: 60px;" src="http://gongpaiv5.siruishop.com/data/upload/shop/contracticon/psbf_60.gif" /> </span> <span class="name"> 破损补寄 </span> </li>
+                                  <li><span class="line"></span> <span class="icon"> <img style="width: 60px;" src="http://gongpaiv5.siruishop.com/data/upload/shop/contracticon/jswl_60.gif" /> </span> <span class="name"> 急速物流 </span> </li>
+                        </ul>
+  </div>
+</div>
+<div id="faq">
+  <div class="wrapper">
+        <ul>
+                  <li>
+        <dl class="s1">
+          <dt>
+            新手上路          </dt>
+                              <dd><a href="http://gongpaiv5.siruishop.com/member/index.php?act=article&op=show&article_id=6" title="如何注册成为会员"> 如何注册成为会员 </a></dd>
+                    <dd><a href="http://gongpaiv5.siruishop.com/member/index.php?act=article&op=show&article_id=39" title="积分细则"> 积分细则 </a></dd>
+                    <dd><a href="http://gongpaiv5.siruishop.com/member/index.php?act=article&op=show&article_id=40" title="积分兑换说明"> 积分兑换说明 </a></dd>
+                    <dd><a href="http://gongpaiv5.siruishop.com/member/index.php?act=article&op=show&article_id=7" title="如何搜索"> 如何搜索 </a></dd>
+                    <dd><a href="http://gongpaiv5.siruishop.com/member/index.php?act=article&op=show&article_id=8" title="忘记密码"> 忘记密码 </a></dd>
+                            </dl>
+      </li>
+                  <li>
+        <dl class="s2">
+          <dt>
+            支付方式          </dt>
+                              <dd><a href="http://gongpaiv5.siruishop.com/member/index.php?act=article&op=show&article_id=28" title="分期付款"> 分期付款 </a></dd>
+                    <dd><a href="http://gongpaiv5.siruishop.com/member/index.php?act=article&op=show&article_id=29" title="邮局汇款"> 邮局汇款 </a></dd>
+                    <dd><a href="http://gongpaiv5.siruishop.com/member/index.php?act=article&op=show&article_id=30" title="公司转账"> 公司转账 </a></dd>
+                    <dd><a href="http://gongpaiv5.siruishop.com/member/index.php?act=article&op=show&article_id=16" title="如何注册支付宝"> 如何注册支付宝 </a></dd>
+                    <dd><a href="http://gongpaiv5.siruishop.com/member/index.php?act=article&op=show&article_id=17" title="在线支付"> 在线支付 </a></dd>
+                            </dl>
+      </li>
+                  <li>
+        <dl class="s3">
+          <dt>
+            售后服务          </dt>
+                              <dd><a href="http://gongpaiv5.siruishop.com/member/index.php?act=article&op=show&article_id=26" title="联系卖家"> 联系卖家 </a></dd>
+                    <dd><a href="http://gongpaiv5.siruishop.com/member/index.php?act=article&op=show&article_id=31" title="退换货政策"> 退换货政策 </a></dd>
+                    <dd><a href="http://gongpaiv5.siruishop.com/member/index.php?act=article&op=show&article_id=32" title="退换货流程"> 退换货流程 </a></dd>
+                    <dd><a href="http://gongpaiv5.siruishop.com/member/index.php?act=article&op=show&article_id=33" title="返修/退换货"> 返修/退换货 </a></dd>
+                    <dd><a href="http://gongpaiv5.siruishop.com/member/index.php?act=article&op=show&article_id=34" title="退款申请"> 退款申请 </a></dd>
+                            </dl>
+      </li>
+                  <li>
+        <dl class="s4">
+          <dt>
+            购物指南          </dt>
+                              <dd><a href="http://gongpaiv5.siruishop.com/member/index.php?act=article&op=show&article_id=18" title="会员修改密码"> 会员修改密码 </a></dd>
+                    <dd><a href="http://gongpaiv5.siruishop.com/member/index.php?act=article&op=show&article_id=19" title="会员修改个人资料"> 会员修改个人资料 </a></dd>
+                    <dd><a href="http://gongpaiv5.siruishop.com/member/index.php?act=article&op=show&article_id=20" title="商品发布"> 商品发布 </a></dd>
+                    <dd><a href="http://gongpaiv5.siruishop.com/member/index.php?act=article&op=show&article_id=21" title="修改收货地址"> 修改收货地址 </a></dd>
+                            </dl>
+      </li>
+            <li class="kefu-con">
+      <dl>
+      	<dt>联系我们</dt>
+        <dd>
+        <i class="icon-tel"></i>
+        <div><strong>400-333-8888</strong>
+         <p>08:00-22:30(周一至周日)</p>
+         </div>
+          </dd>
+          <dd>
+          <i class="icon-chat"></i>
+          <div>
+          <strong>在线客服</strong>
+           <p>E-mail：web@33hao.com</p>
+           </div>
+        </dd>
+       <dl>
+      </li>
+      <li class="box-qr">
+        <dl>
+          <dt>关注我们<a title="关注gongpaiv5微信公众号" class="weixin">
+                        <span class="weixin-qr"></span>
+                    </a>
+                    <a title="关注gongpaiv5微博" class="weibo">
+                        <span class="weibo-qr"></span>
+                    </a>
+          </dt>
+                    <dd>
+            <p><img src="http://gongpaiv5.siruishop.com/data/upload/shop/common/mb_app.png" ></p>
+            <p>下载APP手机端</p>
+          </dd>
+                              <dd>
+            <p><img src="http://gongpaiv5.siruishop.com/data/upload/mobile/05434220788623960.png" ></p>
+            <p>关注微信公众号</p>
+          </dd>
+                  </dl>
+      </li>
+    </ul>
+      </div>
+</div>
+<div id="footer">
+  <p><a href="http://gongpaiv5.siruishop.com/shop">首页</a>
+                                                                                                | <a  href="http://gongpaiv5.siruishop.com/member/index.php?act=article&article_id=24">招聘英才</a>
+                | <a  href="http://gongpaiv5.siruishop.com/member/index.php?act=article&article_id=25">合作及洽谈</a>
+                | <a  href="http://gongpaiv5.siruishop.com/member/index.php?act=article&article_id=23">联系我们</a>
+                | <a  href="http://gongpaiv5.siruishop.com/member/index.php?act=article&article_id=22">关于我们</a>
+                | <a  href="http://gongpaiv5.siruishop.com/delivery">物流自取</a>
+                | <a  href="http://gongpaiv5.siruishop.com/index.php?act=link">友情链接</a>
+              </p>
+  Copyright 2017 <a href="http://bbs.33hao.com" target="_blank">好商城</a> All rights reserved.<br />本演示来源于<a href="http://33haocom.taobao.com" target="_blank">bbs.33hao.com</a>  <a href="http://www.miibeian.gov.cn" rel="nofollow" target="_blank" n></a></div>
+<div id="task"></div>
+<script type="text/javascript">
+//计划触发
+document.getElementById('task').innerHTML='<iframe src="http://gongpaiv5.siruishop.com/crontab/cj_index.php?act=task&run=js" width="0" height="0" frameborder="0" style="display:none;"></iframe>';
+</script>
+<script type="text/javascript" src="http://gongpaiv5.siruishop.com/data/resource/js/jquery.cookie.js"></script>
+<link href="http://gongpaiv5.siruishop.com/data/resource/js/perfect-scrollbar.min.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="http://gongpaiv5.siruishop.com/data/resource/js/perfect-scrollbar.min.js"></script> 
+<script type="text/javascript" src="http://gongpaiv5.siruishop.com/data/resource/js/qtip/jquery.qtip.min.js"></script>
+<link href="http://gongpaiv5.siruishop.com/data/resource/js/qtip/jquery.qtip.min.css" rel="stylesheet" type="text/css">
+<!-- 对比 --> 
+<script src="http://gongpaiv5.siruishop.com/shop/resource/js/compare.js"></script> 
+<script type="text/javascript">
+$(function(){
+	// Membership card
+	$('[nctype="mcard"]').membershipCard({type:'shop'});
+});
+</script></body>
+</html>

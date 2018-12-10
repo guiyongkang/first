@@ -1,0 +1,79 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-touch-fullscreen" content="yes" />
+<meta name="format-detection" content="telephone=no"/>
+<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+<meta name="format-detection" content="telephone=no" />
+<meta name="msapplication-tap-highlight" content="no" />
+<meta name="viewport" content="initial-scale=1,maximum-scale=1,minimum-scale=1" />
+<title>推广二维码</title>
+<link rel="stylesheet" type="text/css" href="../../css/base.css">
+<link rel="stylesheet" type="text/css" href="../../css/nctouch_member.css">
+<link rel="stylesheet" type="text/css" href="../../css/nctouch_common.css">
+<link rel="stylesheet" type="text/css" href="../../css/distributor.css">
+</head>
+<body>
+<header id="header" class="fixed">
+  <div class="header-wrap">
+    <div class="header-l"><a href="../member/member.html"><i class="back"></i></a></div>
+    <div class="header-title">
+		<h1>推广二维码</h1>
+	</div>
+    <div class="header-r"> <a id="header-nav" href="javascript:void(0);"><i class="more"></i><sup></sup></a> </div>
+  </div>
+  <div class="nctouch-nav-layout">
+    <div class="nctouch-nav-menu"> <span class="arrow"></span>
+      <ul>
+        <li><a href="../../index.html"><i class="home"></i>首页</a></li>
+        <li><a href="../search.html"><i class="search"></i>搜索</a></li>
+        <li><a href="../product_first_categroy.html"><i class="categroy"></i>分类</a></li>
+        <li><a href="javascript:void(0);"><i class="message"></i>消息</a></li>
+        <li><a href="../cart_list.html"><i class="cart"></i>购物车<sup></sup></a></li>
+        <li><a href="../member/member.html"><i class="member"></i>我的商城</a></li>
+      </ul>
+    </div>
+  </div>
+</header>
+<div class="nctouch-main-layout">
+  <ul class="nctouch-default-list">
+    <li><a href="dis_spread_weixin.html">
+      <h4>微信二维码</h4>
+      <h6>微信带参数的二维码，用户扫描后进入公众号</h6>
+      <span class="arrow-r"></span></a></li>
+    <li><a href="dis_spread_wap.html">
+      <h4>网页版二维码</h4>
+      <h6>带有链接地址的二维码，用户扫描后进入注册地址</h6>
+      <span class="arrow-r"></span></a></li>
+  </ul>
+  <!--底部总金额固定层End-->
+</div>
+<footer id="footer" class="bottom"></footer>
+<script type="text/javascript" src="../../js/zepto.min.js"></script> 
+<script type="text/javascript" src="../../js/template.js"></script> 
+<script type="text/javascript" src="../../js/config.js"></script> 
+<script type="text/javascript" src="../../js/common.js"></script> 
+<script type="text/javascript" src="../../js/simple-plugin.js"></script> 
+<script type="text/javascript" src="../../js/zepto.waypoints.js"></script>
+<script type="text/javascript">
+$(function(){
+	get_footer();
+	if(!WeiXinOauth){
+		window.location.href = "dis_spread_wap.html";
+	}else{
+		window.location.href = "dis_spread_weixin.html";
+	}
+});
+
+function get_footer() {
+    $.ajax({
+        url: WapSiteUrl + "/js/tmpl/footer.js",
+        dataType: "script"
+    })
+}
+</script>
+</body>
+</html>

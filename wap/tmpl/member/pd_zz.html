@@ -1,0 +1,91 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-touch-fullscreen" content="yes" />
+<meta name="format-detection" content="telephone=no"/>
+<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+<meta name="format-detection" content="telephone=no" />
+<meta name="msapplication-tap-highlight" content="no" />
+<meta name="viewport" content="initial-scale=1,maximum-scale=1,minimum-scale=1" />
+<title>账户余额</title>
+<link rel="stylesheet" type="text/css" href="../../css/base.css">
+<link rel="stylesheet" type="text/css" href="../../css/nctouch_common.css">
+<link rel="stylesheet" type="text/css" href="../../css/nctouch_cart.css">
+<link rel="stylesheet" type="text/css" href="../../css/nctouch_member.css">
+<style type="text/css">
+#pd_zz_form{width:90%; margin:0px auto; padding:0px 0px 15px}
+#pd_zz_form li{height:40px; line-height:40px; border-bottom:1px #dfdfdf solid; margin-top:8px; position:relative}
+#pd_zz_form li input{display:block; width:100%; box-sizing:border-box; border:none; height:40px; line-height:40px; font-size:14px; padding:0px 10px 0px 85px}
+#pd_zz_form li label{display:block; width:80px; height:40px; line-height:40px; text-align:right; font-size:16px; position:absolute; top:0px; left:0px}
+#pd_zz_form a{display:block; height:40px; line-height:38px; font-size:16px; text-align:center; width:90%; margin:10px auto 0px; color:#FFF; background:#ED5564; border-radius:5px;}
+</style>
+</head>
+<body>
+<header id="header" class="fixed">
+	<div class="header-wrap">
+		<div class="header-l"><a href="member.html"><i class="back"></i></a></div>
+		<div class="header-title">
+			<h1>积分转账</h1>
+		</div>
+		<div class="header-r"> <a id="header-nav" href="javascript:void(0);"><i class="more"></i><sup></sup></a> </div>
+	</div>
+	<div class="nctouch-nav-layout">
+		<div class="nctouch-nav-menu"> <span class="arrow"></span>
+			<ul>
+				<li><a href="../../index.html"><i class="home"></i>首页</a></li>
+				<li><a href="../search.html"><i class="search"></i>搜索</a></li>
+				<li><a href="../product_first_categroy.html"><i class="categroy"></i>分类</a></li>
+				<li><a href="javascript:void(0);"><i class="message"></i>消息</a></li>
+				<li><a href="../cart_list.html"><i class="cart"></i>购物车<sup></sup></a></li>
+				<li><a href="../member/member.html"><i class="member"></i>我的商城</a></li>
+			</ul>
+		</div>
+	</div>
+</header>
+<div class="nctouch-main-layout">
+	<div id="pd_count" class="nctouch-asset-info"></div>
+	<div class="nctouch-cart-block"> 
+		<ul id="pd_zz_form">
+			<li><label>会员ID：</label><input id="userno" name="userno" placeholder="请输入收款会员ID" /></li>
+			<li><label>转账金额：</label><input id="amount" name="amount" placeholder="请输入转账金额" /></li>
+			<a href="javascript:void(0);" id="pd_zz_btn">确认转账</a>
+		</ul>
+	</div>
+</div>
+<div class="fix-block-r"> <a href="javascript:void(0);" class="gotop-btn gotop hide" id="goTopBtn"><i></i></a> </div>
+<footer id="footer" class="bottom"></footer>
+<script type="text/html" id="pd_count_model">
+	<div class="container pre">
+	    <a class="btn tixian" href="pd_zz.html">转账</a>
+		<i class="icon"></i>
+		    <dl>
+				<dt>积分余额</dt>
+				<dd>￥<em><%=predepoit;%></em></dd>
+			</dl>
+	</div>
+</script>
+<script type="text/javascript" src="../../js/config.js"></script> 
+<script type="text/javascript" src="../../js/zepto.min.js"></script> 
+<script type="text/javascript" src="../../js/template.js"></script> 
+<script type="text/javascript" src="../../js/common.js"></script>
+<script type="text/javascript" src="../../js/simple-plugin.js"></script>
+<script type="text/javascript" src="../../js/tmpl/pd_zz.js"></script>
+<script>
+    $(function(){
+        var key = getCookie('key');
+        if (!key) {
+            window.location.href = WapSiteUrl+'/tmpl/member/login.html';
+            return;
+        }
+        //获取预存款余额
+        $.getJSON(ApiUrl + '/index.php?act=member_index&op=my_asset', {'key':key,'fields':'predepoit'}, function(result){
+            var html = template.render('pd_count_model', result.datas);
+            $('#pd_count').html(html);
+        });
+    });
+</script>
+</body>
+</html>

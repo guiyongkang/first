@@ -1,0 +1,138 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-touch-fullscreen" content="yes" />
+<meta name="format-detection" content="telephone=no"/>
+<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+<meta name="format-detection" content="telephone=no" />
+<meta name="msapplication-tap-highlight" content="no" />
+<meta name="viewport" content="initial-scale=1,maximum-scale=1,minimum-scale=1" />
+<title>设置</title>
+<link rel="stylesheet" type="text/css" href="../../css/base.css">
+<link rel="stylesheet" type="text/css" href="../../css/nctouch_member.css">
+</head>
+<body>
+<header id="header">
+	<div class="header-wrap">
+		<div class="header-l"> <a href="member.html"> <i class="back"></i> </a> </div>
+		<div class="header-title">
+			<h1>修改图像</h1>
+		</div>
+	</div>
+	<div class="header-r"> <a id="header-nav" href="javascript:void(0);"><i class="more"></i><sup></sup></a> </div>
+	<div class="nctouch-nav-layout">
+		<div class="nctouch-nav-menu"> <span class="arrow"></span>
+			<ul>
+				<li><a href="../../index.html"><i class="home"></i>首页</a></li>
+				<li><a href="../search.html"><i class="search"></i>搜索</a></li>
+				<li><a href="../product_first_categroy.html"><i class="categroy"></i>分类</a></li>
+				<li><a href="javascript:void(0);"><i class="message"></i>消息</a></li>
+				<li><a href="../cart_list.html"><i class="cart"></i>购物车<sup></sup></a></li>
+				<li><a href="../member/member.html"><i class="member"></i>我的商城</a></li>
+			</ul>
+		</div>
+	</div>
+</header>
+<div class="nctouch-main-layout">
+	<ul class="nctouch-default-list" id="edit_info_panel">
+		<form>
+			<li class="list-group-item" style="text-align:center"> 
+			    <img id="hdImg" src="/data/upload/shop/common/default_user_portrait.gif"><br>
+				<span style="display:block; width:100%; text-align:center; padding-top:10px; color:#999; font-family:'宋体'; font-size:12px">注：头像尺寸100*100 (gif, jpg, jpeg, png)</span> 
+			</li>
+			<li class="list-group-item">
+				<div class="upload-btn"> 
+					<a href="javascript:void(0);"> 
+						<span style="width:100%;">
+							<input size="1" file_id="0" multiple="" id="upthumb" name="upthumb_tmp" type="file">
+						</span>
+						<div class="upload-button"><i></i>上传图像</div>
+						<input onclick="submit_form($(this))" value="&nbsp;" style="display:none" type="button">
+					</a> 
+				</div>
+			</li>
+		</form>
+	</ul>
+</div>
+<footer id="footer"></footer>
+<script type="text/javascript" src="../../js/config.js"></script> 
+<script type="text/javascript" src="../../js/zepto.min.js"></script> 
+<script type="text/javascript" src="../../js/common.js"></script>
+<script type="text/javascript" src="/data/resource/js/jquery.js"></script>
+<script type="text/javascript" src="/data/resource/js/ajaxfileupload/ajaxfileupload.js"></script>
+<script type="text/javascript" src="../../js/tmpl/footer.js"></script>
+
+<script>
+	var k = getCookie('key');
+    if (!k) {
+        window.location.href = WapSiteUrl + '/tmpl/member/login.html';
+    }
+    var LOADING_IMAGE = BaseUrl + '/data/resource/images/loading.gif';
+    $(document).ready(function(){
+	    $.ajax({
+            type: 'post',
+            url: ApiUrl + '/index.php?act=member_index',
+            data: {
+                key: k
+            },
+            dataType: 'json',
+            success: function(a) {
+                $('#hdImg').attr('src', a.datas.member_info.avator);
+            }
+        })
+		// 图片上传js
+		$('#upthumb').unbind().live('change', function(){
+			$('#hdImg').attr('src', LOADING_IMAGE);
+            var timestamp = (new Date()).valueOf();
+			$.ajaxFileUpload
+			(
+				{
+					url: ApiUrl + '/index.php?act=member_account&op=edit_headimg',
+					secureuri: false,
+					fileElementId: 'upthumb',
+					dataType: 'json',
+					data:{id: 'upthumb_tmp', key: k},
+					success: function (data, status)
+					{
+					    var rs = data.datas;
+						if(!rs.error){
+						    //location.reload();
+							$('#hdImg').attr('src', rs.file_url + '?time=' + timestamp);
+						}else{
+							alert(rs.error);
+						}
+					},
+					error: function (data, status, e)
+					{
+						alert(e);
+					}
+				}
+			)
+			return false;
+		});
+		/*$('#upthumb').fileupload({
+			dataType: 'json',
+			url: ApiUrl + '/index.php?act=member_account&op=edit_headimg&key=' + k,
+			add: function(e,data) {
+				$.each(data.files, function (index, file) {
+					$('#hdImg').attr('src', LOADING_IMAGE);
+				});
+				data.submit();
+			},
+			done: function (e,data) {
+				var result = data.datas;
+				if(!result.error) {
+					$('#hdImg').attr('src', result.file_url);
+					$('input[name=upthumb]').attr('value', result.file_url);
+				} else {
+					alert(result.error);
+				}
+			}
+		});*/
+	});
+</script>
+</body>
+</html>
